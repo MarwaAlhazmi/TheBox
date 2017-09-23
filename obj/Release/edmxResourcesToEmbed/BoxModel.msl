@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="boxModelStoreContainer" CdmEntityContainer="boxEntities">
+    <EntitySetMapping Name="Agenda">
+      <EntityTypeMapping TypeName="boxModel.Agendum">
+        <MappingFragment StoreEntitySet="Agenda">
+          <ScalarProperty Name="AgendaID" ColumnName="AgendaID" />
+          <ScalarProperty Name="AgendaCount" ColumnName="AgendaCount" />
+          <ScalarProperty Name="AgendaTitle" ColumnName="AgendaTitle" />
+          <ScalarProperty Name="AgendaDesc" ColumnName="AgendaDesc" />
+          <ScalarProperty Name="MeetingID" ColumnName="MeetingID" />
+          <ScalarProperty Name="Published" ColumnName="Published" />
+          <ScalarProperty Name="SubAgenda" ColumnName="SubAgenda" />
+          <ScalarProperty Name="Privacy" ColumnName="Privacy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AgendaPrivacies">
+      <EntityTypeMapping TypeName="boxModel.AgendaPrivacy">
+        <MappingFragment StoreEntitySet="AgendaPrivacy">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AgendaID" ColumnName="AgendaID" />
+          <ScalarProperty Name="PartiID" ColumnName="PartiID" />
+          <ScalarProperty Name="CanSee" ColumnName="CanSee" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Comments">
+      <EntityTypeMapping TypeName="boxModel.Comment">
+        <MappingFragment StoreEntitySet="Comment">
+          <ScalarProperty Name="CommentID" ColumnName="CommentID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Discussions">
+      <EntityTypeMapping TypeName="boxModel.Discussion">
+        <MappingFragment StoreEntitySet="Discussion">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="MeetingID" ColumnName="MeetingID" />
+          <ScalarProperty Name="AgendaID" ColumnName="AgendaID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="FileID" ColumnName="FileID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Events">
+      <EntityTypeMapping TypeName="boxModel.Event">
+        <MappingFragment StoreEntitySet="Events">
+          <ScalarProperty Name="CalendarKey" ColumnName="CalendarKey" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="AllDayEvent" ColumnName="AllDayEvent" />
+          <ScalarProperty Name="backgroundColor" ColumnName="backgroundColor" />
+          <ScalarProperty Name="Evnet" ColumnName="Evnet" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Invitations">
+      <EntityTypeMapping TypeName="boxModel.Invitation">
+        <MappingFragment StoreEntitySet="Invitation">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="MeetingID" ColumnName="MeetingID" />
+          <ScalarProperty Name="Response" ColumnName="Response" />
+          <ScalarProperty Name="SentDate" ColumnName="SentDate" />
+          <ScalarProperty Name="ResponseDate" ColumnName="ResponseDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Locations">
+      <EntityTypeMapping TypeName="boxModel.Location">
+        <MappingFragment StoreEntitySet="Location">
+          <ScalarProperty Name="LocationID" ColumnName="LocationID" />
+          <ScalarProperty Name="LocationName" ColumnName="LocationName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Meetings">
+      <EntityTypeMapping TypeName="boxModel.Meeting">
+        <MappingFragment StoreEntitySet="Meeting">
+          <ScalarProperty Name="MeetingID" ColumnName="MeetingID" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="MeetingTitle" ColumnName="MeetingTitle" />
+          <ScalarProperty Name="MeetingDesc" ColumnName="MeetingDesc" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="Mee" ColumnName="Mee" />
+          <ScalarProperty Name="App" ColumnName="App" />
+          <ScalarProperty Name="Cal" ColumnName="Cal" />
+          <ScalarProperty Name="AllDay" ColumnName="AllDay" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MeetingFiles">
+      <EntityTypeMapping TypeName="boxModel.MeetingFile">
+        <MappingFragment StoreEntitySet="MeetingFile">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MeetingID" ColumnName="MeetingID" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MeetingLocations">
+      <EntityTypeMapping TypeName="boxModel.MeetingLocation">
+        <MappingFragment StoreEntitySet="MeetingLocation">
+          <ScalarProperty Name="LocationID" ColumnName="LocationID" />
+          <ScalarProperty Name="MeetingID" ColumnName="MeetingID" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MeetingParticipants">
+      <EntityTypeMapping TypeName="boxModel.MeetingParticipant">
+        <MappingFragment StoreEntitySet="MeetingParticipant">
+          <ScalarProperty Name="MeetingParti" ColumnName="MeetingParti" />
+          <ScalarProperty Name="MeetingID" ColumnName="MeetingID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="Response" ColumnName="Response" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="InvitationDate" ColumnName="InvitationDate" />
+          <ScalarProperty Name="ResponseDate" ColumnName="ResponseDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MeetingResources">
+      <EntityTypeMapping TypeName="boxModel.MeetingResource">
+        <MappingFragment StoreEntitySet="MeetingResource">
+          <ScalarProperty Name="MeetingID" ColumnName="MeetingID" />
+          <ScalarProperty Name="ResourceID" ColumnName="ResourceID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MeetingTypes">
+      <EntityTypeMapping TypeName="boxModel.MeetingType">
+        <MappingFragment StoreEntitySet="MeetingType">
+          <ScalarProperty Name="CatID" ColumnName="CatID" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NotificationHeaders">
+      <EntityTypeMapping TypeName="boxModel.NotificationHeader">
+        <MappingFragment StoreEntitySet="NotificationHeader">
+          <ScalarProperty Name="DiscussionID" ColumnName="DiscussionID" />
+          <ScalarProperty Name="NotID" ColumnName="NotID" />
+          <ScalarProperty Name="NotType" ColumnName="NotType" />
+          <ScalarProperty Name="MeetingID" ColumnName="MeetingID" />
+          <ScalarProperty Name="AgendaID" ColumnName="AgendaID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="NotDate" ColumnName="NotDate" />
+          <ScalarProperty Name="NotCreator" ColumnName="NotCreator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NotInfoes">
+      <EntityTypeMapping TypeName="boxModel.NotInfo">
+        <MappingFragment StoreEntitySet="NotInfo">
+          <ScalarProperty Name="NotInfoID" ColumnName="NotInfoID" />
+          <ScalarProperty Name="NotHeaderID" ColumnName="NotHeaderID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="Ack" ColumnName="Ack" />
+          <ScalarProperty Name="Seen" ColumnName="Seen" />
+          <ScalarProperty Name="DateSeen" ColumnName="DateSeen" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Projects">
+      <EntityTypeMapping TypeName="boxModel.Project">
+        <MappingFragment StoreEntitySet="Project">
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="ProjectTitle" ColumnName="ProjectTitle" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="RootPath" ColumnName="RootPath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProjectFiles">
+      <EntityTypeMapping TypeName="boxModel.ProjectFile">
+        <MappingFragment StoreEntitySet="ProjectFile">
+          <ScalarProperty Name="Privacy" ColumnName="Privacy" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="UpFolder" ColumnName="UpFolder" />
+          <ScalarProperty Name="Directory" ColumnName="Directory" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Creator" ColumnName="Creator" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProjectPrivacies">
+      <EntityTypeMapping TypeName="boxModel.ProjectPrivacy">
+        <MappingFragment StoreEntitySet="ProjectPrivacy">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ProjectFileID" ColumnName="ProjectFileID" />
+          <ScalarProperty Name="ProjectUserID" ColumnName="ProjectUserID" />
+          <ScalarProperty Name="CanSee" ColumnName="CanSee" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProjectUsers">
+      <EntityTypeMapping TypeName="boxModel.ProjectUser">
+        <MappingFragment StoreEntitySet="ProjectUser">
+          <ScalarProperty Name="Creator" ColumnName="Creator" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Replies">
+      <EntityTypeMapping TypeName="boxModel.Reply">
+        <MappingFragment StoreEntitySet="Reply">
+          <ScalarProperty Name="ReplyID" ColumnName="ReplyID" />
+          <ScalarProperty Name="DiscussionID" ColumnName="DiscussionID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Resources">
+      <EntityTypeMapping TypeName="boxModel.Resource">
+        <MappingFragment StoreEntitySet="Resource">
+          <ScalarProperty Name="RID" ColumnName="RID" />
+          <ScalarProperty Name="RName" ColumnName="RName" />
+          <ScalarProperty Name="RDesc" ColumnName="RDesc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="boxModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaskUsers">
+      <EntityTypeMapping TypeName="boxModel.TaskUser">
+        <MappingFragment StoreEntitySet="TaskUser">
+          <ScalarProperty Name="TaskID" ColumnName="TaskID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="TDesc" ColumnName="TDesc" />
+          <ScalarProperty Name="AssignedDate" ColumnName="AssignedDate" />
+          <ScalarProperty Name="ResponseDate" ColumnName="ResponseDate" />
+          <ScalarProperty Name="Response" ColumnName="Response" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserProfiles">
+      <EntityTypeMapping TypeName="boxModel.UserProfile">
+        <MappingFragment StoreEntitySet="UserProfile">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Position" ColumnName="Position" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FilePrivacies">
+      <EntityTypeMapping TypeName="boxModel.FilePrivacy">
+        <MappingFragment StoreEntitySet="FilePrivacy">
+          <ScalarProperty Name="CanSee" ColumnName="CanSee" />
+          <ScalarProperty Name="FileID" ColumnName="FileID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DFiles">
+      <EntityTypeMapping TypeName="boxModel.DFile">
+        <MappingFragment StoreEntitySet="DFile">
+          <ScalarProperty Name="Locked" ColumnName="Locked" />
+          <ScalarProperty Name="Privacy" ColumnName="Privacy" />
+          <ScalarProperty Name="Creator" ColumnName="Creator" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Directory" ColumnName="Directory" />
+          <ScalarProperty Name="UpFolder" ColumnName="UpFolder" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="Filename" ColumnName="Filename" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaskAssigns">
+      <EntityTypeMapping TypeName="boxModel.TaskAssign">
+        <MappingFragment StoreEntitySet="TaskAssign">
+          <ScalarProperty Name="ProjecFileID" ColumnName="ProjecFileID" />
+          <ScalarProperty Name="Creator" ColumnName="Creator" />
+          <ScalarProperty Name="AgendaID" ColumnName="AgendaID" />
+          <ScalarProperty Name="MeetingID" ColumnName="MeetingID" />
+          <ScalarProperty Name="TaskDesc" ColumnName="TaskDesc" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="DueDate" ColumnName="DueDate" />
+          <ScalarProperty Name="TaskTitle" ColumnName="TaskTitle" />
+          <ScalarProperty Name="TaskID" ColumnName="TaskID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

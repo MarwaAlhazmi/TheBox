@@ -1,0 +1,5804 @@
+﻿
+@font-fact5555{
+    font-family: &amp;quot;IcoMoon&amp;quot;;
+    font-style: normal;
+    font-weight: normal;
+    src: format(&amp;quot;woff&amp;quot;), url(&amp;quot;../font/IcoMoon.eot?#iefix&amp;quot;) format(&amp;quot;embedded-opentype&amp;quot;), url(&amp;quot;../font/IcoMoon.woff&amp;quot;) url(&amp;quot;../font/IcoMoon.svg#IcoMoon&amp;quot;) format(&amp;quot;svg&amp;quot;), url(&amp;quot;../font/IcoMoon.ttf&amp;quot;) format(&amp;quot;truetype&amp;quot;);
+}
+[data-icon]:before {
+    content: attr(data-icon);
+    font-family: &amp;#39;IcoMoon&amp;#39;;
+    font-weight: normal;
+}
+[class^=&amp;quot;icon-&amp;quot;], [class*=&amp;quot; icon-&amp;quot;] {
+    background-image: none;
+    background-position: inherit;
+    font-family: &amp;#39;IcoMoon&amp;#39;;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    height: 16px;
+    line-height: 16px;
+    width: 16px;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it&amp;#39;s slower:
+[class*=&amp;quot;icon-&amp;quot;] {
+*/
+
+.icon-battery-low,
+.icon-battery,
+.icon-battery-full,
+.icon-battery-charging,
+.icon-plus,
+.icon-cross,
+.icon-arrow-right,
+.icon-arrow-left,
+.icon-pencil,
+.icon-search,
+.icon-grid,
+.icon-list,
+.icon-star,
+.icon-heart,
+.icon-back,
+.icon-forward,
+.icon-map-marker,
+.icon-phone,
+.icon-home,
+.icon-camera,
+.icon-arrow-left-2,
+.icon-arrow-right-2,
+.icon-arrow-up,
+.icon-arrow-down,
+.icon-refresh,
+.icon-refresh-2,
+.icon-escape,
+.icon-repeat,
+.icon-loop,
+.icon-shuffle,
+.icon-feed,
+.icon-cog,
+.icon-wrench,
+.icon-bars,
+.icon-chart,
+.icon-stats,
+.icon-eye,
+.icon-zoom-out,
+.icon-zoom-in,
+.icon-export,
+.icon-user,
+.icon-users,
+.icon-microphone,
+.icon-mail,
+.icon-comment,
+.icon-trashcan,
+.icon-delete,
+.icon-infinity,
+.icon-key,
+.icon-globe,
+.icon-thumbs-up,
+.icon-thumbs-down,
+.icon-tag,
+.icon-views,
+.icon-warning,
+.icon-beta,
+.icon-unlocked,
+.icon-locked,
+.icon-eject,
+.icon-move,
+.icon-expand,
+.icon-cancel,
+.icon-electricity,
+.icon-compass,
+.icon-location,
+.icon-directions,
+.icon-pin,
+.icon-mute,
+.icon-volume,
+.icon-globe-2,
+.icon-pencil-2,
+.icon-minus,
+.icon-equals,
+.icon-list-2,
+.icon-flag,
+.icon-info,
+.icon-question,
+.icon-chat,
+.icon-clock,
+.icon-calendar,
+.icon-sun,
+.icon-contrast,
+.icon-mobile,
+.icon-download,
+.icon-puzzle,
+.icon-music,
+.icon-scissors,
+.icon-bookmark,
+.icon-anchor,
+.icon-checkmark,
+.icon-phone-2,
+.icon-mobile-2,
+.icon-mouse,
+.icon-directions-2,
+.icon-mail-2,
+.icon-paperplane,
+.icon-pencil-3,
+.icon-feather,
+.icon-paperclip,
+.icon-drawer,
+.icon-reply,
+.icon-reply-all,
+.icon-forward-2,
+.icon-user-2,
+.icon-users-2,
+.icon-user-add,
+.icon-vcard,
+.icon-export-2,
+.icon-location-2,
+.icon-map,
+.icon-compass-2,
+.icon-location-3,
+.icon-target,
+.icon-share,
+.icon-sharable,
+.icon-heart-2,
+.icon-heart-3,
+.icon-star-2,
+.icon-star-3,
+.icon-thumbs-up-2,
+.icon-thumbs-down-2,
+.icon-chat-2,
+.icon-comment-2,
+.icon-quote,
+.icon-house,
+.icon-popup,
+.icon-search-2,
+.icon-flashlight,
+.icon-printer,
+.icon-bell,
+.icon-link,
+.icon-flag-2,
+.icon-cog-2,
+.icon-tools,
+.icon-trophy,
+.icon-tag-2,
+.icon-camera-2,
+.icon-megaphone,
+.icon-moon,
+.icon-palette,
+.icon-leaf,
+.icon-music-2,
+.icon-music-3,
+.icon-new,
+.icon-graduation,
+.icon-book,
+.icon-newspaper,
+.icon-bag,
+.icon-airplane,
+.icon-lifebuoy,
+.icon-eye-2,
+.icon-clock-2,
+.icon-microphone-2,
+.icon-calendar-2,
+.icon-bolt,
+.icon-thunder,
+.icon-droplet,
+.icon-cd,
+.icon-briefcase,
+.icon-air,
+.icon-hourglass,
+.icon-gauge,
+.icon-language,
+.icon-network,
+.icon-key-2,
+.icon-battery-2,
+.icon-bucket,
+.icon-magnet,
+.icon-drive,
+.icon-cup,
+.icon-rocket,
+.icon-brush,
+.icon-suitcase,
+.icon-cone,
+.icon-earth,
+.icon-keyboard,
+.icon-browser,
+.icon-publish,
+.icon-progress-3,
+.icon-progress-2,
+.icon-brogress-1,
+.icon-progress-0,
+.icon-sun-2,
+.icon-sun-3,
+.icon-adjust,
+.icon-code,
+.icon-screen,
+.icon-infinity-2,
+.icon-light-bulb,
+.icon-credit-card,
+.icon-database,
+.icon-voicemail,
+.icon-clipboard,
+.icon-cart,
+.icon-box,
+.icon-ticket,
+.icon-rss,
+.icon-signal,
+.icon-thermometer,
+.icon-droplets,
+.icon-untitled,
+.icon-statistics,
+.icon-pie,
+.icon-bars-2,
+.icon-graph,
+.icon-lock,
+.icon-lock-open,
+.icon-logout,
+.icon-login,
+.icon-checkmark-2,
+.icon-cross-2,
+.icon-minus-2,
+.icon-plus-2,
+.icon-cross-3,
+.icon-minus-3,
+.icon-plus-3,
+.icon-cross-4,
+.icon-minus-4,
+.icon-plus-4,
+.icon-erase,
+.icon-blocked,
+.icon-info-2,
+.icon-info-3,
+.icon-question-2,
+.icon-help,
+.icon-warning-2,
+.icon-cycle,
+.icon-cw,
+.icon-ccw,
+.icon-shuffle-2,
+.icon-arrow,
+.icon-arrow-2,
+.icon-retweet,
+.icon-loop-2,
+.icon-history,
+.icon-back-2,
+.icon-switch,
+.icon-list-3,
+.icon-add-to-list,
+.icon-layout,
+.icon-list-4,
+.icon-text,
+.icon-text-2,
+.icon-document,
+.icon-docs,
+.icon-landscape,
+.icon-pictures,
+.icon-video,
+.icon-music-4,
+.icon-folder,
+.icon-archive,
+.icon-trash,
+.icon-upload,
+.icon-download-2,
+.icon-disk,
+.icon-install,
+.icon-cloud,
+.icon-upload-2,
+.icon-bookmark-2,
+.icon-bookmarks,
+.icon-book-2,
+.icon-play,
+.icon-pause,
+.icon-record,
+.icon-stop,
+.icon-next,
+.icon-previous,
+.icon-first,
+.icon-last,
+.icon-resize-enlarge,
+.icon-resize-shrink,
+.icon-volume-2,
+.icon-sound,
+.icon-mute-2,
+.icon-flow-cascade,
+.icon-flow-branch,
+.icon-flow-tree,
+.icon-flow-line,
+.icon-flow-parallel,
+.icon-arrow-left-3,
+.icon-arrow-down-2,
+.icon-arrow-up--upload,
+.icon-arrow-right-3,
+.icon-arrow-left-4,
+.icon-arrow-down-3,
+.icon-arrow-up-2,
+.icon-arrow-right-4,
+.icon-arrow-left-5,
+.icon-arrow-down-4,
+.icon-arrow-up-3,
+.icon-arrow-right-5,
+.icon-arrow-left-6,
+.icon-arrow-down-5,
+.icon-arrow-up-4,
+.icon-arrow-right-6,
+.icon-arrow-left-7,
+.icon-arrow-down-6,
+.icon-arrow-up-5,
+.icon-arrow-right-7,
+.icon-arrow-left-8,
+.icon-arrow-down-7,
+.icon-arrow-up-6,
+.icon-arrow-right-8,
+.icon-arrow-left-9,
+.icon-arrow-down-8,
+.icon-arrow-up-7,
+.icon-untitled-2,
+.icon-arrow-left-10,
+.icon-arrow-down-9,
+.icon-arrow-up-8,
+.icon-arrow-right-9,
+.icon-menu,
+.icon-ellipsis,
+.icon-dots,
+.icon-dot,
+.icon-cc,
+.icon-cc-by,
+.icon-cc-nc,
+.icon-cc-nc-eu,
+.icon-cc-nc-jp,
+.icon-cc-sa,
+.icon-cc-nd,
+.icon-cc-pd,
+.icon-cc-zero,
+.icon-cc-share,
+.icon-cc-share-2,
+.icon-daniel-bruce,
+.icon-daniel-bruce-2,
+.icon-github,
+.icon-github-2,
+.icon-flickr,
+.icon-flickr-2,
+.icon-vimeo,
+.icon-vimeo-2,
+.icon-twitter,
+.icon-twitter-2,
+.icon-facebook,
+.icon-facebook-2,
+.icon-facebook-3,
+.icon-googleplus,
+.icon-googleplus-2,
+.icon-pinterest,
+.icon-pinterest-2,
+.icon-tumblr,
+.icon-tumblr-2,
+.icon-linkedin,
+.icon-linkedin-2,
+.icon-dribbble,
+.icon-dribbble-2,
+.icon-stumbleupon,
+.icon-stumbleupon-2,
+.icon-lastfm,
+.icon-lastfm-2,
+.icon-rdio,
+.icon-rdio-2,
+.icon-spotify,
+.icon-spotify-2,
+.icon-qq,
+.icon-instagram,
+.icon-dropbox,
+.icon-evernote,
+.icon-flattr,
+.icon-skype,
+.icon-skype-2,
+.icon-renren,
+.icon-sina-weibo,
+.icon-paypal,
+.icon-picasa,
+.icon-soundcloud,
+.icon-mixi,
+.icon-behance,
+.icon-circles,
+.icon-vk,
+.icon-smashing,
+.icon-home-2,
+.icon-home-3,
+.icon-home-4,
+.icon-office,
+.icon-newspaper-2,
+.icon-pencil-4,
+.icon-pencil-5,
+.icon-quill,
+.icon-pen,
+.icon-blog,
+.icon-droplet-2,
+.icon-paint-format,
+.icon-image,
+.icon-image-2,
+.icon-images,
+.icon-camera-3,
+.icon-music-5,
+.icon-headphones,
+.icon-play-2,
+.icon-film,
+.icon-camera-4,
+.icon-dice,
+.icon-pacman,
+.icon-spades,
+.icon-clubs,
+.icon-diamonds,
+.icon-pawn,
+.icon-bullhorn,
+.icon-connection,
+.icon-podcast,
+.icon-feed-2,
+.icon-book-3,
+.icon-books,
+.icon-library,
+.icon-file,
+.icon-profile,
+.icon-file-2,
+.icon-file-3,
+.icon-file-4,
+.icon-copy,
+.icon-copy-2,
+.icon-copy-3,
+.icon-paste,
+.icon-paste-2,
+.icon-paste-3,
+.icon-stack,
+.icon-folder-2,
+.icon-folder-open,
+.icon-tag-3,
+.icon-tags,
+.icon-barcode,
+.icon-qrcode,
+.icon-ticket-2,
+.icon-cart-2,
+.icon-cart-3,
+.icon-cart-4,
+.icon-coin,
+.icon-credit,
+.icon-calculate,
+.icon-support,
+.icon-phone-3,
+.icon-phone-hang-up,
+.icon-address-book,
+.icon-notebook,
+.icon-envelop,
+.icon-pushpin,
+.icon-location-4,
+.icon-location-5,
+.icon-compass-3,
+.icon-map-2,
+.icon-map-3,
+.icon-history-2,
+.icon-clock-3,
+.icon-clock-4,
+.icon-alarm,
+.icon-alarm-2,
+.icon-bell-2,
+.icon-stopwatch,
+.icon-calendar-3,
+.icon-calendar-4,
+.icon-print,
+.icon-keyboard-2,
+.icon-screen-2,
+.icon-laptop,
+.icon-mobile-3,
+.icon-mobile-4,
+.icon-tablet,
+.icon-tv,
+.icon-cabinet,
+.icon-drawer-2,
+.icon-drawer-3,
+.icon-drawer-4,
+.icon-box-add,
+.icon-box-remove,
+.icon-download-3,
+.icon-upload-3,
+.icon-disk-2,
+.icon-storage,
+.icon-undo,
+.icon-redo,
+.icon-flip,
+.icon-flip-2,
+.icon-undo-2,
+.icon-redo-2,
+.icon-forward-3,
+.icon-reply-2,
+.icon-bubble,
+.icon-bubbles,
+.icon-bubbles-2,
+.icon-bubble-2,
+.icon-bubbles-3,
+.icon-bubbles-4,
+.icon-user-3,
+.icon-users-3,
+.icon-user-4,
+.icon-users-4,
+.icon-user-5,
+.icon-user-6,
+.icon-quotes-left,
+.icon-busy,
+.icon-spinner,
+.icon-spinner-2,
+.icon-spinner-3,
+.icon-spinner-4,
+.icon-spinner-5,
+.icon-spinner-6,
+.icon-binoculars,
+.icon-search-3,
+.icon-zoom-in-2,
+.icon-zoom-out-2,
+.icon-expand-2,
+.icon-contract,
+.icon-expand-3,
+.icon-contract-2,
+.icon-key-3,
+.icon-key-4,
+.icon-lock-2,
+.icon-lock-3,
+.icon-unlocked-2,
+.icon-wrench-2,
+.icon-settings,
+.icon-equalizer,
+.icon-cog-3,
+.icon-cogs,
+.icon-cog-4,
+.icon-hammer,
+.icon-wand,
+.icon-aid,
+.icon-bug,
+.icon-pie-2,
+.icon-stats-2,
+.icon-bars-3,
+.icon-bars-4,
+.icon-gift,
+.icon-trophy-2,
+.icon-glass,
+.icon-mug,
+.icon-food,
+.icon-leaf-2,
+.icon-rocket-2,
+.icon-meter,
+.icon-meter2,
+.icon-dashboard,
+.icon-hammer-2,
+.icon-fire,
+.icon-lab,
+.icon-magnet-2,
+.icon-remove,
+.icon-remove-2,
+.icon-briefcase-2,
+.icon-airplane-2,
+.icon-truck,
+.icon-road,
+.icon-accessibility,
+.icon-target-2,
+.icon-shield,
+.icon-lightning,
+.icon-switch-2,
+.icon-power-cord,
+.icon-signup,
+.icon-list-5,
+.icon-list-6,
+.icon-numbered-list,
+.icon-menu-2,
+.icon-menu-3,
+.icon-tree,
+.icon-cloud-2,
+.icon-cloud-download,
+.icon-cloud-upload,
+.icon-download-4,
+.icon-upload-4,
+.icon-download-5,
+.icon-upload-5,
+.icon-globe-3,
+.icon-earth-2,
+.icon-link-2,
+.icon-flag-3,
+.icon-attachment,
+.icon-eye-3,
+.icon-eye-blocked,
+.icon-eye-4,
+.icon-bookmark-3,
+.icon-bookmarks-2,
+.icon-brightness-medium,
+.icon-brightness-contrast,
+.icon-contrast-2,
+.icon-star-4,
+.icon-star-5,
+.icon-star-6,
+.icon-heart-4,
+.icon-heart-5,
+.icon-heart-broken,
+.icon-thumbs-up-3,
+.icon-thumbs-up-4,
+.icon-happy,
+.icon-happy-2,
+.icon-smiley,
+.icon-smiley-2,
+.icon-tongue,
+.icon-tongue-2,
+.icon-sad,
+.icon-sad-2,
+.icon-wink,
+.icon-wink-2,
+.icon-grin,
+.icon-grin-2,
+.icon-cool,
+.icon-cool-2,
+.icon-angry,
+.icon-angry-2,
+.icon-evil,
+.icon-evil-2,
+.icon-shocked,
+.icon-shocked-2,
+.icon-confused,
+.icon-confused-2,
+.icon-neutral,
+.icon-neutral-2,
+.icon-wondering,
+.icon-wondering-2,
+.icon-point-up,
+.icon-point-right,
+.icon-point-down,
+.icon-point-left,
+.icon-warning-3,
+.icon-notification,
+.icon-question-3,
+.icon-info-4,
+.icon-info-5,
+.icon-blocked-2,
+.icon-cancel-circle,
+.icon-checkmark-circle,
+.icon-spam,
+.icon-close,
+.icon-checkmark-3,
+.icon-checkmark-4,
+.icon-spell-check,
+.icon-minus-5,
+.icon-plus-5,
+.icon-enter,
+.icon-exit,
+.icon-play-3,
+.icon-pause-2,
+.icon-stop-2,
+.icon-backward,
+.icon-forward-4,
+.icon-play-4,
+.icon-pause-3,
+.icon-stop-3,
+.icon-backward-2,
+.icon-forward-5,
+.icon-first-2,
+.icon-last-2,
+.icon-previous-2,
+.icon-next-2,
+.icon-eject-2,
+.icon-volume-high,
+.icon-volume-medium,
+.icon-volume-low,
+.icon-volume-mute,
+.icon-volume-mute-2,
+.icon-volume-increase,
+.icon-volume-decrease,
+.icon-loop-3,
+.icon-loop-4,
+.icon-loop-5,
+.icon-shuffle-3,
+.icon-arrow-up-left,
+.icon-arrow-up-9,
+.icon-arrow-up-right,
+.icon-arrow-right-10,
+.icon-arrow-down-right,
+.icon-arrow-down-10,
+.icon-arrow-down-left,
+.icon-arrow-left-11,
+.icon-arrow-up-left-2,
+.icon-arrow-up-10,
+.icon-arrow-up-right-2,
+.icon-arrow-right-11,
+.icon-arrow-down-right-2,
+.icon-arrow-down-11,
+.icon-arrow-down-left-2,
+.icon-arrow-left-12,
+.icon-arrow-up-left-3,
+.icon-arrow-up-11,
+.icon-arrow-up-right-3,
+.icon-arrow-right-12,
+.icon-arrow-down-right-3,
+.icon-arrow-down-12,
+.icon-arrow-down-left-3,
+.icon-arrow-left-13,
+.icon-tab,
+.icon-checkbox-checked,
+.icon-checkbox-unchecked,
+.icon-checkbox-partial,
+.icon-radio-checked,
+.icon-radio-unchecked,
+.icon-crop,
+.icon-scissors-2,
+.icon-filter,
+.icon-filter-2,
+.icon-font,
+.icon-text-height,
+.icon-text-width,
+.icon-bold,
+.icon-underline,
+.icon-italic,
+.icon-strikethrough,
+.icon-omega,
+.icon-sigma,
+.icon-table,
+.icon-table-2,
+.icon-insert-template,
+.icon-pilcrow,
+.icon-left-to-right,
+.icon-right-to-left,
+.icon-paragraph-left,
+.icon-paragraph-center,
+.icon-paragraph-right,
+.icon-paragraph-justify,
+.icon-paragraph-left-2,
+.icon-paragraph-center-2,
+.icon-paragraph-right-2,
+.icon-paragraph-justify-2,
+.icon-indent-increase,
+.icon-indent-decrease,
+.icon-new-tab,
+.icon-embed,
+.icon-code-2,
+.icon-console,
+.icon-share-2,
+.icon-mail-3,
+.icon-mail-4,
+.icon-mail-5,
+.icon-mail-6,
+.icon-google,
+.icon-google-plus,
+.icon-google-plus-2,
+.icon-google-plus-3,
+.icon-google-plus-4,
+.icon-google-drive,
+.icon-facebook-4,
+.icon-facebook-5,
+.icon-facebook-6,
+.icon-instagram-2,
+.icon-twitter-3,
+.icon-twitter-4,
+.icon-twitter-5,
+.icon-feed-3,
+.icon-feed-4,
+.icon-feed-5,
+.icon-youtube,
+.icon-youtube-2,
+.icon-vimeo-3,
+.icon-vimeo2,
+.icon-vimeo-4,
+.icon-lanyrd,
+.icon-flickr-3,
+.icon-flickr-4,
+.icon-flickr-5,
+.icon-flickr-6,
+.icon-picassa,
+.icon-picassa-2,
+.icon-dribbble-3,
+.icon-dribbble-4,
+.icon-dribbble-5,
+.icon-forrst,
+.icon-forrst-2,
+.icon-deviantart,
+.icon-deviantart-2,
+.icon-steam,
+.icon-steam-2,
+.icon-github-3,
+.icon-github-4,
+.icon-github-5,
+.icon-github-6,
+.icon-github-7,
+.icon-wordpress,
+.icon-wordpress-2,
+.icon-joomla,
+.icon-blogger,
+.icon-blogger-2,
+.icon-tumblr-3,
+.icon-tumblr-4,
+.icon-yahoo,
+.icon-tux,
+.icon-apple,
+.icon-finder,
+.icon-android,
+.icon-windows,
+.icon-windows8,
+.icon-soundcloud-2,
+.icon-soundcloud-3,
+.icon-skype-3,
+.icon-reddit,
+.icon-linkedin-3,
+.icon-lastfm-3,
+.icon-lastfm-4,
+.icon-delicious,
+.icon-stumbleupon-3,
+.icon-stumbleupon-4,
+.icon-stackoverflow,
+.icon-pinterest-3,
+.icon-pinterest-4,
+.icon-xing,
+.icon-xing-2,
+.icon-flattr-2,
+.icon-foursquare,
+.icon-foursquare-2,
+.icon-paypal-2,
+.icon-paypal-3,
+.icon-paypal-4,
+.icon-yelp,
+.icon-libreoffice,
+.icon-file-pdf,
+.icon-file-openoffice,
+.icon-file-word,
+.icon-file-excel,
+.icon-file-zip,
+.icon-file-powerpoint,
+.icon-file-xml,
+.icon-file-css,
+.icon-html5,
+.icon-html5-2,
+.icon-css3,
+.icon-chrome,
+.icon-firefox,
+.icon-IE,
+.icon-opera,
+.icon-safari,
+.icon-IcoMoon,
+.icon-warning-4,
+.icon-cloud-3,
+.icon-locked-2,
+.icon-inbox,
+.icon-comment-3,
+.icon-mic,
+.icon-envelope,
+.icon-briefcase-3,
+.icon-cart-5,
+.icon-contrast-3,
+.icon-clock-5,
+.icon-user-7,
+.icon-cog-5,
+.icon-music-6,
+.icon-twitter-6,
+.icon-pencil-6,
+.icon-frame,
+.icon-switch-3,
+.icon-star-7,
+.icon-key-5,
+.icon-chart-2,
+.icon-apple-2,
+.icon-file-5,
+.icon-plus-6,
+.icon-minus-6,
+.icon-picture,
+.icon-folder-3,
+.icon-camera-5,
+.icon-search-4,
+.icon-dribbble-6,
+.icon-forrst-3,
+.icon-feed-6,
+.icon-blocked-3,
+.icon-target-3,
+.icon-play-5,
+.icon-pause-4,
+.icon-bug-2,
+.icon-console-2,
+.icon-film-2,
+.icon-type,
+.icon-home-5,
+.icon-earth-3,
+.icon-location-6,
+.icon-info-6,
+.icon-eye-5,
+.icon-heart-6,
+.icon-bookmark-4,
+.icon-wrench-3,
+.icon-calendar-5,
+.icon-window,
+.icon-monitor,
+.icon-mobile-5,
+.icon-droplet-3,
+.icon-mouse-2,
+.icon-refresh-3,
+.icon-location-7,
+.icon-tag-4,
+.icon-phone-4,
+.icon-star-8,
+.icon-pointer,
+.icon-thumbs-up-5,
+.icon-thumbs-down-3,
+.icon-headphones-2,
+.icon-move-2,
+.icon-checkmark-5,
+.icon-cancel-2,
+.icon-skype-4,
+.icon-gift-2,
+.icon-cone-2,
+.icon-alarm-3,
+.icon-coffee,
+.icon-basket,
+.icon-flag-4,
+.icon-ipod,
+.icon-trashcan-2,
+.icon-bolt-2,
+.icon-ampersand,
+.icon-compass-4,
+.icon-list-7,
+.icon-grid-2,
+.icon-volume-3,
+.icon-volume-4,
+.icon-stats-3,
+.icon-target-4,
+.icon-forward-6,
+.icon-paperclip-2,
+.icon-keyboard-3,
+.icon-crop-2,
+.icon-floppy,
+.icon-filter-3,
+.icon-trophy-3,
+.icon-diary,
+.icon-address-book-2,
+.icon-stop-4,
+.icon-smiley-3,
+.icon-shit,
+.icon-bookmark-5,
+.icon-camera-6,
+.icon-lamp,
+.icon-disk-3,
+.icon-button,
+.icon-database-2,
+.icon-credit-card-2,
+.icon-atom,
+.icon-winsows,
+.icon-target-5,
+.icon-battery-3,
+.icon-code-3,
+.icon-sunrise,
+.icon-sun-4,
+.icon-moon-2,
+.icon-sun-5,
+.icon-windy,
+.icon-wind,
+.icon-snowflake,
+.icon-cloudy,
+.icon-cloud-4,
+.icon-weather,
+.icon-weather-2,
+.icon-weather-3,
+.icon-lines,
+.icon-cloud-5,
+.icon-lightning-2,
+.icon-lightning-3,
+.icon-rainy,
+.icon-rainy-2,
+.icon-windy-2,
+.icon-windy-3,
+.icon-snowy,
+.icon-snowy-2,
+.icon-snowy-3,
+.icon-weather-4,
+.icon-cloudy-2,
+.icon-cloud-6,
+.icon-lightning-4,
+.icon-sun-6,
+.icon-moon-3,
+.icon-cloudy-3,
+.icon-cloud-7,
+.icon-cloud-8,
+.icon-lightning-5,
+.icon-rainy-3,
+.icon-rainy-4,
+.icon-windy-4,
+.icon-windy-5,
+.icon-snowy-4,
+.icon-snowy-5,
+.icon-weather-5,
+.icon-cloudy-4,
+.icon-lightning-6,
+.icon-thermometer-2,
+.icon-compass-5,
+.icon-none,
+.icon-Celsius,
+.icon-Fahrenheit,
+.icon-chat-3,
+.icon-chat-alt-stroke,
+.icon-chat-alt-fill,
+.icon-comment-alt1-stroke,
+.icon-comment-alt1-fill,
+.icon-comment-stroke,
+.icon-comment-fill,
+.icon-comment-alt2-stroke,
+.icon-comment-alt2-fill,
+.icon-checkmark-6,
+.icon-check-alt,
+.icon-x,
+.icon-x-altx-alt,
+.icon-denied,
+.icon-cursor,
+.icon-rss-2,
+.icon-rss-alt,
+.icon-wrench-4,
+.icon-dial,
+.icon-cog-6,
+.icon-calendar-6,
+.icon-calendar-alt-stroke,
+.icon-calendar-alt-fill,
+.icon-share-3,
+.icon-mail-7,
+.icon-heart-stroke,
+.icon-heart-fill,
+.icon-movie,
+.icon-document-alt-stroke,
+.icon-document-alt-fill,
+.icon-document-stroke,
+.icon-document-fill,
+.icon-plus-7,
+.icon-plus-alt,
+.icon-minus-7,
+.icon-minus-alt,
+.icon-pin-2,
+.icon-link-3,
+.icon-bolt-3,
+.icon-move-3,
+.icon-move-alt1,
+.icon-move-alt2,
+.icon-equalizer-2,
+.icon-award-fill,
+.icon-award-stroke,
+.icon-magnifying-glass,
+.icon-trash-stroke,
+.icon-trash-fill,
+.icon-beaker-alt,
+.icon-beaker,
+.icon-key-stroke,
+.icon-key-fill,
+.icon-new-window,
+.icon-lightbulb,
+.icon-spin-alt,
+.icon-spin,
+.icon-curved-arrow,
+.icon-undo-3,
+.icon-reload,
+.icon-reload-alt,
+.icon-loop-6,
+.icon-loop-alt1,
+.icon-loop-alt2,
+.icon-loop-alt3,
+.icon-loop-alt4,
+.icon-transfer,
+.icon-move-vertical,
+.icon-move-vertical-alt1,
+.icon-move-vertical-alt2,
+.icon-move-horizontal,
+.icon-move-horizontal-alt1,
+.icon-move-horizontal-alt2,
+.icon-arrow-left-14,
+.icon-arrow-left-alt1,
+.icon-arrow-left-alt2,
+.icon-arrow-right-13,
+.icon-arrow-right-alt1,
+.icon-arrow-right-alt2,
+.icon-arrow-up-12,
+.icon-arrow-up-alt1,
+.icon-arrow-up-alt2,
+.icon-arrow-down-13,
+.icon-arrow-down-alt1,
+.icon-arrow-down-alt2,
+.icon-cd-2,
+.icon-steering-wheel,
+.icon-microphone-3,
+.icon-headphones-3,
+.icon-volume-5,
+.icon-volume-mute-3,
+.icon-play-6,
+.icon-pause-5,
+.icon-stop-5,
+.icon-eject-3,
+.icon-first-3,
+.icon-last-3,
+.icon-play-alt,
+.icon-fullscreen-exit,
+.icon-fullscreen-exit-alt,
+.icon-fullscreen,
+.icon-fullscreen-alt,
+.icon-iphone,
+.icon-battery-empty,
+.icon-battery-half,
+.icon-battery-full-2,
+.icon-battery-charging-2,
+.icon-compass-6,
+.icon-box-2,
+.icon-folder-stroke,
+.icon-folder-fill,
+.icon-at,
+.icon-ampersand-2,
+.icon-info-7,
+.icon-question-mark,
+.icon-pilcrow-2,
+.icon-hash,
+.icon-left-quote,
+.icon-right-quote,
+.icon-left-quote-alt,
+.icon-right-quote-alt,
+.icon-article,
+.icon-read-more,
+.icon-list-8,
+.icon-list-nested,
+.icon-book-4,
+.icon-book-alt,
+.icon-book-alt2,
+.icon-pen-2,
+.icon-pen-alt-stroke,
+.icon-pen-alt-fill,
+.icon-pen-alt2,
+.icon-brush-2,
+.icon-brush-alt,
+.icon-eyedropper,
+.icon-layers-alt,
+.icon-layers,
+.icon-image-3,
+.icon-camera-7,
+.icon-aperture,
+.icon-aperture-alt,
+.icon-chart-3,
+.icon-chart-alt,
+.icon-bars-5,
+.icon-bars-alt,
+.icon-eye-6,
+.icon-user-8,
+.icon-home-6,
+.icon-clock-6,
+.icon-lock-stroke,
+.icon-lock-fill,
+.icon-unlock-stroke,
+.icon-unlock-fill,
+.icon-tag-stroke,
+.icon-tag-fill,
+.icon-sun-stroke,
+.icon-sun-fill,
+.icon-moon-stroke,
+.icon-moon-fill,
+.icon-cloud-9,
+.icon-rain,
+.icon-umbrella,
+.icon-star-9,
+.icon-map-pin-stroke,
+.icon-map-pin-fill,
+.icon-map-pin-alt,
+.icon-target-6,
+.icon-download-6,
+.icon-upload-6,
+.icon-cloud-download-2,
+.icon-cloud-upload-2,
+.icon-fork,
+.icon-paperclip-3 {
+  font-family: &amp;#39;icomoon&amp;#39;;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: none;
+  speak: none;
+  font-variant: normal;
+}
+
+.icon-battery-low:before {
+  content: &amp;quot;\e000&amp;quot;;
+}
+
+.icon-battery:before {
+  content: &amp;quot;\e001&amp;quot;;
+}
+
+.icon-battery-full:before {
+  content: &amp;quot;\e002&amp;quot;;
+}
+
+.icon-battery-charging:before {
+  content: &amp;quot;\e003&amp;quot;;
+}
+
+.icon-plus:before {
+  content: &amp;quot;\e004&amp;quot;;
+}
+
+.icon-cross:before {
+  content: &amp;quot;\e005&amp;quot;;
+}
+
+.icon-arrow-right:before {
+  content: &amp;quot;\e006&amp;quot;;
+}
+
+.icon-arrow-left:before {
+  content: &amp;quot;\e007&amp;quot;;
+}
+
+.icon-pencil:before {
+  content: &amp;quot;\e008&amp;quot;;
+}
+
+.icon-search:before {
+  content: &amp;quot;\e009&amp;quot;;
+}
+
+.icon-grid:before {
+  content: &amp;quot;\e00a&amp;quot;;
+}
+
+.icon-list:before {
+  content: &amp;quot;\e00b&amp;quot;;
+}
+
+.icon-star:before {
+  content: &amp;quot;\e00c&amp;quot;;
+}
+
+.icon-heart:before {
+  content: &amp;quot;\e00d&amp;quot;;
+}
+
+.icon-back:before {
+  content: &amp;quot;\e00e&amp;quot;;
+}
+
+.icon-forward:before {
+  content: &amp;quot;\e00f&amp;quot;;
+}
+
+.icon-map-marker:before {
+  content: &amp;quot;\e010&amp;quot;;
+}
+
+.icon-phone:before {
+  content: &amp;quot;\e011&amp;quot;;
+}
+
+.icon-home:before {
+  content: &amp;quot;\e012&amp;quot;;
+}
+
+.icon-camera:before {
+  content: &amp;quot;\e013&amp;quot;;
+}
+
+.icon-arrow-left-2:before {
+  content: &amp;quot;\e014&amp;quot;;
+}
+
+.icon-arrow-right-2:before {
+  content: &amp;quot;\e015&amp;quot;;
+}
+
+.icon-arrow-up:before {
+  content: &amp;quot;\e016&amp;quot;;
+}
+
+.icon-arrow-down:before {
+  content: &amp;quot;\e017&amp;quot;;
+}
+
+.icon-refresh:before {
+  content: &amp;quot;\e018&amp;quot;;
+}
+
+.icon-refresh-2:before {
+  content: &amp;quot;\e019&amp;quot;;
+}
+
+.icon-escape:before {
+  content: &amp;quot;\e01a&amp;quot;;
+}
+
+.icon-repeat:before {
+  content: &amp;quot;\e01b&amp;quot;;
+}
+
+.icon-loop:before {
+  content: &amp;quot;\e01c&amp;quot;;
+}
+
+.icon-shuffle:before {
+  content: &amp;quot;\e01d&amp;quot;;
+}
+
+.icon-feed:before {
+  content: &amp;quot;\e01e&amp;quot;;
+}
+
+.icon-cog:before {
+  content: &amp;quot;\e01f&amp;quot;;
+}
+
+.icon-wrench:before {
+  content: &amp;quot;\e020&amp;quot;;
+}
+
+.icon-bars:before {
+  content: &amp;quot;\e021&amp;quot;;
+}
+
+.icon-chart:before {
+  content: &amp;quot;\e022&amp;quot;;
+}
+
+.icon-stats:before {
+  content: &amp;quot;\e023&amp;quot;;
+}
+
+.icon-eye:before {
+  content: &amp;quot;\e024&amp;quot;;
+}
+
+.icon-zoom-out:before {
+  content: &amp;quot;\e025&amp;quot;;
+}
+
+.icon-zoom-in:before {
+  content: &amp;quot;\e026&amp;quot;;
+}
+
+.icon-export:before {
+  content: &amp;quot;\e027&amp;quot;;
+}
+
+.icon-user:before {
+  content: &amp;quot;\e028&amp;quot;;
+}
+
+.icon-users:before {
+  content: &amp;quot;\e029&amp;quot;;
+}
+
+.icon-microphone:before {
+  content: &amp;quot;\e02a&amp;quot;;
+}
+
+.icon-mail:before {
+  content: &amp;quot;\24&amp;quot;;
+}
+
+.icon-comment:before {
+  content: &amp;quot;\e02c&amp;quot;;
+}
+
+.icon-trashcan:before {
+  content: &amp;quot;\e02d&amp;quot;;
+}
+
+.icon-delete:before {
+  content: &amp;quot;\e02e&amp;quot;;
+}
+
+.icon-infinity:before {
+  content: &amp;quot;\e02f&amp;quot;;
+}
+
+.icon-key:before {
+  content: &amp;quot;\e030&amp;quot;;
+}
+
+.icon-globe:before {
+  content: &amp;quot;\e031&amp;quot;;
+}
+
+.icon-thumbs-up:before {
+  content: &amp;quot;\e032&amp;quot;;
+}
+
+.icon-thumbs-down:before {
+  content: &amp;quot;\e033&amp;quot;;
+}
+
+.icon-tag:before {
+  content: &amp;quot;\e034&amp;quot;;
+}
+
+.icon-views:before {
+  content: &amp;quot;\e035&amp;quot;;
+}
+
+.icon-warning:before {
+  content: &amp;quot;\e036&amp;quot;;
+}
+
+.icon-beta:before {
+  content: &amp;quot;\e037&amp;quot;;
+}
+
+.icon-unlocked:before {
+  content: &amp;quot;\e038&amp;quot;;
+}
+
+.icon-locked:before {
+  content: &amp;quot;\e039&amp;quot;;
+}
+
+.icon-eject:before {
+  content: &amp;quot;\e03a&amp;quot;;
+}
+
+.icon-move:before {
+  content: &amp;quot;\e03b&amp;quot;;
+}
+
+.icon-expand:before {
+  content: &amp;quot;\e03c&amp;quot;;
+}
+
+.icon-cancel:before {
+  content: &amp;quot;\e03d&amp;quot;;
+}
+
+.icon-electricity:before {
+  content: &amp;quot;\e03e&amp;quot;;
+}
+
+.icon-compass:before {
+  content: &amp;quot;\e03f&amp;quot;;
+}
+
+.icon-location:before {
+  content: &amp;quot;\e040&amp;quot;;
+}
+
+.icon-directions:before {
+  content: &amp;quot;\e041&amp;quot;;
+}
+
+.icon-pin:before {
+  content: &amp;quot;\e042&amp;quot;;
+}
+
+.icon-mute:before {
+  content: &amp;quot;\e043&amp;quot;;
+}
+
+.icon-volume:before {
+  content: &amp;quot;\e044&amp;quot;;
+}
+
+.icon-globe-2:before {
+  content: &amp;quot;\e045&amp;quot;;
+}
+
+.icon-pencil-2:before {
+  content: &amp;quot;\e046&amp;quot;;
+}
+
+.icon-minus:before {
+  content: &amp;quot;\e047&amp;quot;;
+}
+
+.icon-equals:before {
+  content: &amp;quot;\e048&amp;quot;;
+}
+
+.icon-list-2:before {
+  content: &amp;quot;\e049&amp;quot;;
+}
+
+.icon-flag:before {
+  content: &amp;quot;\e04a&amp;quot;;
+}
+
+.icon-info:before {
+  content: &amp;quot;\e04b&amp;quot;;
+}
+
+.icon-question:before {
+  content: &amp;quot;\e04c&amp;quot;;
+}
+
+.icon-chat:before {
+  content: &amp;quot;\e04d&amp;quot;;
+}
+
+.icon-clock:before {
+  content: &amp;quot;\e04e&amp;quot;;
+}
+
+.icon-calendar:before {
+  content: &amp;quot;\e04f&amp;quot;;
+}
+
+.icon-sun:before {
+  content: &amp;quot;\e050&amp;quot;;
+}
+
+.icon-contrast:before {
+  content: &amp;quot;\e051&amp;quot;;
+}
+
+.icon-mobile:before {
+  content: &amp;quot;\e052&amp;quot;;
+}
+
+.icon-download:before {
+  content: &amp;quot;\e053&amp;quot;;
+}
+
+.icon-puzzle:before {
+  content: &amp;quot;\e054&amp;quot;;
+}
+
+.icon-music:before {
+  content: &amp;quot;\e055&amp;quot;;
+}
+
+.icon-scissors:before {
+  content: &amp;quot;\e056&amp;quot;;
+}
+
+.icon-bookmark:before {
+  content: &amp;quot;\e057&amp;quot;;
+}
+
+.icon-anchor:before {
+  content: &amp;quot;\e058&amp;quot;;
+}
+
+.icon-checkmark:before {
+  content: &amp;quot;\e059&amp;quot;;
+}
+
+.icon-phone-2:before {
+  content: &amp;quot;\e05a&amp;quot;;
+}
+
+.icon-mobile-2:before {
+  content: &amp;quot;\e05b&amp;quot;;
+}
+
+.icon-mouse:before {
+  content: &amp;quot;\e05c&amp;quot;;
+}
+
+.icon-directions-2:before {
+  content: &amp;quot;\e05d&amp;quot;;
+}
+
+.icon-mail-2:before {
+  content: &amp;quot;\e05e&amp;quot;;
+}
+
+.icon-paperplane:before {
+  content: &amp;quot;\e05f&amp;quot;;
+}
+
+.icon-pencil-3:before {
+  content: &amp;quot;\e060&amp;quot;;
+}
+
+.icon-feather:before {
+  content: &amp;quot;\e061&amp;quot;;
+}
+
+.icon-paperclip:before {
+  content: &amp;quot;\e062&amp;quot;;
+}
+
+.icon-drawer:before {
+  content: &amp;quot;\e063&amp;quot;;
+}
+
+.icon-reply:before {
+  content: &amp;quot;\e064&amp;quot;;
+}
+
+.icon-reply-all:before {
+  content: &amp;quot;\e065&amp;quot;;
+}
+
+.icon-forward-2:before {
+  content: &amp;quot;\e066&amp;quot;;
+}
+
+.icon-user-2:before {
+  content: &amp;quot;\e067&amp;quot;;
+}
+
+.icon-users-2:before {
+  content: &amp;quot;\e068&amp;quot;;
+}
+
+.icon-user-add:before {
+  content: &amp;quot;\e069&amp;quot;;
+}
+
+.icon-vcard:before {
+  content: &amp;quot;\e06a&amp;quot;;
+}
+
+.icon-export-2:before {
+  content: &amp;quot;\e06b&amp;quot;;
+}
+
+.icon-location-2:before {
+  content: &amp;quot;\e06c&amp;quot;;
+}
+
+.icon-map:before {
+  content: &amp;quot;\e06d&amp;quot;;
+}
+
+.icon-compass-2:before {
+  content: &amp;quot;\e06e&amp;quot;;
+}
+
+.icon-location-3:before {
+  content: &amp;quot;\e06f&amp;quot;;
+}
+
+.icon-target:before {
+  content: &amp;quot;\e070&amp;quot;;
+}
+
+.icon-share:before {
+  content: &amp;quot;\e071&amp;quot;;
+}
+
+.icon-sharable:before {
+  content: &amp;quot;\e072&amp;quot;;
+}
+
+.icon-heart-2:before {
+  content: &amp;quot;\e073&amp;quot;;
+}
+
+.icon-heart-3:before {
+  content: &amp;quot;\e074&amp;quot;;
+}
+
+.icon-star-2:before {
+  content: &amp;quot;\e075&amp;quot;;
+}
+
+.icon-star-3:before {
+  content: &amp;quot;\e076&amp;quot;;
+}
+
+.icon-thumbs-up-2:before {
+  content: &amp;quot;\e077&amp;quot;;
+}
+
+.icon-thumbs-down-2:before {
+  content: &amp;quot;\e078&amp;quot;;
+}
+
+.icon-chat-2:before {
+  content: &amp;quot;\e079&amp;quot;;
+}
+
+.icon-comment-2:before {
+  content: &amp;quot;\e07a&amp;quot;;
+}
+
+.icon-quote:before {
+  content: &amp;quot;\e07b&amp;quot;;
+}
+
+.icon-house:before {
+  content: &amp;quot;\e07c&amp;quot;;
+}
+
+.icon-popup:before {
+  content: &amp;quot;\e07d&amp;quot;;
+}
+
+.icon-search-2:before {
+  content: &amp;quot;\e07e&amp;quot;;
+}
+
+.icon-flashlight:before {
+  content: &amp;quot;\e07f&amp;quot;;
+}
+
+.icon-printer:before {
+  content: &amp;quot;\e080&amp;quot;;
+}
+
+.icon-bell:before {
+  content: &amp;quot;\e081&amp;quot;;
+}
+
+.icon-link:before {
+  content: &amp;quot;\e082&amp;quot;;
+}
+
+.icon-flag-2:before {
+  content: &amp;quot;\e083&amp;quot;;
+}
+
+.icon-cog-2:before {
+  content: &amp;quot;\e084&amp;quot;;
+}
+
+.icon-tools:before {
+  content: &amp;quot;\e085&amp;quot;;
+}
+
+.icon-trophy:before {
+  content: &amp;quot;\e086&amp;quot;;
+}
+
+.icon-tag-2:before {
+  content: &amp;quot;\e087&amp;quot;;
+}
+
+.icon-camera-2:before {
+  content: &amp;quot;\e088&amp;quot;;
+}
+
+.icon-megaphone:before {
+  content: &amp;quot;\e089&amp;quot;;
+}
+
+.icon-moon:before {
+  content: &amp;quot;\e08a&amp;quot;;
+}
+
+.icon-palette:before {
+  content: &amp;quot;\e08b&amp;quot;;
+}
+
+.icon-leaf:before {
+  content: &amp;quot;\e08c&amp;quot;;
+}
+
+.icon-music-2:before {
+  content: &amp;quot;\e08d&amp;quot;;
+}
+
+.icon-music-3:before {
+  content: &amp;quot;\e08e&amp;quot;;
+}
+
+.icon-new:before {
+  content: &amp;quot;\e08f&amp;quot;;
+}
+
+.icon-graduation:before {
+  content: &amp;quot;\e090&amp;quot;;
+}
+
+.icon-book:before {
+  content: &amp;quot;\e091&amp;quot;;
+}
+
+.icon-newspaper:before {
+  content: &amp;quot;\e092&amp;quot;;
+}
+
+.icon-bag:before {
+  content: &amp;quot;\e093&amp;quot;;
+}
+
+.icon-airplane:before {
+  content: &amp;quot;\e094&amp;quot;;
+}
+
+.icon-lifebuoy:before {
+  content: &amp;quot;\e095&amp;quot;;
+}
+
+.icon-eye-2:before {
+  content: &amp;quot;\e096&amp;quot;;
+}
+
+.icon-clock-2:before {
+  content: &amp;quot;\e097&amp;quot;;
+}
+
+.icon-microphone-2:before {
+  content: &amp;quot;\e098&amp;quot;;
+}
+
+.icon-calendar-2:before {
+  content: &amp;quot;\e099&amp;quot;;
+}
+
+.icon-bolt:before {
+  content: &amp;quot;\e09a&amp;quot;;
+}
+
+.icon-thunder:before {
+  content: &amp;quot;\e09b&amp;quot;;
+}
+
+.icon-droplet:before {
+  content: &amp;quot;\e09c&amp;quot;;
+}
+
+.icon-cd:before {
+  content: &amp;quot;\e09d&amp;quot;;
+}
+
+.icon-briefcase:before {
+  content: &amp;quot;\e09e&amp;quot;;
+}
+
+.icon-air:before {
+  content: &amp;quot;\e09f&amp;quot;;
+}
+
+.icon-hourglass:before {
+  content: &amp;quot;\e0a0&amp;quot;;
+}
+
+.icon-gauge:before {
+  content: &amp;quot;\e0a1&amp;quot;;
+}
+
+.icon-language:before {
+  content: &amp;quot;\e0a2&amp;quot;;
+}
+
+.icon-network:before {
+  content: &amp;quot;\e0a3&amp;quot;;
+}
+
+.icon-key-2:before {
+  content: &amp;quot;\e0a4&amp;quot;;
+}
+
+.icon-battery-2:before {
+  content: &amp;quot;\e0a5&amp;quot;;
+}
+
+.icon-bucket:before {
+  content: &amp;quot;\e0a6&amp;quot;;
+}
+
+.icon-magnet:before {
+  content: &amp;quot;\e0a7&amp;quot;;
+}
+
+.icon-drive:before {
+  content: &amp;quot;\e0a8&amp;quot;;
+}
+
+.icon-cup:before {
+  content: &amp;quot;\e0a9&amp;quot;;
+}
+
+.icon-rocket:before {
+  content: &amp;quot;\e0aa&amp;quot;;
+}
+
+.icon-brush:before {
+  content: &amp;quot;\e0ab&amp;quot;;
+}
+
+.icon-suitcase:before {
+  content: &amp;quot;\e0ac&amp;quot;;
+}
+
+.icon-cone:before {
+  content: &amp;quot;\e0ad&amp;quot;;
+}
+
+.icon-earth:before {
+  content: &amp;quot;\e0ae&amp;quot;;
+}
+
+.icon-keyboard:before {
+  content: &amp;quot;\e0af&amp;quot;;
+}
+
+.icon-browser:before {
+  content: &amp;quot;\e0b0&amp;quot;;
+}
+
+.icon-publish:before {
+  content: &amp;quot;\e0b1&amp;quot;;
+}
+
+.icon-progress-3:before {
+  content: &amp;quot;\e0b2&amp;quot;;
+}
+
+.icon-progress-2:before {
+  content: &amp;quot;\e0b3&amp;quot;;
+}
+
+.icon-brogress-1:before {
+  content: &amp;quot;\e0b4&amp;quot;;
+}
+
+.icon-progress-0:before {
+  content: &amp;quot;\e0b5&amp;quot;;
+}
+
+.icon-sun-2:before {
+  content: &amp;quot;\e0b6&amp;quot;;
+}
+
+.icon-sun-3:before {
+  content: &amp;quot;\e0b7&amp;quot;;
+}
+
+.icon-adjust:before {
+  content: &amp;quot;\e0b8&amp;quot;;
+}
+
+.icon-code:before {
+  content: &amp;quot;\e0b9&amp;quot;;
+}
+
+.icon-screen:before {
+  content: &amp;quot;\e0ba&amp;quot;;
+}
+
+.icon-infinity-2:before {
+  content: &amp;quot;\e0bb&amp;quot;;
+}
+
+.icon-light-bulb:before {
+  content: &amp;quot;\e0bc&amp;quot;;
+}
+
+.icon-credit-card:before {
+  content: &amp;quot;\e0bd&amp;quot;;
+}
+
+.icon-database:before {
+  content: &amp;quot;\e0be&amp;quot;;
+}
+
+.icon-voicemail:before {
+  content: &amp;quot;\e0bf&amp;quot;;
+}
+
+.icon-clipboard:before {
+  content: &amp;quot;\e0c0&amp;quot;;
+}
+
+.icon-cart:before {
+  content: &amp;quot;\e0c1&amp;quot;;
+}
+
+.icon-box:before {
+  content: &amp;quot;\e0c2&amp;quot;;
+}
+
+.icon-ticket:before {
+  content: &amp;quot;\e0c3&amp;quot;;
+}
+
+.icon-rss:before {
+  content: &amp;quot;\e0c4&amp;quot;;
+}
+
+.icon-signal:before {
+  content: &amp;quot;\e0c5&amp;quot;;
+}
+
+.icon-thermometer:before {
+  content: &amp;quot;\e0c6&amp;quot;;
+}
+
+.icon-droplets:before {
+  content: &amp;quot;\e0c7&amp;quot;;
+}
+
+.icon-untitled:before {
+  content: &amp;quot;\e0c8&amp;quot;;
+}
+
+.icon-statistics:before {
+  content: &amp;quot;\e0c9&amp;quot;;
+}
+
+.icon-pie:before {
+  content: &amp;quot;\e0ca&amp;quot;;
+}
+
+.icon-bars-2:before {
+  content: &amp;quot;\e0cb&amp;quot;;
+}
+
+.icon-graph:before {
+  content: &amp;quot;\e0cc&amp;quot;;
+}
+
+.icon-lock:before {
+  content: &amp;quot;\e0cd&amp;quot;;
+}
+
+.icon-lock-open:before {
+  content: &amp;quot;\e0ce&amp;quot;;
+}
+
+.icon-logout:before {
+  content: &amp;quot;\e0cf&amp;quot;;
+}
+
+.icon-login:before {
+  content: &amp;quot;\e0d0&amp;quot;;
+}
+
+.icon-checkmark-2:before {
+  content: &amp;quot;\e0d1&amp;quot;;
+}
+
+.icon-cross-2:before {
+  content: &amp;quot;\e0d2&amp;quot;;
+}
+
+.icon-minus-2:before {
+  content: &amp;quot;\e0d3&amp;quot;;
+}
+
+.icon-plus-2:before {
+  content: &amp;quot;\e0d4&amp;quot;;
+}
+
+.icon-cross-3:before {
+  content: &amp;quot;\e0d5&amp;quot;;
+}
+
+.icon-minus-3:before {
+  content: &amp;quot;\e0d6&amp;quot;;
+}
+
+.icon-plus-3:before {
+  content: &amp;quot;\e0d7&amp;quot;;
+}
+
+.icon-cross-4:before {
+  content: &amp;quot;\e0d8&amp;quot;;
+}
+
+.icon-minus-4:before {
+  content: &amp;quot;\e0d9&amp;quot;;
+}
+
+.icon-plus-4:before {
+  content: &amp;quot;\e0da&amp;quot;;
+}
+
+.icon-erase:before {
+  content: &amp;quot;\e0db&amp;quot;;
+}
+
+.icon-blocked:before {
+  content: &amp;quot;\e0dc&amp;quot;;
+}
+
+.icon-info-2:before {
+  content: &amp;quot;\e0dd&amp;quot;;
+}
+
+.icon-info-3:before {
+  content: &amp;quot;\e0de&amp;quot;;
+}
+
+.icon-question-2:before {
+  content: &amp;quot;\e0df&amp;quot;;
+}
+
+.icon-help:before {
+  content: &amp;quot;\e0e0&amp;quot;;
+}
+
+.icon-warning-2:before {
+  content: &amp;quot;\e0e1&amp;quot;;
+}
+
+.icon-cycle:before {
+  content: &amp;quot;\e0e2&amp;quot;;
+}
+
+.icon-cw:before {
+  content: &amp;quot;\e0e3&amp;quot;;
+}
+
+.icon-ccw:before {
+  content: &amp;quot;\e0e4&amp;quot;;
+}
+
+.icon-shuffle-2:before {
+  content: &amp;quot;\e0e5&amp;quot;;
+}
+
+.icon-arrow:before {
+  content: &amp;quot;\e0e6&amp;quot;;
+}
+
+.icon-arrow-2:before {
+  content: &amp;quot;\e0e7&amp;quot;;
+}
+
+.icon-retweet:before {
+  content: &amp;quot;\e0e8&amp;quot;;
+}
+
+.icon-loop-2:before {
+  content: &amp;quot;\e0e9&amp;quot;;
+}
+
+.icon-history:before {
+  content: &amp;quot;\e0ea&amp;quot;;
+}
+
+.icon-back-2:before {
+  content: &amp;quot;\e0eb&amp;quot;;
+}
+
+.icon-switch:before {
+  content: &amp;quot;\e0ec&amp;quot;;
+}
+
+.icon-list-3:before {
+  content: &amp;quot;\e0ed&amp;quot;;
+}
+
+.icon-add-to-list:before {
+  content: &amp;quot;\e0ee&amp;quot;;
+}
+
+.icon-layout:before {
+  content: &amp;quot;\e0ef&amp;quot;;
+}
+
+.icon-list-4:before {
+  content: &amp;quot;\e0f0&amp;quot;;
+}
+
+.icon-text:before {
+  content: &amp;quot;\e0f1&amp;quot;;
+}
+
+.icon-text-2:before {
+  content: &amp;quot;\e0f2&amp;quot;;
+}
+
+.icon-document:before {
+  content: &amp;quot;\e0f3&amp;quot;;
+}
+
+.icon-docs:before {
+  content: &amp;quot;\e0f4&amp;quot;;
+}
+
+.icon-landscape:before {
+  content: &amp;quot;\e0f5&amp;quot;;
+}
+
+.icon-pictures:before {
+  content: &amp;quot;\e0f6&amp;quot;;
+}
+
+.icon-video:before {
+  content: &amp;quot;\e0f7&amp;quot;;
+}
+
+.icon-music-4:before {
+  content: &amp;quot;\e0f8&amp;quot;;
+}
+
+.icon-folder:before {
+  content: &amp;quot;\e0f9&amp;quot;;
+}
+
+.icon-archive:before {
+  content: &amp;quot;\e0fa&amp;quot;;
+}
+
+.icon-trash:before {
+  content: &amp;quot;\e0fb&amp;quot;;
+}
+
+.icon-upload:before {
+  content: &amp;quot;\e0fc&amp;quot;;
+}
+
+.icon-download-2:before {
+  content: &amp;quot;\e0fd&amp;quot;;
+}
+
+.icon-disk:before {
+  content: &amp;quot;\e0fe&amp;quot;;
+}
+
+.icon-install:before {
+  content: &amp;quot;\e0ff&amp;quot;;
+}
+
+.icon-cloud:before {
+  content: &amp;quot;\e100&amp;quot;;
+}
+
+.icon-upload-2:before {
+  content: &amp;quot;\e101&amp;quot;;
+}
+
+.icon-bookmark-2:before {
+  content: &amp;quot;\e102&amp;quot;;
+}
+
+.icon-bookmarks:before {
+  content: &amp;quot;\e103&amp;quot;;
+}
+
+.icon-book-2:before {
+  content: &amp;quot;\e104&amp;quot;;
+}
+
+.icon-play:before {
+  content: &amp;quot;\e105&amp;quot;;
+}
+
+.icon-pause:before {
+  content: &amp;quot;\e106&amp;quot;;
+}
+
+.icon-record:before {
+  content: &amp;quot;\e107&amp;quot;;
+}
+
+.icon-stop:before {
+  content: &amp;quot;\e108&amp;quot;;
+}
+
+.icon-next:before {
+  content: &amp;quot;\e109&amp;quot;;
+}
+
+.icon-previous:before {
+  content: &amp;quot;\e10a&amp;quot;;
+}
+
+.icon-first:before {
+  content: &amp;quot;\e10b&amp;quot;;
+}
+
+.icon-last:before {
+  content: &amp;quot;\e10c&amp;quot;;
+}
+
+.icon-resize-enlarge:before {
+  content: &amp;quot;\e10d&amp;quot;;
+}
+
+.icon-resize-shrink:before {
+  content: &amp;quot;\e10e&amp;quot;;
+}
+
+.icon-volume-2:before {
+  content: &amp;quot;\e10f&amp;quot;;
+}
+
+.icon-sound:before {
+  content: &amp;quot;\e110&amp;quot;;
+}
+
+.icon-mute-2:before {
+  content: &amp;quot;\e111&amp;quot;;
+}
+
+.icon-flow-cascade:before {
+  content: &amp;quot;\e112&amp;quot;;
+}
+
+.icon-flow-branch:before {
+  content: &amp;quot;\e113&amp;quot;;
+}
+
+.icon-flow-tree:before {
+  content: &amp;quot;\e114&amp;quot;;
+}
+
+.icon-flow-line:before {
+  content: &amp;quot;\e115&amp;quot;;
+}
+
+.icon-flow-parallel:before {
+  content: &amp;quot;\e116&amp;quot;;
+}
+
+.icon-arrow-left-3:before {
+  content: &amp;quot;\e117&amp;quot;;
+}
+
+.icon-arrow-down-2:before {
+  content: &amp;quot;\e118&amp;quot;;
+}
+
+.icon-arrow-up--upload:before {
+  content: &amp;quot;\e119&amp;quot;;
+}
+
+.icon-arrow-right-3:before {
+  content: &amp;quot;\e11a&amp;quot;;
+}
+
+.icon-arrow-left-4:before {
+  content: &amp;quot;\e11b&amp;quot;;
+}
+
+.icon-arrow-down-3:before {
+  content: &amp;quot;\e11c&amp;quot;;
+}
+
+.icon-arrow-up-2:before {
+  content: &amp;quot;\e11d&amp;quot;;
+}
+
+.icon-arrow-right-4:before {
+  content: &amp;quot;\e11e&amp;quot;;
+}
+
+.icon-arrow-left-5:before {
+  content: &amp;quot;\e11f&amp;quot;;
+}
+
+.icon-arrow-down-4:before {
+  content: &amp;quot;\e120&amp;quot;;
+}
+
+.icon-arrow-up-3:before {
+  content: &amp;quot;\e121&amp;quot;;
+}
+
+.icon-arrow-right-5:before {
+  content: &amp;quot;\e122&amp;quot;;
+}
+
+.icon-arrow-left-6:before {
+  content: &amp;quot;\e123&amp;quot;;
+}
+
+.icon-arrow-down-5:before {
+  content: &amp;quot;\e124&amp;quot;;
+}
+
+.icon-arrow-up-4:before {
+  content: &amp;quot;\e125&amp;quot;;
+}
+
+.icon-arrow-right-6:before {
+  content: &amp;quot;\e126&amp;quot;;
+}
+
+.icon-arrow-left-7:before {
+  content: &amp;quot;\e127&amp;quot;;
+}
+
+.icon-arrow-down-6:before {
+  content: &amp;quot;\e128&amp;quot;;
+}
+
+.icon-arrow-up-5:before {
+  content: &amp;quot;\e129&amp;quot;;
+}
+
+.icon-arrow-right-7:before {
+  content: &amp;quot;\e12a&amp;quot;;
+}
+
+.icon-arrow-left-8:before {
+  content: &amp;quot;\e12b&amp;quot;;
+}
+
+.icon-arrow-down-7:before {
+  content: &amp;quot;\e12c&amp;quot;;
+}
+
+.icon-arrow-up-6:before {
+  content: &amp;quot;\e12d&amp;quot;;
+}
+
+.icon-arrow-right-8:before {
+  content: &amp;quot;\e12e&amp;quot;;
+}
+
+.icon-arrow-left-9:before {
+  content: &amp;quot;\e12f&amp;quot;;
+}
+
+.icon-arrow-down-8:before {
+  content: &amp;quot;\e130&amp;quot;;
+}
+
+.icon-arrow-up-7:before {
+  content: &amp;quot;\e131&amp;quot;;
+}
+
+.icon-untitled-2:before {
+  content: &amp;quot;\e132&amp;quot;;
+}
+
+.icon-arrow-left-10:before {
+  content: &amp;quot;\e133&amp;quot;;
+}
+
+.icon-arrow-down-9:before {
+  content: &amp;quot;\e134&amp;quot;;
+}
+
+.icon-arrow-up-8:before {
+  content: &amp;quot;\e135&amp;quot;;
+}
+
+.icon-arrow-right-9:before {
+  content: &amp;quot;\e136&amp;quot;;
+}
+
+.icon-menu:before {
+  content: &amp;quot;\e137&amp;quot;;
+}
+
+.icon-ellipsis:before {
+  content: &amp;quot;\e138&amp;quot;;
+}
+
+.icon-dots:before {
+  content: &amp;quot;\e139&amp;quot;;
+}
+
+.icon-dot:before {
+  content: &amp;quot;\e13a&amp;quot;;
+}
+
+.icon-cc:before {
+  content: &amp;quot;\e13b&amp;quot;;
+}
+
+.icon-cc-by:before {
+  content: &amp;quot;\e13c&amp;quot;;
+}
+
+.icon-cc-nc:before {
+  content: &amp;quot;\e13d&amp;quot;;
+}
+
+.icon-cc-nc-eu:before {
+  content: &amp;quot;\e13e&amp;quot;;
+}
+
+.icon-cc-nc-jp:before {
+  content: &amp;quot;\e13f&amp;quot;;
+}
+
+.icon-cc-sa:before {
+  content: &amp;quot;\e140&amp;quot;;
+}
+
+.icon-cc-nd:before {
+  content: &amp;quot;\e141&amp;quot;;
+}
+
+.icon-cc-pd:before {
+  content: &amp;quot;\e142&amp;quot;;
+}
+
+.icon-cc-zero:before {
+  content: &amp;quot;\e143&amp;quot;;
+}
+
+.icon-cc-share:before {
+  content: &amp;quot;\e144&amp;quot;;
+}
+
+.icon-cc-share-2:before {
+  content: &amp;quot;\e145&amp;quot;;
+}
+
+.icon-daniel-bruce:before {
+  content: &amp;quot;\e146&amp;quot;;
+}
+
+.icon-daniel-bruce-2:before {
+  content: &amp;quot;\e147&amp;quot;;
+}
+
+.icon-github:before {
+  content: &amp;quot;\e148&amp;quot;;
+}
+
+.icon-github-2:before {
+  content: &amp;quot;\e149&amp;quot;;
+}
+
+.icon-flickr:before {
+  content: &amp;quot;\e14a&amp;quot;;
+}
+
+.icon-flickr-2:before {
+  content: &amp;quot;\e14b&amp;quot;;
+}
+
+.icon-vimeo:before {
+  content: &amp;quot;\e14c&amp;quot;;
+}
+
+.icon-vimeo-2:before {
+  content: &amp;quot;\e14d&amp;quot;;
+}
+
+.icon-twitter:before {
+  content: &amp;quot;\e14e&amp;quot;;
+}
+
+.icon-twitter-2:before {
+  content: &amp;quot;\e14f&amp;quot;;
+}
+
+.icon-facebook:before {
+  content: &amp;quot;\e150&amp;quot;;
+}
+
+.icon-facebook-2:before {
+  content: &amp;quot;\e151&amp;quot;;
+}
+
+.icon-facebook-3:before {
+  content: &amp;quot;\e152&amp;quot;;
+}
+
+.icon-googleplus:before {
+  content: &amp;quot;\e153&amp;quot;;
+}
+
+.icon-googleplus-2:before {
+  content: &amp;quot;\e154&amp;quot;;
+}
+
+.icon-pinterest:before {
+  content: &amp;quot;\e155&amp;quot;;
+}
+
+.icon-pinterest-2:before {
+  content: &amp;quot;\e156&amp;quot;;
+}
+
+.icon-tumblr:before {
+  content: &amp;quot;\e157&amp;quot;;
+}
+
+.icon-tumblr-2:before {
+  content: &amp;quot;\e158&amp;quot;;
+}
+
+.icon-linkedin:before {
+  content: &amp;quot;\e159&amp;quot;;
+}
+
+.icon-linkedin-2:before {
+  content: &amp;quot;\e15a&amp;quot;;
+}
+
+.icon-dribbble:before {
+  content: &amp;quot;\e15b&amp;quot;;
+}
+
+.icon-dribbble-2:before {
+  content: &amp;quot;\e15c&amp;quot;;
+}
+
+.icon-stumbleupon:before {
+  content: &amp;quot;\e15d&amp;quot;;
+}
+
+.icon-stumbleupon-2:before {
+  content: &amp;quot;\e15e&amp;quot;;
+}
+
+.icon-lastfm:before {
+  content: &amp;quot;\e15f&amp;quot;;
+}
+
+.icon-lastfm-2:before {
+  content: &amp;quot;\e160&amp;quot;;
+}
+
+.icon-rdio:before {
+  content: &amp;quot;\e161&amp;quot;;
+}
+
+.icon-rdio-2:before {
+  content: &amp;quot;\e162&amp;quot;;
+}
+
+.icon-spotify:before {
+  content: &amp;quot;\e163&amp;quot;;
+}
+
+.icon-spotify-2:before {
+  content: &amp;quot;\e164&amp;quot;;
+}
+
+.icon-qq:before {
+  content: &amp;quot;\e165&amp;quot;;
+}
+
+.icon-instagram:before {
+  content: &amp;quot;\e166&amp;quot;;
+}
+
+.icon-dropbox:before {
+  content: &amp;quot;\e167&amp;quot;;
+}
+
+.icon-evernote:before {
+  content: &amp;quot;\e168&amp;quot;;
+}
+
+.icon-flattr:before {
+  content: &amp;quot;\e169&amp;quot;;
+}
+
+.icon-skype:before {
+  content: &amp;quot;\e16a&amp;quot;;
+}
+
+.icon-skype-2:before {
+  content: &amp;quot;\e16b&amp;quot;;
+}
+
+.icon-renren:before {
+  content: &amp;quot;\e16c&amp;quot;;
+}
+
+.icon-sina-weibo:before {
+  content: &amp;quot;\e16d&amp;quot;;
+}
+
+.icon-paypal:before {
+  content: &amp;quot;\e16e&amp;quot;;
+}
+
+.icon-picasa:before {
+  content: &amp;quot;\e16f&amp;quot;;
+}
+
+.icon-soundcloud:before {
+  content: &amp;quot;\e170&amp;quot;;
+}
+
+.icon-mixi:before {
+  content: &amp;quot;\e171&amp;quot;;
+}
+
+.icon-behance:before {
+  content: &amp;quot;\e172&amp;quot;;
+}
+
+.icon-circles:before {
+  content: &amp;quot;\e173&amp;quot;;
+}
+
+.icon-vk:before {
+  content: &amp;quot;\e174&amp;quot;;
+}
+
+.icon-smashing:before {
+  content: &amp;quot;\e175&amp;quot;;
+}
+
+.icon-home-2:before {
+  content: &amp;quot;\e176&amp;quot;;
+}
+
+.icon-home-3:before {
+  content: &amp;quot;\e177&amp;quot;;
+}
+
+.icon-home-4:before {
+  content: &amp;quot;\e178&amp;quot;;
+}
+
+.icon-office:before {
+  content: &amp;quot;\e179&amp;quot;;
+}
+
+.icon-newspaper-2:before {
+  content: &amp;quot;\e17a&amp;quot;;
+}
+
+.icon-pencil-4:before {
+  content: &amp;quot;\e17b&amp;quot;;
+}
+
+.icon-pencil-5:before {
+  content: &amp;quot;\e17c&amp;quot;;
+}
+
+.icon-quill:before {
+  content: &amp;quot;\e17d&amp;quot;;
+}
+
+.icon-pen:before {
+  content: &amp;quot;\e17e&amp;quot;;
+}
+
+.icon-blog:before {
+  content: &amp;quot;\e17f&amp;quot;;
+}
+
+.icon-droplet-2:before {
+  content: &amp;quot;\e180&amp;quot;;
+}
+
+.icon-paint-format:before {
+  content: &amp;quot;\e181&amp;quot;;
+}
+
+.icon-image:before {
+  content: &amp;quot;\e182&amp;quot;;
+}
+
+.icon-image-2:before {
+  content: &amp;quot;\e183&amp;quot;;
+}
+
+.icon-images:before {
+  content: &amp;quot;\e184&amp;quot;;
+}
+
+.icon-camera-3:before {
+  content: &amp;quot;\e185&amp;quot;;
+}
+
+.icon-music-5:before {
+  content: &amp;quot;\e186&amp;quot;;
+}
+
+.icon-headphones:before {
+  content: &amp;quot;\e187&amp;quot;;
+}
+
+.icon-play-2:before {
+  content: &amp;quot;\e188&amp;quot;;
+}
+
+.icon-film:before {
+  content: &amp;quot;\e189&amp;quot;;
+}
+
+.icon-camera-4:before {
+  content: &amp;quot;\e18a&amp;quot;;
+}
+
+.icon-dice:before {
+  content: &amp;quot;\e18b&amp;quot;;
+}
+
+.icon-pacman:before {
+  content: &amp;quot;\e18c&amp;quot;;
+}
+
+.icon-spades:before {
+  content: &amp;quot;\e18d&amp;quot;;
+}
+
+.icon-clubs:before {
+  content: &amp;quot;\e18e&amp;quot;;
+}
+
+.icon-diamonds:before {
+  content: &amp;quot;\e18f&amp;quot;;
+}
+
+.icon-pawn:before {
+  content: &amp;quot;\e190&amp;quot;;
+}
+
+.icon-bullhorn:before {
+  content: &amp;quot;\e191&amp;quot;;
+}
+
+.icon-connection:before {
+  content: &amp;quot;\e192&amp;quot;;
+}
+
+.icon-podcast:before {
+  content: &amp;quot;\e193&amp;quot;;
+}
+
+.icon-feed-2:before {
+  content: &amp;quot;\e194&amp;quot;;
+}
+
+.icon-book-3:before {
+  content: &amp;quot;\e195&amp;quot;;
+}
+
+.icon-books:before {
+  content: &amp;quot;\e196&amp;quot;;
+}
+
+.icon-library:before {
+  content: &amp;quot;\e197&amp;quot;;
+}
+
+.icon-file:before {
+  content: &amp;quot;\e198&amp;quot;;
+}
+
+.icon-profile:before {
+  content: &amp;quot;\e199&amp;quot;;
+}
+
+.icon-file-2:before {
+  content: &amp;quot;\e19a&amp;quot;;
+}
+
+.icon-file-3:before {
+  content: &amp;quot;\e19b&amp;quot;;
+}
+
+.icon-file-4:before {
+  content: &amp;quot;\e19c&amp;quot;;
+}
+
+.icon-copy:before {
+  content: &amp;quot;\e19d&amp;quot;;
+}
+
+.icon-copy-2:before {
+  content: &amp;quot;\e19e&amp;quot;;
+}
+
+.icon-copy-3:before {
+  content: &amp;quot;\e19f&amp;quot;;
+}
+
+.icon-paste:before {
+  content: &amp;quot;\e1a0&amp;quot;;
+}
+
+.icon-paste-2:before {
+  content: &amp;quot;\e1a1&amp;quot;;
+}
+
+.icon-paste-3:before {
+  content: &amp;quot;\e1a2&amp;quot;;
+}
+
+.icon-stack:before {
+  content: &amp;quot;\e1a3&amp;quot;;
+}
+
+.icon-folder-2:before {
+  content: &amp;quot;\e1a4&amp;quot;;
+}
+
+.icon-folder-open:before {
+  content: &amp;quot;\e1a5&amp;quot;;
+}
+
+.icon-tag-3:before {
+  content: &amp;quot;\e1a6&amp;quot;;
+}
+
+.icon-tags:before {
+  content: &amp;quot;\e1a7&amp;quot;;
+}
+
+.icon-barcode:before {
+  content: &amp;quot;\e1a8&amp;quot;;
+}
+
+.icon-qrcode:before {
+  content: &amp;quot;\e1a9&amp;quot;;
+}
+
+.icon-ticket-2:before {
+  content: &amp;quot;\e1aa&amp;quot;;
+}
+
+.icon-cart-2:before {
+  content: &amp;quot;\e1ab&amp;quot;;
+}
+
+.icon-cart-3:before {
+  content: &amp;quot;\e1ac&amp;quot;;
+}
+
+.icon-cart-4:before {
+  content: &amp;quot;\e1ad&amp;quot;;
+}
+
+.icon-coin:before {
+  content: &amp;quot;\e1ae&amp;quot;;
+}
+
+.icon-credit:before {
+  content: &amp;quot;\e1af&amp;quot;;
+}
+
+.icon-calculate:before {
+  content: &amp;quot;\e1b0&amp;quot;;
+}
+
+.icon-support:before {
+  content: &amp;quot;\e1b1&amp;quot;;
+}
+
+.icon-phone-3:before {
+  content: &amp;quot;\e1b2&amp;quot;;
+}
+
+.icon-phone-hang-up:before {
+  content: &amp;quot;\e1b3&amp;quot;;
+}
+
+.icon-address-book:before {
+  content: &amp;quot;\e1b4&amp;quot;;
+}
+
+.icon-notebook:before {
+  content: &amp;quot;\e1b5&amp;quot;;
+}
+
+.icon-envelop:before {
+  content: &amp;quot;\e1b6&amp;quot;;
+}
+
+.icon-pushpin:before {
+  content: &amp;quot;\e1b7&amp;quot;;
+}
+
+.icon-location-4:before {
+  content: &amp;quot;\e1b8&amp;quot;;
+}
+
+.icon-location-5:before {
+  content: &amp;quot;\e1b9&amp;quot;;
+}
+
+.icon-compass-3:before {
+  content: &amp;quot;\e1ba&amp;quot;;
+}
+
+.icon-map-2:before {
+  content: &amp;quot;\e1bb&amp;quot;;
+}
+
+.icon-map-3:before {
+  content: &amp;quot;\e1bc&amp;quot;;
+}
+
+.icon-history-2:before {
+  content: &amp;quot;\e1bd&amp;quot;;
+}
+
+.icon-clock-3:before {
+  content: &amp;quot;\e1be&amp;quot;;
+}
+
+.icon-clock-4:before {
+  content: &amp;quot;\e1bf&amp;quot;;
+}
+
+.icon-alarm:before {
+  content: &amp;quot;\e1c0&amp;quot;;
+}
+
+.icon-alarm-2:before {
+  content: &amp;quot;\e1c1&amp;quot;;
+}
+
+.icon-bell-2:before {
+  content: &amp;quot;\e1c2&amp;quot;;
+}
+
+.icon-stopwatch:before {
+  content: &amp;quot;\e1c3&amp;quot;;
+}
+
+.icon-calendar-3:before {
+  content: &amp;quot;\e1c4&amp;quot;;
+}
+
+.icon-calendar-4:before {
+  content: &amp;quot;\e1c5&amp;quot;;
+}
+
+.icon-print:before {
+  content: &amp;quot;\e1c6&amp;quot;;
+}
+
+.icon-keyboard-2:before {
+  content: &amp;quot;\e1c7&amp;quot;;
+}
+
+.icon-screen-2:before {
+  content: &amp;quot;\e1c8&amp;quot;;
+}
+
+.icon-laptop:before {
+  content: &amp;quot;\e1c9&amp;quot;;
+}
+
+.icon-mobile-3:before {
+  content: &amp;quot;\e1ca&amp;quot;;
+}
+
+.icon-mobile-4:before {
+  content: &amp;quot;\e1cb&amp;quot;;
+}
+
+.icon-tablet:before {
+  content: &amp;quot;\e1cc&amp;quot;;
+}
+
+.icon-tv:before {
+  content: &amp;quot;\e1cd&amp;quot;;
+}
+
+.icon-cabinet:before {
+  content: &amp;quot;\e1ce&amp;quot;;
+}
+
+.icon-drawer-2:before {
+  content: &amp;quot;\e1cf&amp;quot;;
+}
+
+.icon-drawer-3:before {
+  content: &amp;quot;\e1d0&amp;quot;;
+}
+
+.icon-drawer-4:before {
+  content: &amp;quot;\e1d1&amp;quot;;
+}
+
+.icon-box-add:before {
+  content: &amp;quot;\e1d2&amp;quot;;
+}
+
+.icon-box-remove:before {
+  content: &amp;quot;\e1d3&amp;quot;;
+}
+
+.icon-download-3:before {
+  content: &amp;quot;\e1d4&amp;quot;;
+}
+
+.icon-upload-3:before {
+  content: &amp;quot;\e1d5&amp;quot;;
+}
+
+.icon-disk-2:before {
+  content: &amp;quot;\e1d6&amp;quot;;
+}
+
+.icon-storage:before {
+  content: &amp;quot;\e1d7&amp;quot;;
+}
+
+.icon-undo:before {
+  content: &amp;quot;\e1d8&amp;quot;;
+}
+
+.icon-redo:before {
+  content: &amp;quot;\e1d9&amp;quot;;
+}
+
+.icon-flip:before {
+  content: &amp;quot;\e1da&amp;quot;;
+}
+
+.icon-flip-2:before {
+  content: &amp;quot;\e1db&amp;quot;;
+}
+
+.icon-undo-2:before {
+  content: &amp;quot;\e1dc&amp;quot;;
+}
+
+.icon-redo-2:before {
+  content: &amp;quot;\e1dd&amp;quot;;
+}
+
+.icon-forward-3:before {
+  content: &amp;quot;\e1de&amp;quot;;
+}
+
+.icon-reply-2:before {
+  content: &amp;quot;\e1df&amp;quot;;
+}
+
+.icon-bubble:before {
+  content: &amp;quot;\e1e0&amp;quot;;
+}
+
+.icon-bubbles:before {
+  content: &amp;quot;\e1e1&amp;quot;;
+}
+
+.icon-bubbles-2:before {
+  content: &amp;quot;\e1e2&amp;quot;;
+}
+
+.icon-bubble-2:before {
+  content: &amp;quot;\e1e3&amp;quot;;
+}
+
+.icon-bubbles-3:before {
+  content: &amp;quot;\e1e4&amp;quot;;
+}
+
+.icon-bubbles-4:before {
+  content: &amp;quot;\e1e5&amp;quot;;
+}
+
+.icon-user-3:before {
+  content: &amp;quot;\e1e6&amp;quot;;
+}
+
+.icon-users-3:before {
+  content: &amp;quot;\e1e7&amp;quot;;
+}
+
+.icon-user-4:before {
+  content: &amp;quot;\e1e8&amp;quot;;
+}
+
+.icon-users-4:before {
+  content: &amp;quot;\e1e9&amp;quot;;
+}
+
+.icon-user-5:before {
+  content: &amp;quot;\e1ea&amp;quot;;
+}
+
+.icon-user-6:before {
+  content: &amp;quot;\e1eb&amp;quot;;
+}
+
+.icon-quotes-left:before {
+  content: &amp;quot;\e1ec&amp;quot;;
+}
+
+.icon-busy:before {
+  content: &amp;quot;\e1ed&amp;quot;;
+}
+
+.icon-spinner:before {
+  content: &amp;quot;\e1ee&amp;quot;;
+}
+
+.icon-spinner-2:before {
+  content: &amp;quot;\e1ef&amp;quot;;
+}
+
+.icon-spinner-3:before {
+  content: &amp;quot;\e1f0&amp;quot;;
+}
+
+.icon-spinner-4:before {
+  content: &amp;quot;\e1f1&amp;quot;;
+}
+
+.icon-spinner-5:before {
+  content: &amp;quot;\e1f2&amp;quot;;
+}
+
+.icon-spinner-6:before {
+  content: &amp;quot;\e1f3&amp;quot;;
+}
+
+.icon-binoculars:before {
+  content: &amp;quot;\e1f4&amp;quot;;
+}
+
+.icon-search-3:before {
+  content: &amp;quot;\e1f5&amp;quot;;
+}
+
+.icon-zoom-in-2:before {
+  content: &amp;quot;\e1f6&amp;quot;;
+}
+
+.icon-zoom-out-2:before {
+  content: &amp;quot;\e1f7&amp;quot;;
+}
+
+.icon-expand-2:before {
+  content: &amp;quot;\e1f8&amp;quot;;
+}
+
+.icon-contract:before {
+  content: &amp;quot;\e1f9&amp;quot;;
+}
+
+.icon-expand-3:before {
+  content: &amp;quot;\e1fa&amp;quot;;
+}
+
+.icon-contract-2:before {
+  content: &amp;quot;\e1fb&amp;quot;;
+}
+
+.icon-key-3:before {
+  content: &amp;quot;\e1fc&amp;quot;;
+}
+
+.icon-key-4:before {
+  content: &amp;quot;\e1fd&amp;quot;;
+}
+
+.icon-lock-2:before {
+  content: &amp;quot;\e1fe&amp;quot;;
+}
+
+.icon-lock-3:before {
+  content: &amp;quot;\e1ff&amp;quot;;
+}
+
+.icon-unlocked-2:before {
+  content: &amp;quot;\e200&amp;quot;;
+}
+
+.icon-wrench-2:before {
+  content: &amp;quot;\e201&amp;quot;;
+}
+
+.icon-settings:before {
+  content: &amp;quot;\e202&amp;quot;;
+}
+
+.icon-equalizer:before {
+  content: &amp;quot;\e203&amp;quot;;
+}
+
+.icon-cog-3:before {
+  content: &amp;quot;\e204&amp;quot;;
+}
+
+.icon-cogs:before {
+  content: &amp;quot;\e205&amp;quot;;
+}
+
+.icon-cog-4:before {
+  content: &amp;quot;\e206&amp;quot;;
+}
+
+.icon-hammer:before {
+  content: &amp;quot;\e207&amp;quot;;
+}
+
+.icon-wand:before {
+  content: &amp;quot;\e208&amp;quot;;
+}
+
+.icon-aid:before {
+  content: &amp;quot;\e209&amp;quot;;
+}
+
+.icon-bug:before {
+  content: &amp;quot;\e20a&amp;quot;;
+}
+
+.icon-pie-2:before {
+  content: &amp;quot;\e20b&amp;quot;;
+}
+
+.icon-stats-2:before {
+  content: &amp;quot;\e20c&amp;quot;;
+}
+
+.icon-bars-3:before {
+  content: &amp;quot;\e20d&amp;quot;;
+}
+
+.icon-bars-4:before {
+  content: &amp;quot;\e20e&amp;quot;;
+}
+
+.icon-gift:before {
+  content: &amp;quot;\e20f&amp;quot;;
+}
+
+.icon-trophy-2:before {
+  content: &amp;quot;\e210&amp;quot;;
+}
+
+.icon-glass:before {
+  content: &amp;quot;\e211&amp;quot;;
+}
+
+.icon-mug:before {
+  content: &amp;quot;\e212&amp;quot;;
+}
+
+.icon-food:before {
+  content: &amp;quot;\e213&amp;quot;;
+}
+
+.icon-leaf-2:before {
+  content: &amp;quot;\e214&amp;quot;;
+}
+
+.icon-rocket-2:before {
+  content: &amp;quot;\e215&amp;quot;;
+}
+
+.icon-meter:before {
+  content: &amp;quot;\e216&amp;quot;;
+}
+
+.icon-meter2:before {
+  content: &amp;quot;\e217&amp;quot;;
+}
+
+.icon-dashboard:before {
+  content: &amp;quot;\e218&amp;quot;;
+}
+
+.icon-hammer-2:before {
+  content: &amp;quot;\e219&amp;quot;;
+}
+
+.icon-fire:before {
+  content: &amp;quot;\e21a&amp;quot;;
+}
+
+.icon-lab:before {
+  content: &amp;quot;\e21b&amp;quot;;
+}
+
+.icon-magnet-2:before {
+  content: &amp;quot;\e21c&amp;quot;;
+}
+
+.icon-remove:before {
+  content: &amp;quot;\e21d&amp;quot;;
+}
+
+.icon-remove-2:before {
+  content: &amp;quot;\e21e&amp;quot;;
+}
+
+.icon-briefcase-2:before {
+  content: &amp;quot;\e21f&amp;quot;;
+}
+
+.icon-airplane-2:before {
+  content: &amp;quot;\e220&amp;quot;;
+}
+
+.icon-truck:before {
+  content: &amp;quot;\e221&amp;quot;;
+}
+
+.icon-road:before {
+  content: &amp;quot;\e222&amp;quot;;
+}
+
+.icon-accessibility:before {
+  content: &amp;quot;\e223&amp;quot;;
+}
+
+.icon-target-2:before {
+  content: &amp;quot;\e224&amp;quot;;
+}
+
+.icon-shield:before {
+  content: &amp;quot;\e225&amp;quot;;
+}
+
+.icon-lightning:before {
+  content: &amp;quot;\e226&amp;quot;;
+}
+
+.icon-switch-2:before {
+  content: &amp;quot;\e227&amp;quot;;
+}
+
+.icon-power-cord:before {
+  content: &amp;quot;\e228&amp;quot;;
+}
+
+.icon-signup:before {
+  content: &amp;quot;\e229&amp;quot;;
+}
+
+.icon-list-5:before {
+  content: &amp;quot;\e22a&amp;quot;;
+}
+
+.icon-list-6:before {
+  content: &amp;quot;\e22b&amp;quot;;
+}
+
+.icon-numbered-list:before {
+  content: &amp;quot;\e22c&amp;quot;;
+}
+
+.icon-menu-2:before {
+  content: &amp;quot;\e22d&amp;quot;;
+}
+
+.icon-menu-3:before {
+  content: &amp;quot;\e22e&amp;quot;;
+}
+
+.icon-tree:before {
+  content: &amp;quot;\e22f&amp;quot;;
+}
+
+.icon-cloud-2:before {
+  content: &amp;quot;\e230&amp;quot;;
+}
+
+.icon-cloud-download:before {
+  content: &amp;quot;\e231&amp;quot;;
+}
+
+.icon-cloud-upload:before {
+  content: &amp;quot;\e232&amp;quot;;
+}
+
+.icon-download-4:before {
+  content: &amp;quot;\e233&amp;quot;;
+}
+
+.icon-upload-4:before {
+  content: &amp;quot;\e234&amp;quot;;
+}
+
+.icon-download-5:before {
+  content: &amp;quot;\e235&amp;quot;;
+}
+
+.icon-upload-5:before {
+  content: &amp;quot;\e236&amp;quot;;
+}
+
+.icon-globe-3:before {
+  content: &amp;quot;\e237&amp;quot;;
+}
+
+.icon-earth-2:before {
+  content: &amp;quot;\e238&amp;quot;;
+}
+
+.icon-link-2:before {
+  content: &amp;quot;\e239&amp;quot;;
+}
+
+.icon-flag-3:before {
+  content: &amp;quot;\e23a&amp;quot;;
+}
+
+.icon-attachment:before {
+  content: &amp;quot;\e23b&amp;quot;;
+}
+
+.icon-eye-3:before {
+  content: &amp;quot;\e23c&amp;quot;;
+}
+
+.icon-eye-blocked:before {
+  content: &amp;quot;\e23d&amp;quot;;
+}
+
+.icon-eye-4:before {
+  content: &amp;quot;\e23e&amp;quot;;
+}
+
+.icon-bookmark-3:before {
+  content: &amp;quot;\e23f&amp;quot;;
+}
+
+.icon-bookmarks-2:before {
+  content: &amp;quot;\e240&amp;quot;;
+}
+
+.icon-brightness-medium:before {
+  content: &amp;quot;\e241&amp;quot;;
+}
+
+.icon-brightness-contrast:before {
+  content: &amp;quot;\e242&amp;quot;;
+}
+
+.icon-contrast-2:before {
+  content: &amp;quot;\e243&amp;quot;;
+}
+
+.icon-star-4:before {
+  content: &amp;quot;\e244&amp;quot;;
+}
+
+.icon-star-5:before {
+  content: &amp;quot;\e245&amp;quot;;
+}
+
+.icon-star-6:before {
+  content: &amp;quot;\e246&amp;quot;;
+}
+
+.icon-heart-4:before {
+  content: &amp;quot;\e247&amp;quot;;
+}
+
+.icon-heart-5:before {
+  content: &amp;quot;\e248&amp;quot;;
+}
+
+.icon-heart-broken:before {
+  content: &amp;quot;\e249&amp;quot;;
+}
+
+.icon-thumbs-up-3:before {
+  content: &amp;quot;\e24a&amp;quot;;
+}
+
+.icon-thumbs-up-4:before {
+  content: &amp;quot;\e24b&amp;quot;;
+}
+
+.icon-happy:before {
+  content: &amp;quot;\e24c&amp;quot;;
+}
+
+.icon-happy-2:before {
+  content: &amp;quot;\e24d&amp;quot;;
+}
+
+.icon-smiley:before {
+  content: &amp;quot;\e24e&amp;quot;;
+}
+
+.icon-smiley-2:before {
+  content: &amp;quot;\e24f&amp;quot;;
+}
+
+.icon-tongue:before {
+  content: &amp;quot;\e250&amp;quot;;
+}
+
+.icon-tongue-2:before {
+  content: &amp;quot;\e251&amp;quot;;
+}
+
+.icon-sad:before {
+  content: &amp;quot;\e252&amp;quot;;
+}
+
+.icon-sad-2:before {
+  content: &amp;quot;\e253&amp;quot;;
+}
+
+.icon-wink:before {
+  content: &amp;quot;\e254&amp;quot;;
+}
+
+.icon-wink-2:before {
+  content: &amp;quot;\e255&amp;quot;;
+}
+
+.icon-grin:before {
+  content: &amp;quot;\e256&amp;quot;;
+}
+
+.icon-grin-2:before {
+  content: &amp;quot;\e257&amp;quot;;
+}
+
+.icon-cool:before {
+  content: &amp;quot;\e258&amp;quot;;
+}
+
+.icon-cool-2:before {
+  content: &amp;quot;\e259&amp;quot;;
+}
+
+.icon-angry:before {
+  content: &amp;quot;\e25a&amp;quot;;
+}
+
+.icon-angry-2:before {
+  content: &amp;quot;\e25b&amp;quot;;
+}
+
+.icon-evil:before {
+  content: &amp;quot;\e25c&amp;quot;;
+}
+
+.icon-evil-2:before {
+  content: &amp;quot;\e25d&amp;quot;;
+}
+
+.icon-shocked:before {
+  content: &amp;quot;\e25e&amp;quot;;
+}
+
+.icon-shocked-2:before {
+  content: &amp;quot;\e25f&amp;quot;;
+}
+
+.icon-confused:before {
+  content: &amp;quot;\e260&amp;quot;;
+}
+
+.icon-confused-2:before {
+  content: &amp;quot;\e261&amp;quot;;
+}
+
+.icon-neutral:before {
+  content: &amp;quot;\e262&amp;quot;;
+}
+
+.icon-neutral-2:before {
+  content: &amp;quot;\e263&amp;quot;;
+}
+
+.icon-wondering:before {
+  content: &amp;quot;\e264&amp;quot;;
+}
+
+.icon-wondering-2:before {
+  content: &amp;quot;\e265&amp;quot;;
+}
+
+.icon-point-up:before {
+  content: &amp;quot;\e266&amp;quot;;
+}
+
+.icon-point-right:before {
+  content: &amp;quot;\e267&amp;quot;;
+}
+
+.icon-point-down:before {
+  content: &amp;quot;\e268&amp;quot;;
+}
+
+.icon-point-left:before {
+  content: &amp;quot;\e269&amp;quot;;
+}
+
+.icon-warning-3:before {
+  content: &amp;quot;\e26a&amp;quot;;
+}
+
+.icon-notification:before {
+  content: &amp;quot;\e26b&amp;quot;;
+}
+
+.icon-question-3:before {
+  content: &amp;quot;\e26c&amp;quot;;
+}
+
+.icon-info-4:before {
+  content: &amp;quot;\e26d&amp;quot;;
+}
+
+.icon-info-5:before {
+  content: &amp;quot;\e26e&amp;quot;;
+}
+
+.icon-blocked-2:before {
+  content: &amp;quot;\e26f&amp;quot;;
+}
+
+.icon-cancel-circle:before {
+  content: &amp;quot;\e270&amp;quot;;
+}
+
+.icon-checkmark-circle:before {
+  content: &amp;quot;\e271&amp;quot;;
+}
+
+.icon-spam:before {
+  content: &amp;quot;\e272&amp;quot;;
+}
+
+.icon-close:before {
+  content: &amp;quot;\e273&amp;quot;;
+}
+
+.icon-checkmark-3:before {
+  content: &amp;quot;\e274&amp;quot;;
+}
+
+.icon-checkmark-4:before {
+  content: &amp;quot;\e275&amp;quot;;
+}
+
+.icon-spell-check:before {
+  content: &amp;quot;\e276&amp;quot;;
+}
+
+.icon-minus-5:before {
+  content: &amp;quot;\e277&amp;quot;;
+}
+
+.icon-plus-5:before {
+  content: &amp;quot;\e278&amp;quot;;
+}
+
+.icon-enter:before {
+  content: &amp;quot;\e279&amp;quot;;
+}
+
+.icon-exit:before {
+  content: &amp;quot;\e27a&amp;quot;;
+}
+
+.icon-play-3:before {
+  content: &amp;quot;\e27b&amp;quot;;
+}
+
+.icon-pause-2:before {
+  content: &amp;quot;\e27c&amp;quot;;
+}
+
+.icon-stop-2:before {
+  content: &amp;quot;\e27d&amp;quot;;
+}
+
+.icon-backward:before {
+  content: &amp;quot;\e27e&amp;quot;;
+}
+
+.icon-forward-4:before {
+  content: &amp;quot;\e27f&amp;quot;;
+}
+
+.icon-play-4:before {
+  content: &amp;quot;\e280&amp;quot;;
+}
+
+.icon-pause-3:before {
+  content: &amp;quot;\e281&amp;quot;;
+}
+
+.icon-stop-3:before {
+  content: &amp;quot;\e282&amp;quot;;
+}
+
+.icon-backward-2:before {
+  content: &amp;quot;\e283&amp;quot;;
+}
+
+.icon-forward-5:before {
+  content: &amp;quot;\e284&amp;quot;;
+}
+
+.icon-first-2:before {
+  content: &amp;quot;\e285&amp;quot;;
+}
+
+.icon-last-2:before {
+  content: &amp;quot;\e286&amp;quot;;
+}
+
+.icon-previous-2:before {
+  content: &amp;quot;\e287&amp;quot;;
+}
+
+.icon-next-2:before {
+  content: &amp;quot;\e288&amp;quot;;
+}
+
+.icon-eject-2:before {
+  content: &amp;quot;\e289&amp;quot;;
+}
+
+.icon-volume-high:before {
+  content: &amp;quot;\e28a&amp;quot;;
+}
+
+.icon-volume-medium:before {
+  content: &amp;quot;\e28b&amp;quot;;
+}
+
+.icon-volume-low:before {
+  content: &amp;quot;\e28c&amp;quot;;
+}
+
+.icon-volume-mute:before {
+  content: &amp;quot;\e28d&amp;quot;;
+}
+
+.icon-volume-mute-2:before {
+  content: &amp;quot;\e28e&amp;quot;;
+}
+
+.icon-volume-increase:before {
+  content: &amp;quot;\e28f&amp;quot;;
+}
+
+.icon-volume-decrease:before {
+  content: &amp;quot;\e290&amp;quot;;
+}
+
+.icon-loop-3:before {
+  content: &amp;quot;\e291&amp;quot;;
+}
+
+.icon-loop-4:before {
+  content: &amp;quot;\e292&amp;quot;;
+}
+
+.icon-loop-5:before {
+  content: &amp;quot;\e293&amp;quot;;
+}
+
+.icon-shuffle-3:before {
+  content: &amp;quot;\e294&amp;quot;;
+}
+
+.icon-arrow-up-left:before {
+  content: &amp;quot;\e295&amp;quot;;
+}
+
+.icon-arrow-up-9:before {
+  content: &amp;quot;\e296&amp;quot;;
+}
+
+.icon-arrow-up-right:before {
+  content: &amp;quot;\e297&amp;quot;;
+}
+
+.icon-arrow-right-10:before {
+  content: &amp;quot;\e298&amp;quot;;
+}
+
+.icon-arrow-down-right:before {
+  content: &amp;quot;\e299&amp;quot;;
+}
+
+.icon-arrow-down-10:before {
+  content: &amp;quot;\e29a&amp;quot;;
+}
+
+.icon-arrow-down-left:before {
+  content: &amp;quot;\e29b&amp;quot;;
+}
+
+.icon-arrow-left-11:before {
+  content: &amp;quot;\e29c&amp;quot;;
+}
+
+.icon-arrow-up-left-2:before {
+  content: &amp;quot;\e29d&amp;quot;;
+}
+
+.icon-arrow-up-10:before {
+  content: &amp;quot;\e29e&amp;quot;;
+}
+
+.icon-arrow-up-right-2:before {
+  content: &amp;quot;\e29f&amp;quot;;
+}
+
+.icon-arrow-right-11:before {
+  content: &amp;quot;\e2a0&amp;quot;;
+}
+
+.icon-arrow-down-right-2:before {
+  content: &amp;quot;\e2a1&amp;quot;;
+}
+
+.icon-arrow-down-11:before {
+  content: &amp;quot;\e2a2&amp;quot;;
+}
+
+.icon-arrow-down-left-2:before {
+  content: &amp;quot;\e2a3&amp;quot;;
+}
+
+.icon-arrow-left-12:before {
+  content: &amp;quot;\e2a4&amp;quot;;
+}
+
+.icon-arrow-up-left-3:before {
+  content: &amp;quot;\e2a5&amp;quot;;
+}
+
+.icon-arrow-up-11:before {
+  content: &amp;quot;\e2a6&amp;quot;;
+}
+
+.icon-arrow-up-right-3:before {
+  content: &amp;quot;\e2a7&amp;quot;;
+}
+
+.icon-arrow-right-12:before {
+  content: &amp;quot;\e2a8&amp;quot;;
+}
+
+.icon-arrow-down-right-3:before {
+  content: &amp;quot;\e2a9&amp;quot;;
+}
+
+.icon-arrow-down-12:before {
+  content: &amp;quot;\e2aa&amp;quot;;
+}
+
+.icon-arrow-down-left-3:before {
+  content: &amp;quot;\e2ab&amp;quot;;
+}
+
+.icon-arrow-left-13:before {
+  content: &amp;quot;\e2ac&amp;quot;;
+}
+
+.icon-tab:before {
+  content: &amp;quot;\e2ad&amp;quot;;
+}
+
+.icon-checkbox-checked:before {
+  content: &amp;quot;\e2ae&amp;quot;;
+}
+
+.icon-checkbox-unchecked:before {
+  content: &amp;quot;\e2af&amp;quot;;
+}
+
+.icon-checkbox-partial:before {
+  content: &amp;quot;\e2b0&amp;quot;;
+}
+
+.icon-radio-checked:before {
+  content: &amp;quot;\e2b1&amp;quot;;
+}
+
+.icon-radio-unchecked:before {
+  content: &amp;quot;\e2b2&amp;quot;;
+}
+
+.icon-crop:before {
+  content: &amp;quot;\e2b3&amp;quot;;
+}
+
+.icon-scissors-2:before {
+  content: &amp;quot;\e2b4&amp;quot;;
+}
+
+.icon-filter:before {
+  content: &amp;quot;\e2b5&amp;quot;;
+}
+
+.icon-filter-2:before {
+  content: &amp;quot;\e2b6&amp;quot;;
+}
+
+.icon-font:before {
+  content: &amp;quot;\e2b7&amp;quot;;
+}
+
+.icon-text-height:before {
+  content: &amp;quot;\e2b8&amp;quot;;
+}
+
+.icon-text-width:before {
+  content: &amp;quot;\e2b9&amp;quot;;
+}
+
+.icon-bold:before {
+  content: &amp;quot;\e2ba&amp;quot;;
+}
+
+.icon-underline:before {
+  content: &amp;quot;\e2bb&amp;quot;;
+}
+
+.icon-italic:before {
+  content: &amp;quot;\e2bc&amp;quot;;
+}
+
+.icon-strikethrough:before {
+  content: &amp;quot;\e2bd&amp;quot;;
+}
+
+.icon-omega:before {
+  content: &amp;quot;\e2be&amp;quot;;
+}
+
+.icon-sigma:before {
+  content: &amp;quot;\e2bf&amp;quot;;
+}
+
+.icon-table:before {
+  content: &amp;quot;\e2c0&amp;quot;;
+}
+
+.icon-table-2:before {
+  content: &amp;quot;\e2c1&amp;quot;;
+}
+
+.icon-insert-template:before {
+  content: &amp;quot;\e2c2&amp;quot;;
+}
+
+.icon-pilcrow:before {
+  content: &amp;quot;\e2c3&amp;quot;;
+}
+
+.icon-left-to-right:before {
+  content: &amp;quot;\e2c4&amp;quot;;
+}
+
+.icon-right-to-left:before {
+  content: &amp;quot;\e2c5&amp;quot;;
+}
+
+.icon-paragraph-left:before {
+  content: &amp;quot;\e2c6&amp;quot;;
+}
+
+.icon-paragraph-center:before {
+  content: &amp;quot;\e2c7&amp;quot;;
+}
+
+.icon-paragraph-right:before {
+  content: &amp;quot;\e2c8&amp;quot;;
+}
+
+.icon-paragraph-justify:before {
+  content: &amp;quot;\e2c9&amp;quot;;
+}
+
+.icon-paragraph-left-2:before {
+  content: &amp;quot;\e2ca&amp;quot;;
+}
+
+.icon-paragraph-center-2:before {
+  content: &amp;quot;\e2cb&amp;quot;;
+}
+
+.icon-paragraph-right-2:before {
+  content: &amp;quot;\e2cc&amp;quot;;
+}
+
+.icon-paragraph-justify-2:before {
+  content: &amp;quot;\e2cd&amp;quot;;
+}
+
+.icon-indent-increase:before {
+  content: &amp;quot;\e2ce&amp;quot;;
+}
+
+.icon-indent-decrease:before {
+  content: &amp;quot;\e2cf&amp;quot;;
+}
+
+.icon-new-tab:before {
+  content: &amp;quot;\e2d0&amp;quot;;
+}
+
+.icon-embed:before {
+  content: &amp;quot;\e2d1&amp;quot;;
+}
+
+.icon-code-2:before {
+  content: &amp;quot;\e2d2&amp;quot;;
+}
+
+.icon-console:before {
+  content: &amp;quot;\e2d3&amp;quot;;
+}
+
+.icon-share-2:before {
+  content: &amp;quot;\e2d4&amp;quot;;
+}
+
+.icon-mail-3:before {
+  content: &amp;quot;\e2d5&amp;quot;;
+}
+
+.icon-mail-4:before {
+  content: &amp;quot;\e2d6&amp;quot;;
+}
+
+.icon-mail-5:before {
+  content: &amp;quot;\e2d7&amp;quot;;
+}
+
+.icon-mail-6:before {
+  content: &amp;quot;\e2d8&amp;quot;;
+}
+
+.icon-google:before {
+  content: &amp;quot;\e2d9&amp;quot;;
+}
+
+.icon-google-plus:before {
+  content: &amp;quot;\e2da&amp;quot;;
+}
+
+.icon-google-plus-2:before {
+  content: &amp;quot;\e2db&amp;quot;;
+}
+
+.icon-google-plus-3:before {
+  content: &amp;quot;\e2dc&amp;quot;;
+}
+
+.icon-google-plus-4:before {
+  content: &amp;quot;\e2dd&amp;quot;;
+}
+
+.icon-google-drive:before {
+  content: &amp;quot;\e2de&amp;quot;;
+}
+
+.icon-facebook-4:before {
+  content: &amp;quot;\e2df&amp;quot;;
+}
+
+.icon-facebook-5:before {
+  content: &amp;quot;\e2e0&amp;quot;;
+}
+
+.icon-facebook-6:before {
+  content: &amp;quot;\e2e1&amp;quot;;
+}
+
+.icon-instagram-2:before {
+  content: &amp;quot;\e2e2&amp;quot;;
+}
+
+.icon-twitter-3:before {
+  content: &amp;quot;\e2e3&amp;quot;;
+}
+
+.icon-twitter-4:before {
+  content: &amp;quot;\e2e4&amp;quot;;
+}
+
+.icon-twitter-5:before {
+  content: &amp;quot;\e2e5&amp;quot;;
+}
+
+.icon-feed-3:before {
+  content: &amp;quot;\e2e6&amp;quot;;
+}
+
+.icon-feed-4:before {
+  content: &amp;quot;\e2e7&amp;quot;;
+}
+
+.icon-feed-5:before {
+  content: &amp;quot;\e2e8&amp;quot;;
+}
+
+.icon-youtube:before {
+  content: &amp;quot;\e2e9&amp;quot;;
+}
+
+.icon-youtube-2:before {
+  content: &amp;quot;\e2ea&amp;quot;;
+}
+
+.icon-vimeo-3:before {
+  content: &amp;quot;\e2eb&amp;quot;;
+}
+
+.icon-vimeo2:before {
+  content: &amp;quot;\e2ec&amp;quot;;
+}
+
+.icon-vimeo-4:before {
+  content: &amp;quot;\e2ed&amp;quot;;
+}
+
+.icon-lanyrd:before {
+  content: &amp;quot;\e2ee&amp;quot;;
+}
+
+.icon-flickr-3:before {
+  content: &amp;quot;\e2ef&amp;quot;;
+}
+
+.icon-flickr-4:before {
+  content: &amp;quot;\e2f0&amp;quot;;
+}
+
+.icon-flickr-5:before {
+  content: &amp;quot;\e2f1&amp;quot;;
+}
+
+.icon-flickr-6:before {
+  content: &amp;quot;\e2f2&amp;quot;;
+}
+
+.icon-picassa:before {
+  content: &amp;quot;\e2f3&amp;quot;;
+}
+
+.icon-picassa-2:before {
+  content: &amp;quot;\e2f4&amp;quot;;
+}
+
+.icon-dribbble-3:before {
+  content: &amp;quot;\e2f5&amp;quot;;
+}
+
+.icon-dribbble-4:before {
+  content: &amp;quot;\e2f6&amp;quot;;
+}
+
+.icon-dribbble-5:before {
+  content: &amp;quot;\e2f7&amp;quot;;
+}
+
+.icon-forrst:before {
+  content: &amp;quot;\e2f8&amp;quot;;
+}
+
+.icon-forrst-2:before {
+  content: &amp;quot;\e2f9&amp;quot;;
+}
+
+.icon-deviantart:before {
+  content: &amp;quot;\e2fa&amp;quot;;
+}
+
+.icon-deviantart-2:before {
+  content: &amp;quot;\e2fb&amp;quot;;
+}
+
+.icon-steam:before {
+  content: &amp;quot;\e2fc&amp;quot;;
+}
+
+.icon-steam-2:before {
+  content: &amp;quot;\e2fd&amp;quot;;
+}
+
+.icon-github-3:before {
+  content: &amp;quot;\e2fe&amp;quot;;
+}
+
+.icon-github-4:before {
+  content: &amp;quot;\e2ff&amp;quot;;
+}
+
+.icon-github-5:before {
+  content: &amp;quot;\e300&amp;quot;;
+}
+
+.icon-github-6:before {
+  content: &amp;quot;\e301&amp;quot;;
+}
+
+.icon-github-7:before {
+  content: &amp;quot;\e302&amp;quot;;
+}
+
+.icon-wordpress:before {
+  content: &amp;quot;\e303&amp;quot;;
+}
+
+.icon-wordpress-2:before {
+  content: &amp;quot;\e304&amp;quot;;
+}
+
+.icon-joomla:before {
+  content: &amp;quot;\e305&amp;quot;;
+}
+
+.icon-blogger:before {
+  content: &amp;quot;\e306&amp;quot;;
+}
+
+.icon-blogger-2:before {
+  content: &amp;quot;\e307&amp;quot;;
+}
+
+.icon-tumblr-3:before {
+  content: &amp;quot;\e308&amp;quot;;
+}
+
+.icon-tumblr-4:before {
+  content: &amp;quot;\e309&amp;quot;;
+}
+
+.icon-yahoo:before {
+  content: &amp;quot;\e30a&amp;quot;;
+}
+
+.icon-tux:before {
+  content: &amp;quot;\e30b&amp;quot;;
+}
+
+.icon-apple:before {
+  content: &amp;quot;\e30c&amp;quot;;
+}
+
+.icon-finder:before {
+  content: &amp;quot;\e30d&amp;quot;;
+}
+
+.icon-android:before {
+  content: &amp;quot;\e30e&amp;quot;;
+}
+
+.icon-windows:before {
+  content: &amp;quot;\e30f&amp;quot;;
+}
+
+.icon-windows8:before {
+  content: &amp;quot;\e310&amp;quot;;
+}
+
+.icon-soundcloud-2:before {
+  content: &amp;quot;\e311&amp;quot;;
+}
+
+.icon-soundcloud-3:before {
+  content: &amp;quot;\e312&amp;quot;;
+}
+
+.icon-skype-3:before {
+  content: &amp;quot;\e313&amp;quot;;
+}
+
+.icon-reddit:before {
+  content: &amp;quot;\e314&amp;quot;;
+}
+
+.icon-linkedin-3:before {
+  content: &amp;quot;\e315&amp;quot;;
+}
+
+.icon-lastfm-3:before {
+  content: &amp;quot;\e316&amp;quot;;
+}
+
+.icon-lastfm-4:before {
+  content: &amp;quot;\e317&amp;quot;;
+}
+
+.icon-delicious:before {
+  content: &amp;quot;\e318&amp;quot;;
+}
+
+.icon-stumbleupon-3:before {
+  content: &amp;quot;\e319&amp;quot;;
+}
+
+.icon-stumbleupon-4:before {
+  content: &amp;quot;\e31a&amp;quot;;
+}
+
+.icon-stackoverflow:before {
+  content: &amp;quot;\e31b&amp;quot;;
+}
+
+.icon-pinterest-3:before {
+  content: &amp;quot;\e31c&amp;quot;;
+}
+
+.icon-pinterest-4:before {
+  content: &amp;quot;\e31d&amp;quot;;
+}
+
+.icon-xing:before {
+  content: &amp;quot;\e31e&amp;quot;;
+}
+
+.icon-xing-2:before {
+  content: &amp;quot;\e31f&amp;quot;;
+}
+
+.icon-flattr-2:before {
+  content: &amp;quot;\e320&amp;quot;;
+}
+
+.icon-foursquare:before {
+  content: &amp;quot;\e321&amp;quot;;
+}
+
+.icon-foursquare-2:before {
+  content: &amp;quot;\e322&amp;quot;;
+}
+
+.icon-paypal-2:before {
+  content: &amp;quot;\e323&amp;quot;;
+}
+
+.icon-paypal-3:before {
+  content: &amp;quot;\e324&amp;quot;;
+}
+
+.icon-paypal-4:before {
+  content: &amp;quot;\e325&amp;quot;;
+}
+
+.icon-yelp:before {
+  content: &amp;quot;\e326&amp;quot;;
+}
+
+.icon-libreoffice:before {
+  content: &amp;quot;\e327&amp;quot;;
+}
+
+.icon-file-pdf:before {
+  content: &amp;quot;\e328&amp;quot;;
+}
+
+.icon-file-openoffice:before {
+  content: &amp;quot;\e329&amp;quot;;
+}
+
+.icon-file-word:before {
+  content: &amp;quot;\e32a&amp;quot;;
+}
+
+.icon-file-excel:before {
+  content: &amp;quot;\e32b&amp;quot;;
+}
+
+.icon-file-zip:before {
+  content: &amp;quot;\e32c&amp;quot;;
+}
+
+.icon-file-powerpoint:before {
+  content: &amp;quot;\e32d&amp;quot;;
+}
+
+.icon-file-xml:before {
+  content: &amp;quot;\e32e&amp;quot;;
+}
+
+.icon-file-css:before {
+  content: &amp;quot;\e32f&amp;quot;;
+}
+
+.icon-html5:before {
+  content: &amp;quot;\e330&amp;quot;;
+}
+
+.icon-html5-2:before {
+  content: &amp;quot;\e331&amp;quot;;
+}
+
+.icon-css3:before {
+  content: &amp;quot;\e332&amp;quot;;
+}
+
+.icon-chrome:before {
+  content: &amp;quot;\e333&amp;quot;;
+}
+
+.icon-firefox:before {
+  content: &amp;quot;\e334&amp;quot;;
+}
+
+.icon-IE:before {
+  content: &amp;quot;\e335&amp;quot;;
+}
+
+.icon-opera:before {
+  content: &amp;quot;\e336&amp;quot;;
+}
+
+.icon-safari:before {
+  content: &amp;quot;\e337&amp;quot;;
+}
+
+.icon-IcoMoon:before {
+  content: &amp;quot;\e338&amp;quot;;
+}
+
+.icon-warning-4:before {
+  content: &amp;quot;\e339&amp;quot;;
+}
+
+.icon-cloud-3:before {
+  content: &amp;quot;\e33a&amp;quot;;
+}
+
+.icon-locked-2:before {
+  content: &amp;quot;\e33b&amp;quot;;
+}
+
+.icon-inbox:before {
+  content: &amp;quot;\e33c&amp;quot;;
+}
+
+.icon-comment-3:before {
+  content: &amp;quot;\e33d&amp;quot;;
+}
+
+.icon-mic:before {
+  content: &amp;quot;\e33e&amp;quot;;
+}
+
+.icon-envelope:before {
+  content: &amp;quot;\e33f&amp;quot;;
+}
+
+.icon-briefcase-3:before {
+  content: &amp;quot;\e340&amp;quot;;
+}
+
+.icon-cart-5:before {
+  content: &amp;quot;\e341&amp;quot;;
+}
+
+.icon-contrast-3:before {
+  content: &amp;quot;\e342&amp;quot;;
+}
+
+.icon-clock-5:before {
+  content: &amp;quot;\e343&amp;quot;;
+}
+
+.icon-user-7:before {
+  content: &amp;quot;\e344&amp;quot;;
+}
+
+.icon-cog-5:before {
+  content: &amp;quot;\e345&amp;quot;;
+}
+
+.icon-music-6:before {
+  content: &amp;quot;\e346&amp;quot;;
+}
+
+.icon-twitter-6:before {
+  content: &amp;quot;\e347&amp;quot;;
+}
+
+.icon-pencil-6:before {
+  content: &amp;quot;\e348&amp;quot;;
+}
+
+.icon-frame:before {
+  content: &amp;quot;\e349&amp;quot;;
+}
+
+.icon-switch-3:before {
+  content: &amp;quot;\e34a&amp;quot;;
+}
+
+.icon-star-7:before {
+  content: &amp;quot;\e34b&amp;quot;;
+}
+
+.icon-key-5:before {
+  content: &amp;quot;\e34c&amp;quot;;
+}
+
+.icon-chart-2:before {
+  content: &amp;quot;\e34d&amp;quot;;
+}
+
+.icon-apple-2:before {
+  content: &amp;quot;\e34e&amp;quot;;
+}
+
+.icon-file-5:before {
+  content: &amp;quot;\e34f&amp;quot;;
+}
+
+.icon-plus-6:before {
+  content: &amp;quot;\e350&amp;quot;;
+}
+
+.icon-minus-6:before {
+  content: &amp;quot;\e351&amp;quot;;
+}
+
+.icon-picture:before {
+  content: &amp;quot;\e352&amp;quot;;
+}
+
+.icon-folder-3:before {
+  content: &amp;quot;\e353&amp;quot;;
+}
+
+.icon-camera-5:before {
+  content: &amp;quot;\e354&amp;quot;;
+}
+
+.icon-search-4:before {
+  content: &amp;quot;\e355&amp;quot;;
+}
+
+.icon-dribbble-6:before {
+  content: &amp;quot;\e356&amp;quot;;
+}
+
+.icon-forrst-3:before {
+  content: &amp;quot;\e357&amp;quot;;
+}
+
+.icon-feed-6:before {
+  content: &amp;quot;\e358&amp;quot;;
+}
+
+.icon-blocked-3:before {
+  content: &amp;quot;\e359&amp;quot;;
+}
+
+.icon-target-3:before {
+  content: &amp;quot;\e35a&amp;quot;;
+}
+
+.icon-play-5:before {
+  content: &amp;quot;\e35b&amp;quot;;
+}
+
+.icon-pause-4:before {
+  content: &amp;quot;\e35c&amp;quot;;
+}
+
+.icon-bug-2:before {
+  content: &amp;quot;\e35d&amp;quot;;
+}
+
+.icon-console-2:before {
+  content: &amp;quot;\e35e&amp;quot;;
+}
+
+.icon-film-2:before {
+  content: &amp;quot;\e35f&amp;quot;;
+}
+
+.icon-type:before {
+  content: &amp;quot;\e360&amp;quot;;
+}
+
+.icon-home-5:before {
+  content: &amp;quot;\e361&amp;quot;;
+}
+
+.icon-earth-3:before {
+  content: &amp;quot;\e362&amp;quot;;
+}
+
+.icon-location-6:before {
+  content: &amp;quot;\e363&amp;quot;;
+}
+
+.icon-info-6:before {
+  content: &amp;quot;\e364&amp;quot;;
+}
+
+.icon-eye-5:before {
+  content: &amp;quot;\e365&amp;quot;;
+}
+
+.icon-heart-6:before {
+  content: &amp;quot;\e366&amp;quot;;
+}
+
+.icon-bookmark-4:before {
+  content: &amp;quot;\e367&amp;quot;;
+}
+
+.icon-wrench-3:before {
+  content: &amp;quot;\e368&amp;quot;;
+}
+
+.icon-calendar-5:before {
+  content: &amp;quot;\e369&amp;quot;;
+}
+
+.icon-window:before {
+  content: &amp;quot;\e36a&amp;quot;;
+}
+
+.icon-monitor:before {
+  content: &amp;quot;\e36b&amp;quot;;
+}
+
+.icon-mobile-5:before {
+  content: &amp;quot;\e36c&amp;quot;;
+}
+
+.icon-droplet-3:before {
+  content: &amp;quot;\e36d&amp;quot;;
+}
+
+.icon-mouse-2:before {
+  content: &amp;quot;\e36e&amp;quot;;
+}
+
+.icon-refresh-3:before {
+  content: &amp;quot;\e36f&amp;quot;;
+}
+
+.icon-location-7:before {
+  content: &amp;quot;\e370&amp;quot;;
+}
+
+.icon-tag-4:before {
+  content: &amp;quot;\e371&amp;quot;;
+}
+
+.icon-phone-4:before {
+  content: &amp;quot;\e372&amp;quot;;
+}
+
+.icon-star-8:before {
+  content: &amp;quot;\e373&amp;quot;;
+}
+
+.icon-pointer:before {
+  content: &amp;quot;\e374&amp;quot;;
+}
+
+.icon-thumbs-up-5:before {
+  content: &amp;quot;\e375&amp;quot;;
+}
+
+.icon-thumbs-down-3:before {
+  content: &amp;quot;\e376&amp;quot;;
+}
+
+.icon-headphones-2:before {
+  content: &amp;quot;\e377&amp;quot;;
+}
+
+.icon-move-2:before {
+  content: &amp;quot;\e378&amp;quot;;
+}
+
+.icon-checkmark-5:before {
+  content: &amp;quot;\e379&amp;quot;;
+}
+
+.icon-cancel-2:before {
+  content: &amp;quot;\e37a&amp;quot;;
+}
+
+.icon-skype-4:before {
+  content: &amp;quot;\e37b&amp;quot;;
+}
+
+.icon-gift-2:before {
+  content: &amp;quot;\e37c&amp;quot;;
+}
+
+.icon-cone-2:before {
+  content: &amp;quot;\e37d&amp;quot;;
+}
+
+.icon-alarm-3:before {
+  content: &amp;quot;\e37e&amp;quot;;
+}
+
+.icon-coffee:before {
+  content: &amp;quot;\e37f&amp;quot;;
+}
+
+.icon-basket:before {
+  content: &amp;quot;\e380&amp;quot;;
+}
+
+.icon-flag-4:before {
+  content: &amp;quot;\e381&amp;quot;;
+}
+
+.icon-ipod:before {
+  content: &amp;quot;\e382&amp;quot;;
+}
+
+.icon-trashcan-2:before {
+  content: &amp;quot;\e383&amp;quot;;
+}
+
+.icon-bolt-2:before {
+  content: &amp;quot;\e384&amp;quot;;
+}
+
+.icon-ampersand:before {
+  content: &amp;quot;\e385&amp;quot;;
+}
+
+.icon-compass-4:before {
+  content: &amp;quot;\e386&amp;quot;;
+}
+
+.icon-list-7:before {
+  content: &amp;quot;\e387&amp;quot;;
+}
+
+.icon-grid-2:before {
+  content: &amp;quot;\e388&amp;quot;;
+}
+
+.icon-volume-3:before {
+  content: &amp;quot;\e389&amp;quot;;
+}
+
+.icon-volume-4:before {
+  content: &amp;quot;\e38a&amp;quot;;
+}
+
+.icon-stats-3:before {
+  content: &amp;quot;\e38b&amp;quot;;
+}
+
+.icon-target-4:before {
+  content: &amp;quot;\e38c&amp;quot;;
+}
+
+.icon-forward-6:before {
+  content: &amp;quot;\e38d&amp;quot;;
+}
+
+.icon-paperclip-2:before {
+  content: &amp;quot;\e38e&amp;quot;;
+}
+
+.icon-keyboard-3:before {
+  content: &amp;quot;\e38f&amp;quot;;
+}
+
+.icon-crop-2:before {
+  content: &amp;quot;\e390&amp;quot;;
+}
+
+.icon-floppy:before {
+  content: &amp;quot;\e391&amp;quot;;
+}
+
+.icon-filter-3:before {
+  content: &amp;quot;\e392&amp;quot;;
+}
+
+.icon-trophy-3:before {
+  content: &amp;quot;\e393&amp;quot;;
+}
+
+.icon-diary:before {
+  content: &amp;quot;\e394&amp;quot;;
+}
+
+.icon-address-book-2:before {
+  content: &amp;quot;\e395&amp;quot;;
+}
+
+.icon-stop-4:before {
+  content: &amp;quot;\e396&amp;quot;;
+}
+
+.icon-smiley-3:before {
+  content: &amp;quot;\e397&amp;quot;;
+}
+
+.icon-shit:before {
+  content: &amp;quot;\e398&amp;quot;;
+}
+
+.icon-bookmark-5:before {
+  content: &amp;quot;\e399&amp;quot;;
+}
+
+.icon-camera-6:before {
+  content: &amp;quot;\e39a&amp;quot;;
+}
+
+.icon-lamp:before {
+  content: &amp;quot;\e39b&amp;quot;;
+}
+
+.icon-disk-3:before {
+  content: &amp;quot;\e39c&amp;quot;;
+}
+
+.icon-button:before {
+  content: &amp;quot;\e39d&amp;quot;;
+}
+
+.icon-database-2:before {
+  content: &amp;quot;\e39e&amp;quot;;
+}
+
+.icon-credit-card-2:before {
+  content: &amp;quot;\e39f&amp;quot;;
+}
+
+.icon-atom:before {
+  content: &amp;quot;\e3a0&amp;quot;;
+}
+
+.icon-winsows:before {
+  content: &amp;quot;\e3a1&amp;quot;;
+}
+
+.icon-target-5:before {
+  content: &amp;quot;\e3a2&amp;quot;;
+}
+
+.icon-battery-3:before {
+  content: &amp;quot;\e3a3&amp;quot;;
+}
+
+.icon-code-3:before {
+  content: &amp;quot;\e3a4&amp;quot;;
+}
+
+.icon-sunrise:before {
+  content: &amp;quot;\e3a5&amp;quot;;
+}
+
+.icon-sun-4:before {
+  content: &amp;quot;\e3a6&amp;quot;;
+}
+
+.icon-moon-2:before {
+  content: &amp;quot;\e3a7&amp;quot;;
+}
+
+.icon-sun-5:before {
+  content: &amp;quot;\e3a8&amp;quot;;
+}
+
+.icon-windy:before {
+  content: &amp;quot;\e3a9&amp;quot;;
+}
+
+.icon-wind:before {
+  content: &amp;quot;\e3aa&amp;quot;;
+}
+
+.icon-snowflake:before {
+  content: &amp;quot;\e3ab&amp;quot;;
+}
+
+.icon-cloudy:before {
+  content: &amp;quot;\e3ac&amp;quot;;
+}
+
+.icon-cloud-4:before {
+  content: &amp;quot;\e3ad&amp;quot;;
+}
+
+.icon-weather:before {
+  content: &amp;quot;\e3ae&amp;quot;;
+}
+
+.icon-weather-2:before {
+  content: &amp;quot;\e3af&amp;quot;;
+}
+
+.icon-weather-3:before {
+  content: &amp;quot;\e3b0&amp;quot;;
+}
+
+.icon-lines:before {
+  content: &amp;quot;\e3b1&amp;quot;;
+}
+
+.icon-cloud-5:before {
+  content: &amp;quot;\e3b2&amp;quot;;
+}
+
+.icon-lightning-2:before {
+  content: &amp;quot;\e3b3&amp;quot;;
+}
+
+.icon-lightning-3:before {
+  content: &amp;quot;\e3b4&amp;quot;;
+}
+
+.icon-rainy:before {
+  content: &amp;quot;\e3b5&amp;quot;;
+}
+
+.icon-rainy-2:before {
+  content: &amp;quot;\e3b6&amp;quot;;
+}
+
+.icon-windy-2:before {
+  content: &amp;quot;\e3b7&amp;quot;;
+}
+
+.icon-windy-3:before {
+  content: &amp;quot;\e3b8&amp;quot;;
+}
+
+.icon-snowy:before {
+  content: &amp;quot;\e3b9&amp;quot;;
+}
+
+.icon-snowy-2:before {
+  content: &amp;quot;\e3ba&amp;quot;;
+}
+
+.icon-snowy-3:before {
+  content: &amp;quot;\e3bb&amp;quot;;
+}
+
+.icon-weather-4:before {
+  content: &amp;quot;\e3bc&amp;quot;;
+}
+
+.icon-cloudy-2:before {
+  content: &amp;quot;\e3bd&amp;quot;;
+}
+
+.icon-cloud-6:before {
+  content: &amp;quot;\e3be&amp;quot;;
+}
+
+.icon-lightning-4:before {
+  content: &amp;quot;\e3bf&amp;quot;;
+}
+
+.icon-sun-6:before {
+  content: &amp;quot;\e3c0&amp;quot;;
+}
+
+.icon-moon-3:before {
+  content: &amp;quot;\e3c1&amp;quot;;
+}
+
+.icon-cloudy-3:before {
+  content: &amp;quot;\e3c2&amp;quot;;
+}
+
+.icon-cloud-7:before {
+  content: &amp;quot;\e3c3&amp;quot;;
+}
+
+.icon-cloud-8:before {
+  content: &amp;quot;\e3c4&amp;quot;;
+}
+
+.icon-lightning-5:before {
+  content: &amp;quot;\e3c5&amp;quot;;
+}
+
+.icon-rainy-3:before {
+  content: &amp;quot;\e3c6&amp;quot;;
+}
+
+.icon-rainy-4:before {
+  content: &amp;quot;\e3c7&amp;quot;;
+}
+
+.icon-windy-4:before {
+  content: &amp;quot;\e3c8&amp;quot;;
+}
+
+.icon-windy-5:before {
+  content: &amp;quot;\e3c9&amp;quot;;
+}
+
+.icon-snowy-4:before {
+  content: &amp;quot;\e3ca&amp;quot;;
+}
+
+.icon-snowy-5:before {
+  content: &amp;quot;\e3cb&amp;quot;;
+}
+
+.icon-weather-5:before {
+  content: &amp;quot;\e3cc&amp;quot;;
+}
+
+.icon-cloudy-4:before {
+  content: &amp;quot;\e3cd&amp;quot;;
+}
+
+.icon-lightning-6:before {
+  content: &amp;quot;\e3ce&amp;quot;;
+}
+
+.icon-thermometer-2:before {
+  content: &amp;quot;\e3cf&amp;quot;;
+}
+
+.icon-compass-5:before {
+  content: &amp;quot;\e3d0&amp;quot;;
+}
+
+.icon-none:before {
+  content: &amp;quot;\e3d1&amp;quot;;
+}
+
+.icon-Celsius:before {
+  content: &amp;quot;\e3d2&amp;quot;;
+}
+
+.icon-Fahrenheit:before {
+  content: &amp;quot;\e3d3&amp;quot;;
+}
+
+.icon-chat-3:before {
+  content: &amp;quot;\e3d4&amp;quot;;
+}
+
+.icon-chat-alt-stroke:before {
+  content: &amp;quot;\e3d5&amp;quot;;
+}
+
+.icon-chat-alt-fill:before {
+  content: &amp;quot;\e3d6&amp;quot;;
+}
+
+.icon-comment-alt1-stroke:before {
+  content: &amp;quot;\e3d7&amp;quot;;
+}
+
+.icon-comment-alt1-fill:before {
+  content: &amp;quot;\e3d8&amp;quot;;
+}
+
+.icon-comment-stroke:before {
+  content: &amp;quot;\e3d9&amp;quot;;
+}
+
+.icon-comment-fill:before {
+  content: &amp;quot;\e3da&amp;quot;;
+}
+
+.icon-comment-alt2-stroke:before {
+  content: &amp;quot;\e3db&amp;quot;;
+}
+
+.icon-comment-alt2-fill:before {
+  content: &amp;quot;\e3dc&amp;quot;;
+}
+
+.icon-checkmark-6:before {
+  content: &amp;quot;\e3dd&amp;quot;;
+}
+
+.icon-check-alt:before {
+  content: &amp;quot;\e3de&amp;quot;;
+}
+
+.icon-x:before {
+  content: &amp;quot;\e3df&amp;quot;;
+}
+
+.icon-x-altx-alt:before {
+  content: &amp;quot;\e3e0&amp;quot;;
+}
+
+.icon-denied:before {
+  content: &amp;quot;\e3e1&amp;quot;;
+}
+
+.icon-cursor:before {
+  content: &amp;quot;\e3e2&amp;quot;;
+}
+
+.icon-rss-2:before {
+  content: &amp;quot;\e3e3&amp;quot;;
+}
+
+.icon-rss-alt:before {
+  content: &amp;quot;\e3e4&amp;quot;;
+}
+
+.icon-wrench-4:before {
+  content: &amp;quot;\e3e5&amp;quot;;
+}
+
+.icon-dial:before {
+  content: &amp;quot;\e3e6&amp;quot;;
+}
+
+.icon-cog-6:before {
+  content: &amp;quot;\e3e7&amp;quot;;
+}
+
+.icon-calendar-6:before {
+  content: &amp;quot;\e3e8&amp;quot;;
+}
+
+.icon-calendar-alt-stroke:before {
+  content: &amp;quot;\e3e9&amp;quot;;
+}
+
+.icon-calendar-alt-fill:before {
+  content: &amp;quot;\e3ea&amp;quot;;
+}
+
+.icon-share-3:before {
+  content: &amp;quot;\e3eb&amp;quot;;
+}
+
+.icon-mail-7:before {
+  content: &amp;quot;\e3ec&amp;quot;;
+}
+
+.icon-heart-stroke:before {
+  content: &amp;quot;\e3ed&amp;quot;;
+}
+
+.icon-heart-fill:before {
+  content: &amp;quot;\e3ee&amp;quot;;
+}
+
+.icon-movie:before {
+  content: &amp;quot;\e3ef&amp;quot;;
+}
+
+.icon-document-alt-stroke:before {
+  content: &amp;quot;\e3f0&amp;quot;;
+}
+
+.icon-document-alt-fill:before {
+  content: &amp;quot;\e3f1&amp;quot;;
+}
+
+.icon-document-stroke:before {
+  content: &amp;quot;\e3f2&amp;quot;;
+}
+
+.icon-document-fill:before {
+  content: &amp;quot;\e3f3&amp;quot;;
+}
+
+.icon-plus-7:before {
+  content: &amp;quot;\e3f4&amp;quot;;
+}
+
+.icon-plus-alt:before {
+  content: &amp;quot;\e3f5&amp;quot;;
+}
+
+.icon-minus-7:before {
+  content: &amp;quot;\e3f6&amp;quot;;
+}
+
+.icon-minus-alt:before {
+  content: &amp;quot;\e3f7&amp;quot;;
+}
+
+.icon-pin-2:before {
+  content: &amp;quot;\e3f8&amp;quot;;
+}
+
+.icon-link-3:before {
+  content: &amp;quot;\e3f9&amp;quot;;
+}
+
+.icon-bolt-3:before {
+  content: &amp;quot;\e3fa&amp;quot;;
+}
+
+.icon-move-3:before {
+  content: &amp;quot;\e3fb&amp;quot;;
+}
+
+.icon-move-alt1:before {
+  content: &amp;quot;\e3fc&amp;quot;;
+}
+
+.icon-move-alt2:before {
+  content: &amp;quot;\e3fd&amp;quot;;
+}
+
+.icon-equalizer-2:before {
+  content: &amp;quot;\e3fe&amp;quot;;
+}
+
+.icon-award-fill:before {
+  content: &amp;quot;\e3ff&amp;quot;;
+}
+
+.icon-award-stroke:before {
+  content: &amp;quot;\e400&amp;quot;;
+}
+
+.icon-magnifying-glass:before {
+  content: &amp;quot;\e401&amp;quot;;
+}
+
+.icon-trash-stroke:before {
+  content: &amp;quot;\e402&amp;quot;;
+}
+
+.icon-trash-fill:before {
+  content: &amp;quot;\e403&amp;quot;;
+}
+
+.icon-beaker-alt:before {
+  content: &amp;quot;\e404&amp;quot;;
+}
+
+.icon-beaker:before {
+  content: &amp;quot;\e405&amp;quot;;
+}
+
+.icon-key-stroke:before {
+  content: &amp;quot;\e406&amp;quot;;
+}
+
+.icon-key-fill:before {
+  content: &amp;quot;\e407&amp;quot;;
+}
+
+.icon-new-window:before {
+  content: &amp;quot;\e408&amp;quot;;
+}
+
+.icon-lightbulb:before {
+  content: &amp;quot;\e409&amp;quot;;
+}
+
+.icon-spin-alt:before {
+  content: &amp;quot;\e40a&amp;quot;;
+}
+
+.icon-spin:before {
+  content: &amp;quot;\e40b&amp;quot;;
+}
+
+.icon-curved-arrow:before {
+  content: &amp;quot;\e40c&amp;quot;;
+}
+
+.icon-undo-3:before {
+  content: &amp;quot;\e40d&amp;quot;;
+}
+
+.icon-reload:before {
+  content: &amp;quot;\e40e&amp;quot;;
+}
+
+.icon-reload-alt:before {
+  content: &amp;quot;\e40f&amp;quot;;
+}
+
+.icon-loop-6:before {
+  content: &amp;quot;\e410&amp;quot;;
+}
+
+.icon-loop-alt1:before {
+  content: &amp;quot;\e411&amp;quot;;
+}
+
+.icon-loop-alt2:before {
+  content: &amp;quot;\e412&amp;quot;;
+}
+
+.icon-loop-alt3:before {
+  content: &amp;quot;\e413&amp;quot;;
+}
+
+.icon-loop-alt4:before {
+  content: &amp;quot;\e414&amp;quot;;
+}
+
+.icon-transfer:before {
+  content: &amp;quot;\e415&amp;quot;;
+}
+
+.icon-move-vertical:before {
+  content: &amp;quot;\e416&amp;quot;;
+}
+
+.icon-move-vertical-alt1:before {
+  content: &amp;quot;\e417&amp;quot;;
+}
+
+.icon-move-vertical-alt2:before {
+  content: &amp;quot;\e418&amp;quot;;
+}
+
+.icon-move-horizontal:before {
+  content: &amp;quot;\e419&amp;quot;;
+}
+
+.icon-move-horizontal-alt1:before {
+  content: &amp;quot;\e41a&amp;quot;;
+}
+
+.icon-move-horizontal-alt2:before {
+  content: &amp;quot;\e41b&amp;quot;;
+}
+
+.icon-arrow-left-14:before {
+  content: &amp;quot;\e41c&amp;quot;;
+}
+
+.icon-arrow-left-alt1:before {
+  content: &amp;quot;\e41d&amp;quot;;
+}
+
+.icon-arrow-left-alt2:before {
+  content: &amp;quot;\e41e&amp;quot;;
+}
+
+.icon-arrow-right-13:before {
+  content: &amp;quot;\e41f&amp;quot;;
+}
+
+.icon-arrow-right-alt1:before {
+  content: &amp;quot;\e420&amp;quot;;
+}
+
+.icon-arrow-right-alt2:before {
+  content: &amp;quot;\e421&amp;quot;;
+}
+
+.icon-arrow-up-12:before {
+  content: &amp;quot;\e422&amp;quot;;
+}
+
+.icon-arrow-up-alt1:before {
+  content: &amp;quot;\e423&amp;quot;;
+}
+
+.icon-arrow-up-alt2:before {
+  content: &amp;quot;\e424&amp;quot;;
+}
+
+.icon-arrow-down-13:before {
+  content: &amp;quot;\e425&amp;quot;;
+}
+
+.icon-arrow-down-alt1:before {
+  content: &amp;quot;\e426&amp;quot;;
+}
+
+.icon-arrow-down-alt2:before {
+  content: &amp;quot;\e427&amp;quot;;
+}
+
+.icon-cd-2:before {
+  content: &amp;quot;\e428&amp;quot;;
+}
+
+.icon-steering-wheel:before {
+  content: &amp;quot;\e429&amp;quot;;
+}
+
+.icon-microphone-3:before {
+  content: &amp;quot;\e42a&amp;quot;;
+}
+
+.icon-headphones-3:before {
+  content: &amp;quot;\e42b&amp;quot;;
+}
+
+.icon-volume-5:before {
+  content: &amp;quot;\e42c&amp;quot;;
+}
+
+.icon-volume-mute-3:before {
+  content: &amp;quot;\e42d&amp;quot;;
+}
+
+.icon-play-6:before {
+  content: &amp;quot;\e42e&amp;quot;;
+}
+
+.icon-pause-5:before {
+  content: &amp;quot;\e42f&amp;quot;;
+}
+
+.icon-stop-5:before {
+  content: &amp;quot;\e430&amp;quot;;
+}
+
+.icon-eject-3:before {
+  content: &amp;quot;\e431&amp;quot;;
+}
+
+.icon-first-3:before {
+  content: &amp;quot;\e432&amp;quot;;
+}
+
+.icon-last-3:before {
+  content: &amp;quot;\e433&amp;quot;;
+}
+
+.icon-play-alt:before {
+  content: &amp;quot;\e434&amp;quot;;
+}
+
+.icon-fullscreen-exit:before {
+  content: &amp;quot;\e435&amp;quot;;
+}
+
+.icon-fullscreen-exit-alt:before {
+  content: &amp;quot;\e436&amp;quot;;
+}
+
+.icon-fullscreen:before {
+  content: &amp;quot;\e437&amp;quot;;
+}
+
+.icon-fullscreen-alt:before {
+  content: &amp;quot;\e438&amp;quot;;
+}
+
+.icon-iphone:before {
+  content: &amp;quot;\e439&amp;quot;;
+}
+
+.icon-battery-empty:before {
+  content: &amp;quot;\e43a&amp;quot;;
+}
+
+.icon-battery-half:before {
+  content: &amp;quot;\e43b&amp;quot;;
+}
+
+.icon-battery-full-2:before {
+  content: &amp;quot;\e43c&amp;quot;;
+}
+
+.icon-battery-charging-2:before {
+  content: &amp;quot;\e43d&amp;quot;;
+}
+
+.icon-compass-6:before {
+  content: &amp;quot;\e43e&amp;quot;;
+}
+
+.icon-box-2:before {
+  content: &amp;quot;\e43f&amp;quot;;
+}
+
+.icon-folder-stroke:before {
+  content: &amp;quot;\e440&amp;quot;;
+}
+
+.icon-folder-fill:before {
+  content: &amp;quot;\e441&amp;quot;;
+}
+
+.icon-at:before {
+  content: &amp;quot;\e442&amp;quot;;
+}
+
+.icon-ampersand-2:before {
+  content: &amp;quot;\e443&amp;quot;;
+}
+
+.icon-info-7:before {
+  content: &amp;quot;\e444&amp;quot;;
+}
+
+.icon-question-mark:before {
+  content: &amp;quot;\e445&amp;quot;;
+}
+
+.icon-pilcrow-2:before {
+  content: &amp;quot;\e446&amp;quot;;
+}
+
+.icon-hash:before {
+  content: &amp;quot;\e447&amp;quot;;
+}
+
+.icon-left-quote:before {
+  content: &amp;quot;\e448&amp;quot;;
+}
+
+.icon-right-quote:before {
+  content: &amp;quot;\e449&amp;quot;;
+}
+
+.icon-left-quote-alt:before {
+  content: &amp;quot;\e44a&amp;quot;;
+}
+
+.icon-right-quote-alt:before {
+  content: &amp;quot;\e44b&amp;quot;;
+}
+
+.icon-article:before {
+  content: &amp;quot;\e44c&amp;quot;;
+}
+
+.icon-read-more:before {
+  content: &amp;quot;\e44d&amp;quot;;
+}
+
+.icon-list-8:before {
+  content: &amp;quot;\e44e&amp;quot;;
+}
+
+.icon-list-nested:before {
+  content: &amp;quot;\e44f&amp;quot;;
+}
+
+.icon-book-4:before {
+  content: &amp;quot;\e450&amp;quot;;
+}
+
+.icon-book-alt:before {
+  content: &amp;quot;\e451&amp;quot;;
+}
+
+.icon-book-alt2:before {
+  content: &amp;quot;\e452&amp;quot;;
+}
+
+.icon-pen-2:before {
+  content: &amp;quot;\e453&amp;quot;;
+}
+
+.icon-pen-alt-stroke:before {
+  content: &amp;quot;\e454&amp;quot;;
+}
+
+.icon-pen-alt-fill:before {
+  content: &amp;quot;\e455&amp;quot;;
+}
+
+.icon-pen-alt2:before {
+  content: &amp;quot;\e456&amp;quot;;
+}
+
+.icon-brush-2:before {
+  content: &amp;quot;\e457&amp;quot;;
+}
+
+.icon-brush-alt:before {
+  content: &amp;quot;\e458&amp;quot;;
+}
+
+.icon-eyedropper:before {
+  content: &amp;quot;\e459&amp;quot;;
+}
+
+.icon-layers-alt:before {
+  content: &amp;quot;\e45a&amp;quot;;
+}
+
+.icon-layers:before {
+  content: &amp;quot;\e45b&amp;quot;;
+}
+
+.icon-image-3:before {
+  content: &amp;quot;\e45c&amp;quot;;
+}
+
+.icon-camera-7:before {
+  content: &amp;quot;\e45d&amp;quot;;
+}
+
+.icon-aperture:before {
+  content: &amp;quot;\e45e&amp;quot;;
+}
+
+.icon-aperture-alt:before {
+  content: &amp;quot;\e45f&amp;quot;;
+}
+
+.icon-chart-3:before {
+  content: &amp;quot;\e460&amp;quot;;
+}
+
+.icon-chart-alt:before {
+  content: &amp;quot;\e461&amp;quot;;
+}
+
+.icon-bars-5:before {
+  content: &amp;quot;\e462&amp;quot;;
+}
+
+.icon-bars-alt:before {
+  content: &amp;quot;\e463&amp;quot;;
+}
+
+.icon-eye-6:before {
+  content: &amp;quot;\e464&amp;quot;;
+}
+
+.icon-user-8:before {
+  content: &amp;quot;\e465&amp;quot;;
+}
+
+.icon-home-6:before {
+  content: &amp;quot;\e466&amp;quot;;
+}
+
+.icon-clock-6:before {
+  content: &amp;quot;\e467&amp;quot;;
+}
+
+.icon-lock-stroke:before {
+  content: &amp;quot;\e468&amp;quot;;
+}
+
+.icon-lock-fill:before {
+  content: &amp;quot;\e469&amp;quot;;
+}
+
+.icon-unlock-stroke:before {
+  content: &amp;quot;\e46a&amp;quot;;
+}
+
+.icon-unlock-fill:before {
+  content: &amp;quot;\e46b&amp;quot;;
+}
+
+.icon-tag-stroke:before {
+  content: &amp;quot;\e46c&amp;quot;;
+}
+
+.icon-tag-fill:before {
+  content: &amp;quot;\e46d&amp;quot;;
+}
+
+.icon-sun-stroke:before {
+  content: &amp;quot;\e46e&amp;quot;;
+}
+
+.icon-sun-fill:before {
+  content: &amp;quot;\e46f&amp;quot;;
+}
+
+.icon-moon-stroke:before {
+  content: &amp;quot;\e470&amp;quot;;
+}
+
+.icon-moon-fill:before {
+  content: &amp;quot;\e471&amp;quot;;
+}
+
+.icon-cloud-9:before {
+  content: &amp;quot;\e472&amp;quot;;
+}
+
+.icon-rain:before {
+  content: &amp;quot;\e473&amp;quot;;
+}
+
+.icon-umbrella:before {
+  content: &amp;quot;\e474&amp;quot;;
+}
+
+.icon-star-9:before {
+  content: &amp;quot;\e475&amp;quot;;
+}
+
+.icon-map-pin-stroke:before {
+  content: &amp;quot;\e476&amp;quot;;
+}
+
+.icon-map-pin-fill:before {
+  content: &amp;quot;\e477&amp;quot;;
+}
+
+.icon-map-pin-alt:before {
+  content: &amp;quot;\e478&amp;quot;;
+}
+
+.icon-target-6:before {
+  content: &amp;quot;\e479&amp;quot;;
+}
+
+.icon-download-6:before {
+  content: &amp;quot;\e47a&amp;quot;;
+}
+
+.icon-upload-6:before {
+  content: &amp;quot;\e47b&amp;quot;;
+}
+
+.icon-cloud-download-2:before {
+  content: &amp;quot;\e47c&amp;quot;;
+}
+
+.icon-cloud-upload-2:before {
+  content: &amp;quot;\e47d&amp;quot;;
+}
+
+.icon-fork:before {
+  content: &amp;quot;\e47e&amp;quot;;
+}
+
+.icon-paperclip-3:before {
+  content: &amp;quot;\e47f&amp;quot;;
+}
+
+
+

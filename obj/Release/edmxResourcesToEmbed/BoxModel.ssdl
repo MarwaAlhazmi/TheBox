@@ -1,0 +1,1041 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="boxModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="boxModelStoreContainer">
+    <EntitySet Name="Agenda" EntityType="boxModel.Store.Agenda" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AgendaPrivacy" EntityType="boxModel.Store.AgendaPrivacy" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Comment" EntityType="boxModel.Store.Comment" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DFile" EntityType="boxModel.Store.DFile" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Discussion" EntityType="boxModel.Store.Discussion" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Events" EntityType="boxModel.Store.Events" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FilePrivacy" EntityType="boxModel.Store.FilePrivacy" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Invitation" EntityType="boxModel.Store.Invitation" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Location" EntityType="boxModel.Store.Location" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Meeting" EntityType="boxModel.Store.Meeting" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MeetingFile" EntityType="boxModel.Store.MeetingFile" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MeetingLocation" EntityType="boxModel.Store.MeetingLocation" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MeetingParticipant" EntityType="boxModel.Store.MeetingParticipant" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MeetingResource" EntityType="boxModel.Store.MeetingResource" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MeetingType" EntityType="boxModel.Store.MeetingType" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="NotificationHeader" EntityType="boxModel.Store.NotificationHeader" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="NotInfo" EntityType="boxModel.Store.NotInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Project" EntityType="boxModel.Store.Project" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ProjectFile" EntityType="boxModel.Store.ProjectFile" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ProjectPrivacy" EntityType="boxModel.Store.ProjectPrivacy" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ProjectUser" EntityType="boxModel.Store.ProjectUser" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Reply" EntityType="boxModel.Store.Reply" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Resource" EntityType="boxModel.Store.Resource" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="boxModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TaskAssign" EntityType="boxModel.Store.TaskAssign" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TaskUser" EntityType="boxModel.Store.TaskUser" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UserProfile" EntityType="boxModel.Store.UserProfile" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Agenda_Agenda" Association="boxModel.Store.FK_Agenda_Agenda">
+      <End Role="Agenda" EntitySet="Agenda" />
+      <End Role="Agenda1" EntitySet="Agenda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Agenda_Meeting" Association="boxModel.Store.FK_Agenda_Meeting">
+      <End Role="Meeting" EntitySet="Meeting" />
+      <End Role="Agenda" EntitySet="Agenda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AgendaPrivacy_Agenda" Association="boxModel.Store.FK_AgendaPrivacy_Agenda">
+      <End Role="Agenda" EntitySet="Agenda" />
+      <End Role="AgendaPrivacy" EntitySet="AgendaPrivacy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AgendaPrivacy_MeetingParticipant" Association="boxModel.Store.FK_AgendaPrivacy_MeetingParticipant">
+      <End Role="MeetingParticipant" EntitySet="MeetingParticipant" />
+      <End Role="AgendaPrivacy" EntitySet="AgendaPrivacy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Comment_UserProfile" Association="boxModel.Store.FK_Comment_UserProfile">
+      <End Role="UserProfile" EntitySet="UserProfile" />
+      <End Role="Comment" EntitySet="Comment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DFile_UserProfile" Association="boxModel.Store.FK_DFile_UserProfile">
+      <End Role="UserProfile" EntitySet="UserProfile" />
+      <End Role="DFile" EntitySet="DFile" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Discussion_Agenda" Association="boxModel.Store.FK_Discussion_Agenda">
+      <End Role="Agenda" EntitySet="Agenda" />
+      <End Role="Discussion" EntitySet="Discussion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Discussion_Meeting" Association="boxModel.Store.FK_Discussion_Meeting">
+      <End Role="Meeting" EntitySet="Meeting" />
+      <End Role="Discussion" EntitySet="Discussion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Discussion_Project" Association="boxModel.Store.FK_Discussion_Project">
+      <End Role="Project" EntitySet="Project" />
+      <End Role="Discussion" EntitySet="Discussion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Discussion_ProjectFile" Association="boxModel.Store.FK_Discussion_ProjectFile">
+      <End Role="ProjectFile" EntitySet="ProjectFile" />
+      <End Role="Discussion" EntitySet="Discussion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Discussion_UserProfile" Association="boxModel.Store.FK_Discussion_UserProfile">
+      <End Role="UserProfile" EntitySet="UserProfile" />
+      <End Role="Discussion" EntitySet="Discussion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FilePrivacy_DFile" Association="boxModel.Store.FK_FilePrivacy_DFile">
+      <End Role="DFile" EntitySet="DFile" />
+      <End Role="FilePrivacy" EntitySet="FilePrivacy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FilePrivacy_UserProfile" Association="boxModel.Store.FK_FilePrivacy_UserProfile">
+      <End Role="UserProfile" EntitySet="UserProfile" />
+      <End Role="FilePrivacy" EntitySet="FilePrivacy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Invitation_Meeting" Association="boxModel.Store.FK_Invitation_Meeting">
+      <End Role="Meeting" EntitySet="Meeting" />
+      <End Role="Invitation" EntitySet="Invitation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Invitation_UserProfile" Association="boxModel.Store.FK_Invitation_UserProfile">
+      <End Role="UserProfile" EntitySet="UserProfile" />
+      <End Role="Invitation" EntitySet="Invitation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Meeting_MeetingType" Association="boxModel.Store.FK_Meeting_MeetingType">
+      <End Role="MeetingType" EntitySet="MeetingType" />
+      <End Role="Meeting" EntitySet="Meeting" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MeetingFile_Meeting" Association="boxModel.Store.FK_MeetingFile_Meeting">
+      <End Role="Meeting" EntitySet="Meeting" />
+      <End Role="MeetingFile" EntitySet="MeetingFile" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MeetingLocation_Location" Association="boxModel.Store.FK_MeetingLocation_Location">
+      <End Role="Location" EntitySet="Location" />
+      <End Role="MeetingLocation" EntitySet="MeetingLocation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MeetingLocation_Meeting" Association="boxModel.Store.FK_MeetingLocation_Meeting">
+      <End Role="Meeting" EntitySet="Meeting" />
+      <End Role="MeetingLocation" EntitySet="MeetingLocation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MeetingParticipant_Meeting" Association="boxModel.Store.FK_MeetingParticipant_Meeting">
+      <End Role="Meeting" EntitySet="Meeting" />
+      <End Role="MeetingParticipant" EntitySet="MeetingParticipant" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MeetingParticipant_UserProfile" Association="boxModel.Store.FK_MeetingParticipant_UserProfile">
+      <End Role="UserProfile" EntitySet="UserProfile" />
+      <End Role="MeetingParticipant" EntitySet="MeetingParticipant" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MeetingResource_Meeting" Association="boxModel.Store.FK_MeetingResource_Meeting">
+      <End Role="Meeting" EntitySet="Meeting" />
+      <End Role="MeetingResource" EntitySet="MeetingResource" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MeetingResource_Resource" Association="boxModel.Store.FK_MeetingResource_Resource">
+      <End Role="Resource" EntitySet="Resource" />
+      <End Role="MeetingResource" EntitySet="MeetingResource" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NotificationHeader_Agenda" Association="boxModel.Store.FK_NotificationHeader_Agenda">
+      <End Role="Agenda" EntitySet="Agenda" />
+      <End Role="NotificationHeader" EntitySet="NotificationHeader" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NotificationHeader_Discussion" Association="boxModel.Store.FK_NotificationHeader_Discussion">
+      <End Role="Discussion" EntitySet="Discussion" />
+      <End Role="NotificationHeader" EntitySet="NotificationHeader" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NotificationHeader_Meeting" Association="boxModel.Store.FK_NotificationHeader_Meeting">
+      <End Role="Meeting" EntitySet="Meeting" />
+      <End Role="NotificationHeader" EntitySet="NotificationHeader" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NotificationHeader_Project" Association="boxModel.Store.FK_NotificationHeader_Project">
+      <End Role="Project" EntitySet="Project" />
+      <End Role="NotificationHeader" EntitySet="NotificationHeader" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NotificationHeader_UserProfile" Association="boxModel.Store.FK_NotificationHeader_UserProfile">
+      <End Role="UserProfile" EntitySet="UserProfile" />
+      <End Role="NotificationHeader" EntitySet="NotificationHeader" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NotInfo_NotificationHeader" Association="boxModel.Store.FK_NotInfo_NotificationHeader">
+      <End Role="NotificationHeader" EntitySet="NotificationHeader" />
+      <End Role="NotInfo" EntitySet="NotInfo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NotInfo_UserProfile" Association="boxModel.Store.FK_NotInfo_UserProfile">
+      <End Role="UserProfile" EntitySet="UserProfile" />
+      <End Role="NotInfo" EntitySet="NotInfo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProjectFile_Project" Association="boxModel.Store.FK_ProjectFile_Project">
+      <End Role="Project" EntitySet="Project" />
+      <End Role="ProjectFile" EntitySet="ProjectFile" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProjectFile_ProjectUser" Association="boxModel.Store.FK_ProjectFile_ProjectUser">
+      <End Role="ProjectUser" EntitySet="ProjectUser" />
+      <End Role="ProjectFile" EntitySet="ProjectFile" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProjectPrivacy_ProjectFile" Association="boxModel.Store.FK_ProjectPrivacy_ProjectFile">
+      <End Role="ProjectFile" EntitySet="ProjectFile" />
+      <End Role="ProjectPrivacy" EntitySet="ProjectPrivacy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProjectPrivacy_ProjectUser" Association="boxModel.Store.FK_ProjectPrivacy_ProjectUser">
+      <End Role="ProjectUser" EntitySet="ProjectUser" />
+      <End Role="ProjectPrivacy" EntitySet="ProjectPrivacy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProjectUser_Project" Association="boxModel.Store.FK_ProjectUser_Project">
+      <End Role="Project" EntitySet="Project" />
+      <End Role="ProjectUser" EntitySet="ProjectUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProjectUser_UserProfile" Association="boxModel.Store.FK_ProjectUser_UserProfile">
+      <End Role="UserProfile" EntitySet="UserProfile" />
+      <End Role="ProjectUser" EntitySet="ProjectUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Reply_Discussion" Association="boxModel.Store.FK_Reply_Discussion">
+      <End Role="Discussion" EntitySet="Discussion" />
+      <End Role="Reply" EntitySet="Reply" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Reply_UserProfile" Association="boxModel.Store.FK_Reply_UserProfile">
+      <End Role="UserProfile" EntitySet="UserProfile" />
+      <End Role="Reply" EntitySet="Reply" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TaskAssign_Agenda" Association="boxModel.Store.FK_TaskAssign_Agenda">
+      <End Role="Agenda" EntitySet="Agenda" />
+      <End Role="TaskAssign" EntitySet="TaskAssign" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TaskAssign_Meeting" Association="boxModel.Store.FK_TaskAssign_Meeting">
+      <End Role="Meeting" EntitySet="Meeting" />
+      <End Role="TaskAssign" EntitySet="TaskAssign" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TaskAssign_ProjectFile" Association="boxModel.Store.FK_TaskAssign_ProjectFile">
+      <End Role="ProjectFile" EntitySet="ProjectFile" />
+      <End Role="TaskAssign" EntitySet="TaskAssign" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TaskAssign_UserProfile" Association="boxModel.Store.FK_TaskAssign_UserProfile">
+      <End Role="UserProfile" EntitySet="UserProfile" />
+      <End Role="TaskAssign" EntitySet="TaskAssign" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TaskUser_TaskAssign" Association="boxModel.Store.FK_TaskUser_TaskAssign">
+      <End Role="TaskAssign" EntitySet="TaskAssign" />
+      <End Role="TaskUser" EntitySet="TaskUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TaskUser_UserProfile" Association="boxModel.Store.FK_TaskUser_UserProfile">
+      <End Role="UserProfile" EntitySet="UserProfile" />
+      <End Role="TaskUser" EntitySet="TaskUser" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Agenda">
+    <Key>
+      <PropertyRef Name="AgendaID" />
+    </Key>
+    <Property Name="AgendaID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AgendaCount" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="AgendaTitle" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="AgendaDesc" Type="text" Nullable="false" />
+    <Property Name="MeetingID" Type="int" Nullable="false" />
+    <Property Name="Published" Type="bit" Nullable="false" />
+    <Property Name="SubAgenda" Type="int" />
+    <Property Name="Privacy" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="AgendaPrivacy">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AgendaID" Type="int" Nullable="false" />
+    <Property Name="PartiID" Type="int" Nullable="false" />
+    <Property Name="CanSee" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Comment">
+    <Key>
+      <PropertyRef Name="CommentID" />
+    </Key>
+    <Property Name="CommentID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="Text" Type="text" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DFile">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Filename" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DateAdded" Type="datetime" Nullable="false" />
+    <Property Name="UpFolder" Type="nvarchar" Nullable="false" MaxLength="150" />
+    <Property Name="Directory" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="FullName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Creator" Type="int" Nullable="false" />
+    <Property Name="Privacy" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Locked" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Discussion">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="Text" Type="text" Nullable="false" />
+    <Property Name="MeetingID" Type="int" />
+    <Property Name="AgendaID" Type="int" />
+    <Property Name="ProjectID" Type="int" />
+    <Property Name="FileID" Type="int" />
+  </EntityType>
+  <EntityType Name="Events">
+    <Key>
+      <PropertyRef Name="CalendarKey" />
+    </Key>
+    <Property Name="CalendarKey" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="StartDate" Type="datetime" Nullable="false" />
+    <Property Name="EndDate" Type="datetime" Nullable="false" />
+    <Property Name="AllDayEvent" Type="bit" Nullable="false" />
+    <Property Name="backgroundColor" Type="nvarchar" MaxLength="10" />
+    <Property Name="Evnet" Type="text" />
+  </EntityType>
+  <EntityType Name="FilePrivacy">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="FileID" Type="int" Nullable="false" />
+    <Property Name="CanSee" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Invitation">
+    <Key>
+      <PropertyRef Name="UserID" />
+      <PropertyRef Name="MeetingID" />
+    </Key>
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="MeetingID" Type="int" Nullable="false" />
+    <Property Name="Response" Type="nvarchar" Nullable="false" MaxLength="150" />
+    <Property Name="SentDate" Type="datetime" Nullable="false" />
+    <Property Name="ResponseDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Location">
+    <Key>
+      <PropertyRef Name="LocationID" />
+    </Key>
+    <Property Name="LocationID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LocationName" Type="nvarchar" Nullable="false" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Meeting">
+    <Key>
+      <PropertyRef Name="MeetingID" />
+    </Key>
+    <Property Name="MeetingID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Type" Type="int" Nullable="false" />
+    <Property Name="MeetingTitle" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="MeetingDesc" Type="text" Nullable="false" />
+    <Property Name="StartDate" Type="datetime" Nullable="false" />
+    <Property Name="EndDate" Type="datetime" Nullable="false" />
+    <Property Name="Mee" Type="bit" Nullable="false" />
+    <Property Name="App" Type="bit" Nullable="false" />
+    <Property Name="Cal" Type="bit" Nullable="false" />
+    <Property Name="AllDay" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MeetingFile">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="MeetingID" Type="int" Nullable="false" />
+    <Property Name="DateAdded" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MeetingLocation">
+    <Key>
+      <PropertyRef Name="LocationID" />
+      <PropertyRef Name="MeetingID" />
+    </Key>
+    <Property Name="LocationID" Type="int" Nullable="false" />
+    <Property Name="MeetingID" Type="int" Nullable="false" />
+    <Property Name="StartDate" Type="date" />
+    <Property Name="StartTime" Type="datetime" />
+    <Property Name="EndTime" Type="datetime" />
+    <Property Name="EndDate" Type="date" />
+  </EntityType>
+  <EntityType Name="MeetingParticipant">
+    <Key>
+      <PropertyRef Name="MeetingParti" />
+    </Key>
+    <Property Name="MeetingParti" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MeetingID" Type="int" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="Response" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Role" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Note" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="InvitationDate" Type="datetime" />
+    <Property Name="ResponseDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="MeetingResource">
+    <Key>
+      <PropertyRef Name="MeetingID" />
+      <PropertyRef Name="ResourceID" />
+    </Key>
+    <Property Name="MeetingID" Type="int" Nullable="false" />
+    <Property Name="ResourceID" Type="int" Nullable="false" />
+    <Property Name="Quantity" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MeetingType">
+    <Key>
+      <PropertyRef Name="CatID" />
+    </Key>
+    <Property Name="CatID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Type" Type="nvarchar" Nullable="false" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="NotificationHeader">
+    <Key>
+      <PropertyRef Name="NotID" />
+    </Key>
+    <Property Name="NotID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="NotType" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="MeetingID" Type="int" />
+    <Property Name="AgendaID" Type="int" />
+    <Property Name="ProjectID" Type="int" />
+    <Property Name="NotDate" Type="datetime" Nullable="false" />
+    <Property Name="NotCreator" Type="int" Nullable="false" />
+    <Property Name="DiscussionID" Type="int" />
+  </EntityType>
+  <EntityType Name="NotInfo">
+    <Key>
+      <PropertyRef Name="NotInfoID" />
+    </Key>
+    <Property Name="NotInfoID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="NotHeaderID" Type="int" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="Ack" Type="bit" Nullable="false" />
+    <Property Name="Seen" Type="bit" Nullable="false" />
+    <Property Name="DateSeen" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Project">
+    <Key>
+      <PropertyRef Name="ProjectID" />
+    </Key>
+    <Property Name="ProjectID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProjectTitle" Type="nvarchar" Nullable="false" MaxLength="250" />
+    <Property Name="DateCreated" Type="datetime" Nullable="false" />
+    <Property Name="RootPath" Type="nvarchar" Nullable="false" MaxLength="550" />
+  </EntityType>
+  <EntityType Name="ProjectFile">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProjectID" Type="int" Nullable="false" />
+    <Property Name="DateAdded" Type="datetime" Nullable="false" />
+    <Property Name="UpFolder" Type="nvarchar" Nullable="false" MaxLength="550" />
+    <Property Name="Directory" Type="nvarchar" Nullable="false" MaxLength="550" />
+    <Property Name="FullName" Type="nvarchar" Nullable="false" MaxLength="550" />
+    <Property Name="Creator" Type="int" Nullable="false" />
+    <Property Name="FileName" Type="nvarchar" Nullable="false" MaxLength="550" />
+    <Property Name="Privacy" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ProjectPrivacy">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProjectFileID" Type="int" Nullable="false" />
+    <Property Name="ProjectUserID" Type="int" Nullable="false" />
+    <Property Name="CanSee" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProjectUser">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProjectID" Type="int" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="AddedDate" Type="datetime" Nullable="false" />
+    <Property Name="Role" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Creator" Type="bit" />
+  </EntityType>
+  <EntityType Name="Reply">
+    <Key>
+      <PropertyRef Name="ReplyID" />
+    </Key>
+    <Property Name="ReplyID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DiscussionID" Type="int" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="Text" Type="text" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Resource">
+    <Key>
+      <PropertyRef Name="RID" />
+    </Key>
+    <Property Name="RID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="RName" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="RDesc" Type="text" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TaskAssign">
+    <Key>
+      <PropertyRef Name="TaskID" />
+    </Key>
+    <Property Name="TaskID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TaskTitle" Type="nvarchar" Nullable="false" MaxLength="350" />
+    <Property Name="DueDate" Type="date" Nullable="false" />
+    <Property Name="DateCreated" Type="datetime" Nullable="false" />
+    <Property Name="TaskDesc" Type="text" Nullable="false" />
+    <Property Name="MeetingID" Type="int" />
+    <Property Name="AgendaID" Type="int" />
+    <Property Name="Creator" Type="int" />
+    <Property Name="ProjecFileID" Type="int" />
+  </EntityType>
+  <EntityType Name="TaskUser">
+    <Key>
+      <PropertyRef Name="TaskID" />
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="TaskID" Type="int" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="TDesc" Type="text" />
+    <Property Name="AssignedDate" Type="datetime" />
+    <Property Name="ResponseDate" Type="datetime" />
+    <Property Name="Response" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="UserProfile">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="LastName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Email" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Position" Type="nvarchar" Nullable="false" MaxLength="100" />
+  </EntityType>
+  <Association Name="FK_Agenda_Agenda">
+    <End Role="Agenda" Type="boxModel.Store.Agenda" Multiplicity="0..1" />
+    <End Role="Agenda1" Type="boxModel.Store.Agenda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Agenda">
+        <PropertyRef Name="AgendaID" />
+      </Principal>
+      <Dependent Role="Agenda1">
+        <PropertyRef Name="SubAgenda" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Agenda_Meeting">
+    <End Role="Meeting" Type="boxModel.Store.Meeting" Multiplicity="1" />
+    <End Role="Agenda" Type="boxModel.Store.Agenda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meeting">
+        <PropertyRef Name="MeetingID" />
+      </Principal>
+      <Dependent Role="Agenda">
+        <PropertyRef Name="MeetingID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AgendaPrivacy_Agenda">
+    <End Role="Agenda" Type="boxModel.Store.Agenda" Multiplicity="1" />
+    <End Role="AgendaPrivacy" Type="boxModel.Store.AgendaPrivacy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Agenda">
+        <PropertyRef Name="AgendaID" />
+      </Principal>
+      <Dependent Role="AgendaPrivacy">
+        <PropertyRef Name="AgendaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AgendaPrivacy_MeetingParticipant">
+    <End Role="MeetingParticipant" Type="boxModel.Store.MeetingParticipant" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AgendaPrivacy" Type="boxModel.Store.AgendaPrivacy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MeetingParticipant">
+        <PropertyRef Name="MeetingParti" />
+      </Principal>
+      <Dependent Role="AgendaPrivacy">
+        <PropertyRef Name="PartiID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Comment_UserProfile">
+    <End Role="UserProfile" Type="boxModel.Store.UserProfile" Multiplicity="1" />
+    <End Role="Comment" Type="boxModel.Store.Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserProfile">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Comment">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DFile_UserProfile">
+    <End Role="UserProfile" Type="boxModel.Store.UserProfile" Multiplicity="1" />
+    <End Role="DFile" Type="boxModel.Store.DFile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserProfile">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="DFile">
+        <PropertyRef Name="Creator" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Discussion_Agenda">
+    <End Role="Agenda" Type="boxModel.Store.Agenda" Multiplicity="0..1" />
+    <End Role="Discussion" Type="boxModel.Store.Discussion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Agenda">
+        <PropertyRef Name="AgendaID" />
+      </Principal>
+      <Dependent Role="Discussion">
+        <PropertyRef Name="AgendaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Discussion_Meeting">
+    <End Role="Meeting" Type="boxModel.Store.Meeting" Multiplicity="0..1" />
+    <End Role="Discussion" Type="boxModel.Store.Discussion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meeting">
+        <PropertyRef Name="MeetingID" />
+      </Principal>
+      <Dependent Role="Discussion">
+        <PropertyRef Name="MeetingID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Discussion_Project">
+    <End Role="Project" Type="boxModel.Store.Project" Multiplicity="0..1" />
+    <End Role="Discussion" Type="boxModel.Store.Discussion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Project">
+        <PropertyRef Name="ProjectID" />
+      </Principal>
+      <Dependent Role="Discussion">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Discussion_ProjectFile">
+    <End Role="ProjectFile" Type="boxModel.Store.ProjectFile" Multiplicity="0..1" />
+    <End Role="Discussion" Type="boxModel.Store.Discussion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProjectFile">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Discussion">
+        <PropertyRef Name="FileID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Discussion_UserProfile">
+    <End Role="UserProfile" Type="boxModel.Store.UserProfile" Multiplicity="1" />
+    <End Role="Discussion" Type="boxModel.Store.Discussion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserProfile">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Discussion">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FilePrivacy_DFile">
+    <End Role="DFile" Type="boxModel.Store.DFile" Multiplicity="1" />
+    <End Role="FilePrivacy" Type="boxModel.Store.FilePrivacy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DFile">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="FilePrivacy">
+        <PropertyRef Name="FileID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FilePrivacy_UserProfile">
+    <End Role="UserProfile" Type="boxModel.Store.UserProfile" Multiplicity="1" />
+    <End Role="FilePrivacy" Type="boxModel.Store.FilePrivacy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserProfile">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="FilePrivacy">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Invitation_Meeting">
+    <End Role="Meeting" Type="boxModel.Store.Meeting" Multiplicity="1" />
+    <End Role="Invitation" Type="boxModel.Store.Invitation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meeting">
+        <PropertyRef Name="MeetingID" />
+      </Principal>
+      <Dependent Role="Invitation">
+        <PropertyRef Name="MeetingID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Invitation_UserProfile">
+    <End Role="UserProfile" Type="boxModel.Store.UserProfile" Multiplicity="1" />
+    <End Role="Invitation" Type="boxModel.Store.Invitation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserProfile">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Invitation">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Meeting_MeetingType">
+    <End Role="MeetingType" Type="boxModel.Store.MeetingType" Multiplicity="1" />
+    <End Role="Meeting" Type="boxModel.Store.Meeting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MeetingType">
+        <PropertyRef Name="CatID" />
+      </Principal>
+      <Dependent Role="Meeting">
+        <PropertyRef Name="Type" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MeetingFile_Meeting">
+    <End Role="Meeting" Type="boxModel.Store.Meeting" Multiplicity="1" />
+    <End Role="MeetingFile" Type="boxModel.Store.MeetingFile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meeting">
+        <PropertyRef Name="MeetingID" />
+      </Principal>
+      <Dependent Role="MeetingFile">
+        <PropertyRef Name="MeetingID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MeetingLocation_Location">
+    <End Role="Location" Type="boxModel.Store.Location" Multiplicity="1" />
+    <End Role="MeetingLocation" Type="boxModel.Store.MeetingLocation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Location">
+        <PropertyRef Name="LocationID" />
+      </Principal>
+      <Dependent Role="MeetingLocation">
+        <PropertyRef Name="LocationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MeetingLocation_Meeting">
+    <End Role="Meeting" Type="boxModel.Store.Meeting" Multiplicity="1" />
+    <End Role="MeetingLocation" Type="boxModel.Store.MeetingLocation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meeting">
+        <PropertyRef Name="MeetingID" />
+      </Principal>
+      <Dependent Role="MeetingLocation">
+        <PropertyRef Name="MeetingID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MeetingParticipant_Meeting">
+    <End Role="Meeting" Type="boxModel.Store.Meeting" Multiplicity="1" />
+    <End Role="MeetingParticipant" Type="boxModel.Store.MeetingParticipant" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meeting">
+        <PropertyRef Name="MeetingID" />
+      </Principal>
+      <Dependent Role="MeetingParticipant">
+        <PropertyRef Name="MeetingID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MeetingParticipant_UserProfile">
+    <End Role="UserProfile" Type="boxModel.Store.UserProfile" Multiplicity="1" />
+    <End Role="MeetingParticipant" Type="boxModel.Store.MeetingParticipant" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserProfile">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="MeetingParticipant">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MeetingResource_Meeting">
+    <End Role="Meeting" Type="boxModel.Store.Meeting" Multiplicity="1" />
+    <End Role="MeetingResource" Type="boxModel.Store.MeetingResource" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meeting">
+        <PropertyRef Name="MeetingID" />
+      </Principal>
+      <Dependent Role="MeetingResource">
+        <PropertyRef Name="MeetingID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MeetingResource_Resource">
+    <End Role="Resource" Type="boxModel.Store.Resource" Multiplicity="1" />
+    <End Role="MeetingResource" Type="boxModel.Store.MeetingResource" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Resource">
+        <PropertyRef Name="RID" />
+      </Principal>
+      <Dependent Role="MeetingResource">
+        <PropertyRef Name="ResourceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NotificationHeader_Agenda">
+    <End Role="Agenda" Type="boxModel.Store.Agenda" Multiplicity="0..1" />
+    <End Role="NotificationHeader" Type="boxModel.Store.NotificationHeader" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Agenda">
+        <PropertyRef Name="AgendaID" />
+      </Principal>
+      <Dependent Role="NotificationHeader">
+        <PropertyRef Name="AgendaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NotificationHeader_Discussion">
+    <End Role="Discussion" Type="boxModel.Store.Discussion" Multiplicity="0..1" />
+    <End Role="NotificationHeader" Type="boxModel.Store.NotificationHeader" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Discussion">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="NotificationHeader">
+        <PropertyRef Name="DiscussionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NotificationHeader_Meeting">
+    <End Role="Meeting" Type="boxModel.Store.Meeting" Multiplicity="0..1" />
+    <End Role="NotificationHeader" Type="boxModel.Store.NotificationHeader" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meeting">
+        <PropertyRef Name="MeetingID" />
+      </Principal>
+      <Dependent Role="NotificationHeader">
+        <PropertyRef Name="MeetingID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NotificationHeader_Project">
+    <End Role="Project" Type="boxModel.Store.Project" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="NotificationHeader" Type="boxModel.Store.NotificationHeader" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Project">
+        <PropertyRef Name="ProjectID" />
+      </Principal>
+      <Dependent Role="NotificationHeader">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NotificationHeader_UserProfile">
+    <End Role="UserProfile" Type="boxModel.Store.UserProfile" Multiplicity="1" />
+    <End Role="NotificationHeader" Type="boxModel.Store.NotificationHeader" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserProfile">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="NotificationHeader">
+        <PropertyRef Name="NotCreator" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NotInfo_NotificationHeader">
+    <End Role="NotificationHeader" Type="boxModel.Store.NotificationHeader" Multiplicity="1" />
+    <End Role="NotInfo" Type="boxModel.Store.NotInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NotificationHeader">
+        <PropertyRef Name="NotID" />
+      </Principal>
+      <Dependent Role="NotInfo">
+        <PropertyRef Name="NotHeaderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NotInfo_UserProfile">
+    <End Role="UserProfile" Type="boxModel.Store.UserProfile" Multiplicity="1" />
+    <End Role="NotInfo" Type="boxModel.Store.NotInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserProfile">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="NotInfo">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProjectFile_Project">
+    <End Role="Project" Type="boxModel.Store.Project" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ProjectFile" Type="boxModel.Store.ProjectFile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Project">
+        <PropertyRef Name="ProjectID" />
+      </Principal>
+      <Dependent Role="ProjectFile">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProjectFile_ProjectUser">
+    <End Role="ProjectUser" Type="boxModel.Store.ProjectUser" Multiplicity="1" />
+    <End Role="ProjectFile" Type="boxModel.Store.ProjectFile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProjectUser">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ProjectFile">
+        <PropertyRef Name="Creator" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProjectPrivacy_ProjectFile">
+    <End Role="ProjectFile" Type="boxModel.Store.ProjectFile" Multiplicity="1" />
+    <End Role="ProjectPrivacy" Type="boxModel.Store.ProjectPrivacy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProjectFile">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ProjectPrivacy">
+        <PropertyRef Name="ProjectFileID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProjectPrivacy_ProjectUser">
+    <End Role="ProjectUser" Type="boxModel.Store.ProjectUser" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ProjectPrivacy" Type="boxModel.Store.ProjectPrivacy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProjectUser">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ProjectPrivacy">
+        <PropertyRef Name="ProjectUserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProjectUser_Project">
+    <End Role="Project" Type="boxModel.Store.Project" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ProjectUser" Type="boxModel.Store.ProjectUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Project">
+        <PropertyRef Name="ProjectID" />
+      </Principal>
+      <Dependent Role="ProjectUser">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProjectUser_UserProfile">
+    <End Role="UserProfile" Type="boxModel.Store.UserProfile" Multiplicity="1" />
+    <End Role="ProjectUser" Type="boxModel.Store.ProjectUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserProfile">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="ProjectUser">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Reply_Discussion">
+    <End Role="Discussion" Type="boxModel.Store.Discussion" Multiplicity="1" />
+    <End Role="Reply" Type="boxModel.Store.Reply" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Discussion">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Reply">
+        <PropertyRef Name="DiscussionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Reply_UserProfile">
+    <End Role="UserProfile" Type="boxModel.Store.UserProfile" Multiplicity="1" />
+    <End Role="Reply" Type="boxModel.Store.Reply" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserProfile">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Reply">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TaskAssign_Agenda">
+    <End Role="Agenda" Type="boxModel.Store.Agenda" Multiplicity="0..1" />
+    <End Role="TaskAssign" Type="boxModel.Store.TaskAssign" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Agenda">
+        <PropertyRef Name="AgendaID" />
+      </Principal>
+      <Dependent Role="TaskAssign">
+        <PropertyRef Name="AgendaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TaskAssign_Meeting">
+    <End Role="Meeting" Type="boxModel.Store.Meeting" Multiplicity="0..1" />
+    <End Role="TaskAssign" Type="boxModel.Store.TaskAssign" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meeting">
+        <PropertyRef Name="MeetingID" />
+      </Principal>
+      <Dependent Role="TaskAssign">
+        <PropertyRef Name="MeetingID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TaskAssign_ProjectFile">
+    <End Role="ProjectFile" Type="boxModel.Store.ProjectFile" Multiplicity="0..1" />
+    <End Role="TaskAssign" Type="boxModel.Store.TaskAssign" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProjectFile">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TaskAssign">
+        <PropertyRef Name="ProjecFileID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TaskAssign_UserProfile">
+    <End Role="UserProfile" Type="boxModel.Store.UserProfile" Multiplicity="0..1" />
+    <End Role="TaskAssign" Type="boxModel.Store.TaskAssign" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserProfile">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="TaskAssign">
+        <PropertyRef Name="Creator" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TaskUser_TaskAssign">
+    <End Role="TaskAssign" Type="boxModel.Store.TaskAssign" Multiplicity="1" />
+    <End Role="TaskUser" Type="boxModel.Store.TaskUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TaskAssign">
+        <PropertyRef Name="TaskID" />
+      </Principal>
+      <Dependent Role="TaskUser">
+        <PropertyRef Name="TaskID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TaskUser_UserProfile">
+    <End Role="UserProfile" Type="boxModel.Store.UserProfile" Multiplicity="1" />
+    <End Role="TaskUser" Type="boxModel.Store.TaskUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserProfile">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="TaskUser">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

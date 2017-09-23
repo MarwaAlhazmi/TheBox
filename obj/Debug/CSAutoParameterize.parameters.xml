@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ApplicationServices-Web.config Connection String" description="ApplicationServices Connection String used in web.config by the application to access the database." defaultvalue="data source=.\SQLEXPRESS;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnetdb.mdf;User Instance=true" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\windows7\\documents\\visual\ studio\ 2010\\Projects\\TheBox\\TheBox\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ApplicationServices']/@connectionString" />
+  </parameter>
+  <parameter name="boxEntities-Web.config Connection String" description="boxEntities Connection String used in web.config by the application to access the database." defaultvalue="metadata=res://*/BoxModel.csdl|res://*/BoxModel.ssdl|res://*/BoxModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=.\SQLEXPRESS;attachdbfilename=|DataDirectory|\box.mdf;integrated security=True;user instance=True;multipleactiveresultsets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\windows7\\documents\\visual\ studio\ 2010\\Projects\\TheBox\\TheBox\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='boxEntities']/@connectionString" />
+  </parameter>
+</parameters>

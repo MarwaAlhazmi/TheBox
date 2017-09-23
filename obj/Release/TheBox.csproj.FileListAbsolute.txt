@@ -1,0 +1,16 @@
+C:\Users\windows7\documents\visual studio 2010\Projects\TheBox\TheBox\bin\TheBox.dll
+C:\Users\windows7\documents\visual studio 2010\Projects\TheBox\TheBox\bin\TheBox.pdb
+C:\Users\windows7\documents\visual studio 2010\Projects\TheBox\TheBox\bin\CkEditor.dll
+C:\Users\windows7\documents\visual studio 2010\Projects\TheBox\TheBox\bin\CKEditor.NET.dll
+C:\Users\windows7\documents\visual studio 2010\Projects\TheBox\TheBox\bin\HtmlAgilityPack.dll
+C:\Users\windows7\documents\visual studio 2010\Projects\TheBox\TheBox\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\windows7\documents\visual studio 2010\Projects\TheBox\TheBox\bin\itextsharp.dll
+C:\Users\windows7\documents\visual studio 2010\Projects\TheBox\TheBox\bin\HtmlAgilityPack.pdb
+C:\Users\windows7\documents\visual studio 2010\Projects\TheBox\TheBox\bin\HtmlAgilityPack.xml
+C:\Users\windows7\documents\visual studio 2010\Projects\TheBox\TheBox\obj\Release\ResolveAssemblyReference.cache
+C:\Users\windows7\documents\visual studio 2010\Projects\TheBox\TheBox\obj\Release\TheBox.csproj.ResolveComReference.cache
+C:\Users\windows7\documents\visual studio 2010\Projects\TheBox\TheBox\obj\Release\TheBox.Properties.Resources.resources
+C:\Users\windows7\documents\visual studio 2010\Projects\TheBox\TheBox\obj\Release\GenerateResource.read.1.tlog
+C:\Users\windows7\documents\visual studio 2010\Projects\TheBox\TheBox\obj\Release\GenerateResource.write.1.tlog
+C:\Users\windows7\documents\visual studio 2010\Projects\TheBox\TheBox\obj\Release\TheBox.dll
+C:\Users\windows7\documents\visual studio 2010\Projects\TheBox\TheBox\obj\Release\TheBox.pdb

@@ -1,0 +1,2319 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1256">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 12">
+<meta name=Originator content="Microsoft Word 12">
+<link rel=File-List
+href="Review%20Paper%20on%20Twitter%20Sentiment%20Analysis_files/filelist.xml">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>windows7</o:Author>
+  <o:LastAuthor>windows7</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>9091</o:TotalTime>
+  <o:Created>2013-10-21T06:47:00Z</o:Created>
+  <o:LastSaved>2013-10-21T06:47:00Z</o:LastSaved>
+  <o:Pages>3</o:Pages>
+  <o:Words>1850</o:Words>
+  <o:Characters>10545</o:Characters>
+  <o:Lines>87</o:Lines>
+  <o:Paragraphs>24</o:Paragraphs>
+  <o:CharactersWithSpaces>12371</o:CharactersWithSpaces>
+  <o:Version>12.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:RelyOnVML/>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=dataStoreItem
+href="Review%20Paper%20on%20Twitter%20Sentiment%20Analysis_files/item0001.xml"
+target="Review%20Paper%20on%20Twitter%20Sentiment%20Analysis_files/props0002.xml">
+<link rel=themeData
+href="Review%20Paper%20on%20Twitter%20Sentiment%20Analysis_files/themedata.thmx">
+<link rel=colorSchemeMapping
+href="Review%20Paper%20on%20Twitter%20Sentiment%20Analysis_files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:TrackMoves/>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-MY</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>AR-SA</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:Arial;
+	mso-bidi-theme-font:minor-bidi;}
+h1
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 1 Char";
+	mso-style-next:Normal;
+	margin-top:24.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:14.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#365F91;
+	mso-themecolor:accent1;
+	mso-themeshade:191;
+	mso-font-kerning:0pt;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-priority:39;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:Arial;
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-priority:39;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:11.0pt;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:Arial;
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-priority:39;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:22.0pt;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:Arial;
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Footnote Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:Arial;
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Header Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.0in right 6.0in;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:Arial;
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Footer Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.0in right 6.0in;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:Arial;
+	mso-bidi-theme-font:minor-bidi;}
+span.MsoFootnoteReference
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	vertical-align:super;}
+span.MsoEndnoteReference
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	vertical-align:super;}
+p.MsoEndnoteText, li.MsoEndnoteText, div.MsoEndnoteText
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Endnote Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:Arial;
+	mso-bidi-theme-font:minor-bidi;}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:purple;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-bidi-font-family:Tahoma;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:.5in;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:Arial;
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:Arial;
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:Arial;
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:.5in;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:Arial;
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading
+	{mso-style-noshow:yes;
+	mso-style-priority:39;
+	mso-style-qformat:yes;
+	mso-style-parent:"Heading 1";
+	mso-style-next:Normal;
+	margin-top:24.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#365F91;
+	mso-themecolor:accent1;
+	mso-themeshade:191;
+	font-weight:bold;}
+span.HeaderChar
+	{mso-style-name:"Header Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Header;}
+span.FooterChar
+	{mso-style-name:"Footer Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Footer;}
+span.EndnoteTextChar
+	{mso-style-name:"Endnote Text Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Endnote Text";
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;}
+span.FootnoteTextChar
+	{mso-style-name:"Footnote Text Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Footnote Text";
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Balloon Text";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 1";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#365F91;
+	mso-themecolor:accent1;
+	mso-themeshade:191;
+	font-weight:bold;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:Arial;
+	mso-bidi-theme-font:minor-bidi;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+ /* Page Definitions */
+ @page
+	{mso-footnote-separator:url("Review%20Paper%20on%20Twitter%20Sentiment%20Analysis_files/header.html") fs;
+	mso-footnote-continuation-separator:url("Review%20Paper%20on%20Twitter%20Sentiment%20Analysis_files/header.html") fcs;
+	mso-endnote-separator:url("Review%20Paper%20on%20Twitter%20Sentiment%20Analysis_files/header.html") es;
+	mso-endnote-continuation-separator:url("Review%20Paper%20on%20Twitter%20Sentiment%20Analysis_files/header.html") ecs;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-columns:2 even .5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:2118326583;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-2005637810 736922604 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:-;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-bidi-font-family:Arial;
+	mso-bidi-theme-font:minor-bidi;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin-top:0in;
+	mso-para-margin-right:0in;
+	mso-para-margin-bottom:10.0pt;
+	mso-para-margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;}
+table.MsoTableGrid
+	{mso-style-name:"Table Grid";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-priority:59;
+	mso-style-unhide:no;
+	border:solid black 1.0pt;
+	mso-border-themecolor:text1;
+	mso-border-alt:solid black .5pt;
+	mso-border-themecolor:text1;
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-border-insideh:.5pt solid black;
+	mso-border-insideh-themecolor:text1;
+	mso-border-insidev:.5pt solid black;
+	mso-border-insidev-themecolor:text1;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-ansi-language:EN-MY;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>1. Introduction<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Opinion mining and sentiment analysis are sub-disciplines in
+the area of natural language processing, which search into analyzing and
+extracting people’s opinion, sentiment and attitude from written text. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Most research work has been focusing on extracting and
+analyzing a set of pieces from the text, these include:<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpFirst style='margin-left:22.5pt;mso-add-space:
+auto;text-align:justify;text-indent:-.25in;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+style='font-size:9.0pt;line-height:115%;mso-ascii-font-family:Calibri;
+mso-fareast-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:
+Calibri'><span style='mso-list:Ignore'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span dir=LTR></span><span style='font-size:
+9.0pt;line-height:115%'>Identifying the subjectivity of a sentence<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:22.5pt;mso-add-space:
+auto;text-align:justify;text-indent:-.25in;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+style='font-size:9.0pt;line-height:115%;mso-ascii-font-family:Calibri;
+mso-fareast-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:
+Calibri'><span style='mso-list:Ignore'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span dir=LTR></span><span style='font-size:
+9.0pt;line-height:115%'>Identifying the polarity of a subjective sentence
+either positive or negative<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:22.5pt;mso-add-space:
+auto;text-align:justify;text-indent:-.25in;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+style='font-size:9.0pt;line-height:115%;mso-ascii-font-family:Calibri;
+mso-fareast-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:
+Calibri'><span style='mso-list:Ignore'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span dir=LTR></span><span style='font-size:
+9.0pt;line-height:115%'>Identifying the opinion holder<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-left:22.5pt;mso-add-space:auto;
+text-align:justify;text-indent:-.25in;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+style='font-size:9.0pt;line-height:115%;mso-ascii-font-family:Calibri;
+mso-fareast-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:
+Calibri'><span style='mso-list:Ignore'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span dir=LTR></span><span style='font-size:
+9.0pt;line-height:115%'>Identifying the aspect of the opinion<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Advanced classification looks beyond the two classes of
+positive and negative, it will classify the opinion into emotion classes such
+as happy and sad.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>2. Sentiment Analysis in Twitter<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Twitter is an online social networking site that provides a
+micro blogging service. Users can post and read text updates that are limited
+to 140 characters called tweets. An average of 58 million tweets per day is posted<a
+style='mso-footnote-id:ftn1' href="#_ftn1" name="_ftnref1" title=""><span
+class=MsoFootnoteReference><span style='mso-special-character:footnote'><![if !supportFootnotes]><span
+class=MsoFootnoteReference><span style='font-size:9.0pt;line-height:115%;
+font-family:"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
+mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi;mso-ansi-language:
+EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>[1]</span></span><![endif]></span></span></a>;
+due to the huge number of users and user generated content twitter it is
+considered one of the leading social networks.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>The users can tweet about anything anytime of the day,
+opinions can be expressed and exchanged freely, and hence it is a rich source
+of opinionated text. Sentiment analysis for entities in twitter became the
+interest of many researchers.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Twitter is different sentiment analysis source in a way that tweets
+contain a lot of noisy data like emoticons and URLs, and users usually use
+abbreviated expressions in order to maintain space within 140 character limit.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>The aim of this paper is to investigate and summarize the
+techniques used so far by researchers to extract sentiment from tweets and the
+methods used to exploit noisy data in tweets to the advantage of research. The
+rest of this article is arranged as follow: section 2 review the available
+corpora and lexicons for twitter and the techniques used to collect the data,
+section 3 summarize the most used techniques for sentiment analysis in tweets<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>3. Twitter corpora and lexicons<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Available access to a corpus of annotated tweets is a
+necessity for the purpose of training and learning. Collecting and labeling
+such data is a laborious work, Here is a description of the automatic
+techniques proposed by researches to collect a big number of tweets with
+annotation without the need for a manual annotation of tweets.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>The main idea of automatic annotation of tweets is to make
+use of some elements in the tweet which could be considered as noisy labels, such
+as emoticons and hash tags. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>3.1 Emoticons<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>One approach is to treat emoticons in tweets as sentiment
+indicator [Go et al., 2009; Bifet,2010; pak et al.,2010; Davidov et al., 2010; <span
+style='mso-spacerun:yes'> </span>Speriosu et al., 2011]. Emoticons is a
+representation of facial expressions frequently used in social networking websites,
+each emoticon show a certain state of emotion and one emotion can be expressed
+using different kinds of emoticons. In the work of [Read, 2005] emoticons
+proved the be a good method to reduce the dependency of time and domain in
+machine learning t techniques. In twitter data collection there are basically
+two types of emoticons used:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>- Happy emoticons to express positive sentiment:<br>
+<span style='mso-spacerun:yes'> </span>:)<span style='mso-spacerun:yes'> 
+</span>,<span style='mso-spacerun:yes'>  </span>=)<span
+style='mso-spacerun:yes'>  </span>, :D<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>- Sad emoticons to express negative sentiment:<br>
+:(<span style='mso-spacerun:yes'>  </span>, =(<span style='mso-spacerun:yes'> 
+</span>, :'( <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>The collection of tweets is done by the help of Twitter API, [Go
+et al., 2009] query twitter API using a list of topics to get the tweets and
+from the query results then they annotated based on the emoticons that the
+tweet contains. [Pak et al., 2010] followed the same approach for collecting
+data, In addition they collected a set of tweets that represent objective posts
+by querying tweets from popular newspapers such as New York times.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>3.2 Hash tags<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>In twitter, hash tags is used as a method to categorize tweets
+or specify the topic of the tweet, and it is created by proceeding the topic
+word with a hash '#UTM'. Hash tags can be created and utilized by any
+registered user, adding a hash tag to the tweet increase the tweet visibility.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>[Wang et al., 2011] Categorized hash tags into three types:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>- Topic hash tags that serves as user annotated coarse topics
+like '#Obama'<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>- Sentiment hash tags that serves as a sentiment label for
+the tweet like '#love or #hate'<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>- Sentiment-Topic hash tags where the topical word and the
+sentiment regarding this topic appear together in the hash tag without
+separating space, example of this kind of hash tag: '#iloveobama'<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>In regard to the hash tag part of the tweet Some hash tags
+constitute an essential part of the tweet, such that if it is deleted the tweet
+will lost the meaning, as an example:[ #ImNiceUntil you eat my food without my
+permission!]. <span style='mso-spacerun:yes'> </span>Other has tags only label
+the tweet such as [i love my chat room in Facebook #windows]<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>In [Davidov at la, 2010] they categorized the hash tags into
+five categories: Strong sentiment (#sucks) - most likely sentiment (#notcute) -
+context dependent sentiment (#shoutsout) - focused sentiment (#tmobilesucks) -
+no sentiment (#obama). Their dataset was formalized from tweets that lays
+within the first or second category.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Collecting the dataset based on hash tags is the same as with
+emoticons, twitter API is used to query the hash tag.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%;background:yellow;mso-highlight:yellow'>3.3 Lexical seed and
+rule based<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%;background:yellow;mso-highlight:yellow'>Lexicons are used in a
+number of techniques of sentiment analysis. a sentiment lexicon contains the
+sentiment words and the label of each word either positive or negative</span><span
+style='font-size:9.0pt;line-height:115%'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>3.4 Preprocessing<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Automatic collection of dataset can result in many unwanted
+or repeated tweets, plus one tweet can contain abbreviated text or URLs that
+may or may not help in the learning process. So, preprocessing the data before
+learning is an important step for better results. The most used preprocessing
+techniques are as follow:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>remove non English tweets (Davidov et al., 2010)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>delete retweets and repeated tweets (Zhang et la., 2011)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Remove URLs, Usernames and Special twitter characters such as
+'RT' which is the abbreviation of retweet (Pak et al., 2010; Zhang et la., 2011)
+<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>replace emoticons with its sentiment indication by searching
+through an emoticon dictionary. Such as replacing the emoticon ':)' with the
+'positive' token (Agarwal et al., 2011;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>replace hash tags with a token (Kouloumpis et al., 2011; Davidov
+et al., 2010<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>replace URls with a special tag (Go et al., 2009; Kouloumpis et
+al., 2011; Agarwal et al., 2011; Davidov et al., 2010<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Replace mentions '@' or username with a special tag (Go et
+al., 2009; Kouloumpis et al., 2011; Agarwal et al., 2011; Davidov et al., 2010<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>remove repeated letters replace the occurrence of more than
+two letters in one word by two or one occurrence, example: the word
+(huuuuuungry) will be (Huungry) (Go et al., 2009; Kouloumpis et al., 2011;
+Agarwal et al., 2011;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>extend abbreviated expressions to the actual meaning such as:
+OMG -&gt; oh my GOD (Kouloumpis et al., 2011; Agarwal et al., 2011; Zhang et
+la., 2011)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>tokenization separating the words based on space and
+punctuation marks (Kouloumpis et al., 2011; Pak et al., 2010)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>removing stopwords (Pak et al., 2010<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>part-of-speech tagging (Kouloumpis et al., 2011; Zhang et
+la., 2011)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Replace negation words with a special tag such as 'NOT'
+(Agarwal et al., 2011)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>4. Models of analysis<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Tweet level – Sentence Level<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Aspect Level<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Hash tag Level<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>[Barbosa, 2010] Used other available twitter sentiment tools
+to collect the training data.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>The problems specific to twitter and what kind of information
+to extract – subjectivity – polarity or aspect<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Although twitter limit the number of written characters in
+one tweets to 140 Char, We cannot take for a fact that one <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>tweet will express either positive or negative sentiment. One
+tweet can contain the both positive and negative opinion such as {TODO}<o:p></o:p></span></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='margin-left:-15.9pt;border-collapse:collapse;border:none;mso-border-alt:
+ solid black .5pt;mso-border-themecolor:text1;mso-yfti-tbllook:1184;mso-padding-alt:
+ 0in 5.4pt 0in 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;page-break-inside:avoid;
+  height:56.7pt'>
+  <td valign=top style='border:solid black 1.0pt;mso-border-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;mso-diagonal-down:
+  .5pt solid windowtext;padding:0in 5.4pt 0in 5.4pt;height:56.7pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-MY style='mso-ansi-language:EN-MY'><span
+  style='mso-spacerun:yes'>                 </span></span><span lang=EN-MY
+  style='font-size:9.0pt;mso-ansi-language:EN-MY'>Paper<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-MY style='font-size:9.0pt;mso-ansi-language:EN-MY'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-MY style='font-size:9.0pt;mso-ansi-language:EN-MY'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-MY style='font-size:9.0pt;mso-ansi-language:EN-MY'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-MY style='font-size:9.0pt;mso-ansi-language:EN-MY'>Process</span><span
+  lang=EN-MY style='mso-ansi-language:EN-MY'><o:p></o:p></span></p>
+  </td>
+  <td style='border:solid black 1.0pt;mso-border-themecolor:text1;border-left:
+  none;mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt;
+  mso-rotate:90;height:56.7pt'>
+  <p class=MsoNormal align=center style='margin-top:0in;margin-right:5.65pt;
+  margin-bottom:0in;margin-left:5.65pt;margin-bottom:.0001pt;text-align:center;
+  line-height:normal'><span lang=EN-MY style='font-size:8.0pt;mso-ansi-language:
+  EN-MY'>Go et al., 2009<o:p></o:p></span></p>
+  </td>
+  <td style='border:solid black 1.0pt;mso-border-themecolor:text1;border-left:
+  none;mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt;
+  mso-rotate:90;height:56.7pt'>
+  <p class=MsoNormal align=center style='margin-top:0in;margin-right:5.65pt;
+  margin-bottom:0in;margin-left:5.65pt;margin-bottom:.0001pt;text-align:center;
+  line-height:normal'><span lang=EN-MY style='font-size:8.0pt;mso-ansi-language:
+  EN-MY'>Davidov et al., 2010<o:p></o:p></span></p>
+  </td>
+  <td style='border:solid black 1.0pt;mso-border-themecolor:text1;border-left:
+  none;mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt;
+  mso-rotate:90;height:56.7pt'>
+  <p class=MsoNormal align=center style='margin-top:0in;margin-right:5.65pt;
+  margin-bottom:0in;margin-left:5.65pt;margin-bottom:.0001pt;text-align:center;
+  line-height:normal'><span lang=EN-MY style='font-size:8.0pt;mso-ansi-language:
+  EN-MY'>Pak et al., 2010<o:p></o:p></span></p>
+  </td>
+  <td style='border:solid black 1.0pt;mso-border-themecolor:text1;border-left:
+  none;mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt;
+  mso-rotate:90;height:56.7pt'>
+  <p class=MsoNormal align=center style='margin-top:0in;margin-right:5.65pt;
+  margin-bottom:0in;margin-left:5.65pt;margin-bottom:.0001pt;text-align:center;
+  line-height:normal'><span lang=EN-MY style='font-size:8.0pt;mso-ansi-language:
+  EN-MY'>Zhang et la., 2011<o:p></o:p></span></p>
+  </td>
+  <td style='border:solid black 1.0pt;mso-border-themecolor:text1;border-left:
+  none;mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt;
+  mso-rotate:90;height:56.7pt'>
+  <p class=MsoNormal align=center style='margin-top:0in;margin-right:5.65pt;
+  margin-bottom:0in;margin-left:5.65pt;margin-bottom:.0001pt;text-align:center;
+  line-height:normal'><span lang=EN-MY style='font-size:8.0pt;mso-ansi-language:
+  EN-MY'>Agarwal et al., 2011<o:p></o:p></span></p>
+  </td>
+  <td style='border:solid black 1.0pt;mso-border-themecolor:text1;border-left:
+  none;mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt;
+  mso-rotate:90;height:56.7pt'>
+  <p class=MsoNormal align=center style='margin-top:0in;margin-right:5.65pt;
+  margin-bottom:0in;margin-left:5.65pt;margin-bottom:.0001pt;text-align:center;
+  line-height:normal'><span lang=EN-MY style='font-size:8.0pt;mso-ansi-language:
+  EN-MY'>Kouloumpis et al., 2011<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td valign=top style='border:solid black 1.0pt;mso-border-themecolor:text1;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:
+  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
+  0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-MY style='font-size:9.0pt;mso-ansi-language:EN-MY'>remove
+  non English tweets<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'>X<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td valign=top style='border:solid black 1.0pt;mso-border-themecolor:text1;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:
+  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
+  0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-MY style='font-size:9.0pt;mso-ansi-language:EN-MY'>POS
+  tagging<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'>X<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td valign=top style='border:solid black 1.0pt;mso-border-themecolor:text1;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:
+  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
+  0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-MY style='font-size:9.0pt;mso-ansi-language:EN-MY'>Remove
+  URLs, Usernames and RT<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'>X<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'>X<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td valign=top style='border:solid black 1.0pt;mso-border-themecolor:text1;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:
+  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
+  0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-MY style='font-size:9.0pt;mso-ansi-language:EN-MY'>Replace
+  URL<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'>X<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'>X<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'>X<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'>X<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td valign=top style='border:solid black 1.0pt;mso-border-themecolor:text1;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:
+  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
+  0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-MY style='font-size:9.0pt;mso-ansi-language:EN-MY'>Replace
+  Emoticons<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'>X<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td valign=top style='border:solid black 1.0pt;mso-border-themecolor:text1;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:
+  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
+  0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-MY style='font-size:9.0pt;mso-ansi-language:EN-MY'>Replace
+  Hashtags<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'>X<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'>X<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7'>
+  <td valign=top style='border:solid black 1.0pt;mso-border-themecolor:text1;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:
+  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
+  0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-MY style='font-size:9.0pt;mso-ansi-language:EN-MY'>Replace
+  Username<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'>X<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'>X<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'>X<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'>X<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8'>
+  <td valign=top style='border:solid black 1.0pt;mso-border-themecolor:text1;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:
+  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
+  0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-MY style='font-size:9.0pt;mso-ansi-language:EN-MY'>Remove
+  repeated letters<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'>X<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'>X<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'>X<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:9'>
+  <td valign=top style='border:solid black 1.0pt;mso-border-themecolor:text1;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:
+  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
+  0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-MY style='font-size:9.0pt;mso-ansi-language:EN-MY'>extend
+  abbreviations<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'>X<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'>X<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'>X<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:10'>
+  <td valign=top style='border:solid black 1.0pt;mso-border-themecolor:text1;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:
+  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
+  0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-MY style='font-size:9.0pt;mso-ansi-language:EN-MY'>tokenization<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'>X<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'>X<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:11'>
+  <td valign=top style='border:solid black 1.0pt;mso-border-themecolor:text1;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:
+  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
+  0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-MY style='font-size:9.0pt;mso-ansi-language:EN-MY'>removing
+  stopwords<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'>X<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:12;mso-yfti-lastrow:yes'>
+  <td valign=top style='border:solid black 1.0pt;mso-border-themecolor:text1;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:
+  text1;mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:
+  0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-MY style='font-size:9.0pt;mso-ansi-language:EN-MY'>Replace
+  negation words<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'>X<o:p></o:p></span></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid black 1.0pt;
+  mso-border-bottom-themecolor:text1;border-right:solid black 1.0pt;mso-border-right-themecolor:
+  text1;mso-border-top-alt:solid black .5pt;mso-border-top-themecolor:text1;
+  mso-border-left-alt:solid black .5pt;mso-border-left-themecolor:text1;
+  mso-border-alt:solid black .5pt;mso-border-themecolor:text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-MY style='mso-ansi-language:
+  EN-MY'>X<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Table 1: Preprocessing Techniques<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Preprocessing<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Datasets<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Preprocessing to achieve higher accuracy with the learning
+process, delete noisy data that can lead to false classification. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Techniques<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Machine learning based<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'><span style='mso-tab-count:1'>                </span>Features
+divided as mentioned in abbasie<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'><span style='mso-tab-count:1'>                </span>The last
+section of machine learning mention the techniques used to handle negation,
+conditional sentences or comparative sentences.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'><span style='mso-tab-count:1'>                </span>When
+mentioning part of speech tagger shows that some papers came to the conclusion
+that POS does not have that much contribution to the accuracy of the final
+result or classification. Then mention the paper that proposes a special POS
+tagger for twitter where it introduces new parts that are specific to twitter.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Lexicon based<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>At the end of the lexicon based papers mention hp paper that
+combine the two previous approaches machine learning and lexical based.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Graph based<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Ontology based<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Available corpus and lexicons<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Models of analysis:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Tweet level – Sentence Level<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Aspect Level<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Hash tag Level<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>One section can talk about corpus collection and the methods
+used in it<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Noisy data and preprocessing and how some papers use these
+noisy data as a label for the tweet<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Manual labeling<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Emoticons as labels<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Hashtags as labels<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Lexical seed and rule based<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>The last section can talk about <b>evaluation</b> and the usual
+way to evaluate and what other ways like evaluating unbalanced data <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%;color:red'>Sarcasm in twitter<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%;color:red'>Try to connect between the techniques already used
+and the unsolved problems<br clear=all style='mso-special-character:line-break;
+page-break-before:always'>
+<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Twitter features:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Some features in twitter is considered as noisy data that
+need to be pre-processed before use<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Some can be exploited in the process of collecting the
+training set such as hash tags and emoticons<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>Others can be used as features for the classifier to learn
+from<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'>References<o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ style='margin-left:4.85pt;border-collapse:collapse;mso-yfti-tbllook:1184;
+ mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:15.0pt'>
+  <td nowrap valign=bottom style='padding:0in 5.4pt 0in 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=EN-MY style='font-size:9.0pt;
+  mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+  mso-ansi-language:EN-MY;mso-fareast-language:EN-MY'>Barbosa, L., &amp; Feng,
+  J. (2010, August). Robust sentiment detection on twitter from biased and
+  noisy data. In <i>Proceedings of the 23rd International Conference on
+  Computational Linguistics: Posters</i> (pp. 36-44). Association for
+  Computational Linguistics.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;height:15.0pt'>
+  <td nowrap valign=bottom style='padding:0in 5.4pt 0in 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=EN-MY style='font-size:9.0pt;
+  mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+  mso-ansi-language:EN-MY;mso-fareast-language:EN-MY'>Bifet, A., &amp; Frank,
+  E. (2010, January). Sentiment knowledge discovery in twitter streaming data.
+  In <i>Discovery Science</i> (pp. 1-15). Springer Berlin Heidelberg.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2;height:15.0pt'>
+  <td nowrap valign=bottom style='padding:0in 5.4pt 0in 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=EN-MY style='font-size:9.0pt;
+  mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+  mso-ansi-language:EN-MY;mso-fareast-language:EN-MY'>Saif, H., He, Y., &amp;
+  Alani, H. (2012). Semantic sentiment analysis of twitter. In <i>The Semantic
+  Web–ISWC 2012</i> (pp. 508-524). Springer Berlin Heidelberg.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;height:15.0pt'>
+  <td nowrap valign=bottom style='padding:0in 5.4pt 0in 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=EN-MY style='font-size:9.0pt;
+  mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+  mso-ansi-language:EN-MY;mso-fareast-language:EN-MY'>Gimpel, K., Schneider,
+  N., O'Connor, B., Das, D., Mills, D., Eisenstein, J., ... &amp; Smith, N. A.
+  (2010). <i>Part-of-speech tagging for twitter: Annotation, features, and
+  experiments</i>. CARNEGIE-MELLON UNIV PITTSBURGH PA SCHOOL OF COMPUTER
+  SCIENCE.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4;height:15.0pt'>
+  <td nowrap valign=bottom style='padding:0in 5.4pt 0in 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=EN-MY style='font-size:9.0pt;
+  mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+  mso-ansi-language:EN-MY;mso-fareast-language:EN-MY'>Agarwal, A., Xie, B.,
+  Vovsha, I., Rambow, O., &amp; Passonneau, R. (2011, June). Sentiment analysis
+  of twitter data. In <i>Proceedings of the Workshop on Languages in Social
+  Media</i> (pp. 30-38). Association for Computational Linguistics.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5;height:15.0pt'>
+  <td nowrap valign=bottom style='padding:0in 5.4pt 0in 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=EN-MY style='font-size:9.0pt;
+  mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+  mso-ansi-language:EN-MY;mso-fareast-language:EN-MY'>Go, A., Bhayani, R.,
+  &amp; Huang, L. (2009). Twitter sentiment classification using distant
+  supervision. <i>CS224N Project Report, Stanford</i>, 1-12.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6;height:15.0pt'>
+  <td nowrap valign=bottom style='padding:0in 5.4pt 0in 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=EN-MY style='font-size:9.0pt;
+  mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+  mso-ansi-language:EN-MY;mso-fareast-language:EN-MY'>Pak, A., &amp; Paroubek,
+  P. (2010, May). Twitter as a corpus for sentiment analysis and opinion
+  mining. In <i>Proceedings of LREC</i> (Vol. 2010).<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7;height:15.0pt'>
+  <td nowrap valign=bottom style='padding:0in 5.4pt 0in 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=EN-MY style='font-size:9.0pt;
+  mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+  mso-ansi-language:EN-MY;mso-fareast-language:EN-MY'>Read, J. (2005, June).
+  Using emoticons to reduce dependency in machine learning techniques for
+  sentiment classification. In <i>Proceedings of the ACL Student Research
+  Workshop</i> (pp. 43-48). Association for Computational Linguistics.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8;height:15.0pt'>
+  <td nowrap valign=bottom style='padding:0in 5.4pt 0in 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=EN-MY style='font-size:9.0pt;
+  mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+  mso-ansi-language:EN-MY;mso-fareast-language:EN-MY'>Saif, H., He, Y., &amp;
+  Alani, H. (2012). Alleviating data sparsity for twitter sentiment analysis.
+  In <i>The 2nd Workshop on Making Sense of Microposts</i>.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:9;height:15.0pt'>
+  <td nowrap valign=bottom style='padding:0in 5.4pt 0in 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=EN-MY style='font-size:9.0pt;
+  mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+  mso-ansi-language:EN-MY;mso-fareast-language:EN-MY'>Kouloumpis, E., Wilson,
+  T., &amp; Moore, J. (2011, May). Twitter sentiment analysis: The good the bad
+  and the omg. In <i>Proceedings of the Fifth International AAAI Conference on
+  Weblogs and Social Media</i> (pp. 538-541).<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:10;height:15.0pt'>
+  <td nowrap valign=bottom style='padding:0in 5.4pt 0in 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=EN-MY style='font-size:9.0pt;
+  mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+  mso-ansi-language:EN-MY;mso-fareast-language:EN-MY'>Speriosu, M., Sudan, N.,
+  Upadhyay, S., &amp; Baldridge, J. (2011, July). Twitter polarity
+  classification with label propagation over lexical links and the follower
+  graph. In <i>Proceedings of the First Workshop on Unsupervised Learning in
+  NLP</i> (pp. 53-63). Association for Computational Linguistics.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:11;mso-yfti-lastrow:yes;height:15.0pt'>
+  <td nowrap valign=bottom style='padding:0in 5.4pt 0in 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=EN-MY style='font-size:9.0pt;
+  mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+  mso-ansi-language:EN-MY;mso-fareast-language:EN-MY'>Davidov, D., Tsur, O.,
+  &amp; Rappoport, A. (2010, August). Enhanced sentiment learning using twitter
+  hashtags and smileys. In <i>Proceedings of the 23rd International Conference
+  on Computational Linguistics: Posters</i> (pp. 241-249). Association for
+  Computational Linguistics.<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:9.0pt;
+line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+<div style='mso-element:footnote-list'><![if !supportFootnotes]><br clear=all>
+
+<hr align=left size=1 width="33%">
+
+<![endif]>
+
+<div style='mso-element:footnote' id=ftn1>
+
+<p class=MsoFootnoteText><a style='mso-footnote-id:ftn1' href="#_ftnref1"
+name="_ftn1" title=""><span class=MsoFootnoteReference><span style='mso-special-character:
+footnote'><![if !supportFootnotes]><span class=MsoFootnoteReference><span
+style='font-size:10.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:Arial;
+mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA'>[1]</span></span><![endif]></span></span></a> http://www.statisticbrain.com/twitter-statistics/</p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
